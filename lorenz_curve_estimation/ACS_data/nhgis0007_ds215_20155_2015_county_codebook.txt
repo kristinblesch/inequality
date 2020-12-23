@@ -1,0 +1,223 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0007_ds215_20155_2015_county'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2011-2015
+Geographic level: County (by State)
+Dataset:          2015 American Community Survey: 5-Year Data [2011-2015, Block Groups & Larger Areas]
+   NHGIS code:    2011_2015_ACS5a
+   NHGIS ID:      ds215
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Household Income in the Past 12 Months (in 2015 Inflation-Adjusted Dollars)
+   Universe:    Households
+   Source code: B19001
+   NHGIS code:  ADNJ
+ 
+2. Median Household Income in the Past 12 Months (in 2015 Inflation-Adjusted Dollars)
+   Universe:    Households
+   Source code: B19013
+   NHGIS code:  ADNK
+ 
+3. Aggregate Household Income in the Past 12 Months (in 2015 Inflation-Adjusted Dollars)
+   Universe:    Households
+   Source code: B19025
+   NHGIS code:  ADNL
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2013-2017, 113th-114th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PUMA5A:      Public Use Microdata Sample Area (PUMA) Code
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Household Income in the Past 12 Months (in 2015 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19001
+    NHGIS code:  ADNJ
+        ADNJE001:    Total
+        ADNJE002:    Less than $10,000
+        ADNJE003:    $10,000 to $14,999
+        ADNJE004:    $15,000 to $19,999
+        ADNJE005:    $20,000 to $24,999
+        ADNJE006:    $25,000 to $29,999
+        ADNJE007:    $30,000 to $34,999
+        ADNJE008:    $35,000 to $39,999
+        ADNJE009:    $40,000 to $44,999
+        ADNJE010:    $45,000 to $49,999
+        ADNJE011:    $50,000 to $59,999
+        ADNJE012:    $60,000 to $74,999
+        ADNJE013:    $75,000 to $99,999
+        ADNJE014:    $100,000 to $124,999
+        ADNJE015:    $125,000 to $149,999
+        ADNJE016:    $150,000 to $199,999
+        ADNJE017:    $200,000 or more
+ 
+    Table 2:     Median Household Income in the Past 12 Months (in 2015 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  ADNK
+        ADNKE001:    Median household income in the past 12 months (in 2015 inflation-adjusted dollars)
+ 
+    Table 3:     Aggregate Household Income in the Past 12 Months (in 2015 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19025
+    NHGIS code:  ADNL
+        ADNLE001:    Aggregate household income in the past 12 months (in 2015 inflation-adjusted dollars)
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Household Income in the Past 12 Months (in 2015 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19001
+    NHGIS code:  ADNJ
+        ADNJM001:    Total
+        ADNJM002:    Less than $10,000
+        ADNJM003:    $10,000 to $14,999
+        ADNJM004:    $15,000 to $19,999
+        ADNJM005:    $20,000 to $24,999
+        ADNJM006:    $25,000 to $29,999
+        ADNJM007:    $30,000 to $34,999
+        ADNJM008:    $35,000 to $39,999
+        ADNJM009:    $40,000 to $44,999
+        ADNJM010:    $45,000 to $49,999
+        ADNJM011:    $50,000 to $59,999
+        ADNJM012:    $60,000 to $74,999
+        ADNJM013:    $75,000 to $99,999
+        ADNJM014:    $100,000 to $124,999
+        ADNJM015:    $125,000 to $149,999
+        ADNJM016:    $150,000 to $199,999
+        ADNJM017:    $200,000 or more
+ 
+    Table 2:     Median Household Income in the Past 12 Months (in 2015 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  ADNK
+        ADNKM001:    Median household income in the past 12 months (in 2015 inflation-adjusted dollars)
+ 
+    Table 3:     Aggregate Household Income in the Past 12 Months (in 2015 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19025
+    NHGIS code:  ADNL
+        ADNLM001:    Aggregate household income in the past 12 months (in 2015 inflation-adjusted dollars)
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 14.0 
+        [Database]. Minneapolis, MN: IPUMS. 2019. 
+        http://doi.org/10.18128/D050.V14.0
+
+    * Publications and research reports employing school attendance areas data 
+      (either tabular or GIS) must cite it appropriately. The citation should 
+      include the following:
+
+        The College of William and Mary and the Minnesota Population Center.
+        School Attendance Boundary Information System (SABINS): Version 1.0.
+        Minneapolis, MN: University of Minnesota 2011.
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+    * If possible, citations involving school attendance areas should also include
+      the URL for the SABINS site:
+
+        http://www.sabinsdata.org/.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
