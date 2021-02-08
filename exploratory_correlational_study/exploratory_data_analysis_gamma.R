@@ -9,20 +9,10 @@ df <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDoc
 # calculate bonferroni corrected significance level
 bonf <- 1- 0.05/length(10:ncol(df))
 
-# explore (delete in final version)
-# first explore interdependent relationship between ortegas and gini
-#aspect <-df$acs_gini
-#pcor.test(x = df$ortega_1, y = aspect, z = df$ortega_2 )
-#cor.test(x = df$ortega_2, y = df$acs_gini)
-#pcor.test(x = df$ortega_2, y = aspect, z = df$ortega_1 )
-#cor.test(x = df$ortega_2, y = aspect)
-#std_o2 <- (df$ortega_2 - mean(df$ortega_2))/sd(df$ortega_2)
-#std_o1 <- (df$ortega_1 - mean(df$ortega_1))/sd(df$ortega_1)
-#std_aspect <- (aspect - mean(aspect, na.rm = T))/sd(aspect, na.rm = T)
-#summary(lm(std_aspect ~ std_o2 + std_o1))
-
 # correlate aspects and Gini, correlate aspects and ortega parameters while controlling for the other (partial correlation)
 # extract information on estimated correlation and confidence interval 
+# o1 = ortega 1 = ortega alpha
+# o2 = ortega 2 = ortega beta
 gin <- apply(df[,10:ncol(df)], 2, function(a){unlist(cor.test(x = df$acs_gini, y=a, conf.level = bonf, method = "pearson")[c(4,9)])})
 o1 <- apply(df[,10:ncol(df)], 2, function(a){unlist(pcor.test(x = df$ortega_1, y=a, z=df$ortega_2, conf.level = bonf, method = "pearson")[c(4,8)])})
 o2 <- apply(df[,10:ncol(df)], 2, function(a){unlist(pcor.test(x = df$ortega_2, y=a, z=df$ortega_1, conf.level = bonf, method = "pearson")[c(4,8)])})
@@ -58,7 +48,11 @@ sum(TRUE_gini_not_sig == FALSE & TRUE_o1_not_sig == TRUE & TRUE_o2_not_sig == TR
 
 #######
 # make a correlations plot with confidence intervals
+# transform ortega beta to ortega gamma for ease of interpretation (higher gamma = higher top concentrated inequalits
+# --> ortega gamma = - ortega beta (--> simply take negative value of ortega 2)
+# 
 #######
+
 library(tidyverse)
 require(ggplot2)
 df <- cbind(t(gin),t(o1),t(o2), c(1:ncol(gin))) %>% data.frame() %>% rownames_to_column()
@@ -74,8 +68,8 @@ ggplot(df, aes(x = 1:nrow(df), y = gini_est, colour="Gini"))+ geom_hline(yinterc
   geom_errorbar(aes(ymax = gini_upper, ymin = gini_lower, colour="Gini")) + 
   geom_point(data =df, mapping = aes(x = 1:nrow(df),y=o1_est, colour="Ortega alpha"))+
   geom_errorbar(aes(ymax = o1_upper, ymin = o1_lower,colour="Ortega alpha")) + 
-  geom_point(data =df, mapping = aes(x = 1:nrow(df),y=o2_est, colour="Ortega beta"))+
-  geom_errorbar(aes(ymax = o2_lower, ymin = o2_upper, colour="Ortega beta")) + labs(x="index aspect", y="pearson correlation", colour ="", title = "Correlation and CI for Inequality Measures with a Variety of Aspects",
+  geom_point(data =df, mapping = aes(x = 1:nrow(df),y=-o2_est, colour="Ortega gamma"))+
+  geom_errorbar(aes(ymax = -o2_lower, ymin = -o2_upper, colour="Ortega gamma")) + labs(x="index aspect", y="pearson correlation", colour ="", title = "Correlation and CI for Inequality Measures with a Variety of Aspects",
                                                                                  subtitle = "Confidence level: 0.9995 (using a Bonferroni Correction)")+
   scale_color_manual(values=c("#FF9996", "#99CCFF", "#9999FF")) + scale_x_continuous(minor_breaks = seq(1, 100, 1))
 
@@ -90,8 +84,8 @@ ggplot(df, aes(x = full_variable.description, y = gini_est, colour="Gini"))+ geo
   geom_errorbar(aes(ymax = gini_upper, ymin = gini_lower, colour="Gini")) + 
   geom_point(data =df, mapping = aes(x = full_variable.description,y=o1_est, colour="Ortega alpha"))+
   geom_errorbar(aes(ymax = o1_upper, ymin = o1_lower,colour="Ortega alpha")) + 
-  geom_point(data =df, mapping = aes(x = full_variable.description,y=o2_est, colour="Ortega beta"))+
-  geom_errorbar(aes(ymax = o2_lower, ymin = o2_upper, colour="Ortega beta")) + labs(x="", y="pearson correlation", colour ="", 
+  geom_point(data =df, mapping = aes(x = full_variable.description,y=-o2_est, colour="Ortega gamma"))+
+  geom_errorbar(aes(ymax = -o2_lower, ymin = -o2_upper, colour="Ortega gamma")) + labs(x="", y="pearson correlation", colour ="", 
                                                                                  title = "Case 1: Gini = 0 and both Ortega parameters are != 0",
                                                                                  subtitle = "Confidence level: 0.9995 (using a Bonferroni Correction)")+
   scale_color_manual(values=c("#FF9996", "#99CCFF", "#9999FF")) +
@@ -109,8 +103,8 @@ ggplot(df, aes(x = as.factor(1:nrow(df)), y = gini_est, colour="Gini"))+ geom_hl
   geom_errorbar(aes(ymax = gini_upper, ymin = gini_lower, colour="Gini")) + 
   geom_point(data =df, mapping = aes(x = as.factor(1:nrow(df)),y=o1_est, colour="Ortega alpha"))+
   geom_errorbar(aes(ymax = o1_upper, ymin = o1_lower,colour="Ortega alpha")) + 
-  geom_point(data =df, mapping = aes(x = as.factor(1:nrow(df)),y=o2_est, colour="Ortega beta"))+
-  geom_errorbar(aes(ymax = o2_lower, ymin = o2_upper, colour="Ortega beta")) + labs(x="", y="pearson correlation",
+  geom_point(data =df, mapping = aes(x = as.factor(1:nrow(df)),y=-o2_est, colour="Ortega gamma"))+
+  geom_errorbar(aes(ymax = -o2_lower, ymin = -o2_upper, colour="Ortega gamma")) + labs(x="", y="pearson correlation",
                                                                                  colour ="", title = "Case 2: Gini = 0, and exactly one Ortega != 0",
                                                                                  subtitle = "Confidence level: 0.9995 (using a Bonferroni Correction)")+
   scale_color_manual(values=c("#FF9996", "#99CCFF", "#9999FF")) + 
@@ -134,22 +128,11 @@ ggplot(df, aes(x = as.factor(1:nrow(df)), y = gini_est, colour="Gini"))+ geom_hl
   scale_x_discrete(breaks = as.factor(1:nrow(df)), labels=df$full_variable.description)+
   theme(axis.text.x = element_text(angle = 90))
   
-# only Ortegas
+# only Ortegas, but now gamma = negative beta
 ggplot(df, aes(x = as.factor(1:nrow(df)),y=o1_est, colour="Ortega alpha"))+ geom_hline(yintercept=0) +geom_point()+
   geom_errorbar(aes(ymax = o1_upper, ymin = o1_lower,colour="Ortega alpha")) + 
-  geom_point(data =df, mapping = aes(x = as.factor(1:nrow(df)),y=o2_est, colour="Ortega beta"))+
-  geom_errorbar(aes(ymax = o2_lower, ymin = o2_upper, colour="Ortega beta")) + labs(x="", y="pearson correlation",
-                                                                                    colour ="", title = "Case 1+2: Gini = 0, one/two Ortega != 0",
-                                                                                    subtitle = "Confidence level: 0.9995 (using a Bonferroni Correction)")+
-  scale_color_manual(values=c("#99CCFF", "#9999FF")) + 
-  scale_x_discrete(breaks = as.factor(1:nrow(df)), labels=df$full_variable.description) + 
-  theme(axis.text.x = element_text(angle = 90))
-
-# only Ortegas, but now negative beta
-ggplot(df, aes(x = as.factor(1:nrow(df)),y=o1_est, colour="Ortega alpha"))+ geom_hline(yintercept=0) +geom_point()+
-  geom_errorbar(aes(ymax = o1_upper, ymin = o1_lower,colour="Ortega alpha")) + 
-  geom_point(data =df, mapping = aes(x = as.factor(1:nrow(df)),y=-o2_est, colour="Ortega beta"))+
-  geom_errorbar(aes(ymax = -o2_lower, ymin = -o2_upper, colour="Ortega beta")) + labs(x="", y="pearson correlation",
+  geom_point(data =df, mapping = aes(x = as.factor(1:nrow(df)),y=-o2_est, colour="Ortega gamma"))+
+  geom_errorbar(aes(ymax = -o2_lower, ymin = -o2_upper, colour="Ortega gamma")) + labs(x="", y="pearson correlation",
                                                                                     colour ="", title = "Case 1+2: Gini = 0, one/two Ortega != 0",
                                                                                     subtitle = "Confidence level: 0.9995 (using a Bonferroni Correction)")+
   scale_color_manual(values=c("#99CCFF", "#9999FF")) + 
@@ -167,8 +150,8 @@ ggplot(df, aes(x = as.factor(1:nrow(df)), y = gini_est, colour="Gini"))+ geom_hl
   geom_errorbar(aes(ymax = gini_upper, ymin = gini_lower, colour="Gini")) + 
   geom_point(data =df, mapping = aes(x = as.factor(1:nrow(df)),y=o1_est, colour="Ortega alpha"))+
   geom_errorbar(aes(ymax = o1_upper, ymin = o1_lower,colour="Ortega alpha")) + 
-  geom_point(data =df, mapping = aes(x = as.factor(1:nrow(df)),y=o2_est, colour="Ortega beta"))+
-  geom_errorbar(aes(ymax = o2_lower, ymin = o2_upper, colour="Ortega beta")) + labs(x="", y="pearson correlation",
+  geom_point(data =df, mapping = aes(x = as.factor(1:nrow(df)),y=-o2_est, colour="Ortega gamma"))+
+  geom_errorbar(aes(ymax = -o2_lower, ymin = -o2_upper, colour="Ortega gamma")) + labs(x="", y="pearson correlation",
                                                                                  colour ="", title = "Case 3: Gini = 0, Ortega_1 = 0, Ortega_2 = 0",
                                                                                  subtitle = "Confidence level: 0.9995 (using a Bonferroni Correction)")+
   scale_color_manual(values=c("#FF9996", "#99CCFF", "#9999FF")) + 
@@ -188,8 +171,8 @@ ggplot(df, aes(x = as.factor(1:nrow(df)), y = gini_est, colour="Gini"))+ geom_hl
   geom_errorbar(aes(ymax = gini_upper, ymin = gini_lower, colour="Gini")) + 
   geom_point(data =df, mapping = aes(x = as.factor(1:nrow(df)),y=o1_est, colour="Ortega alpha"))+
   geom_errorbar(aes(ymax = o1_upper, ymin = o1_lower,colour="Ortega alpha")) + 
-  geom_point(data =df, mapping = aes(x = as.factor(1:nrow(df)),y=o2_est, colour="Ortega beta"))+
-  geom_errorbar(aes(ymax = o2_lower, ymin = o2_upper, colour="Ortega beta")) + labs(x="", y="pearson correlation",
+  geom_point(data =df, mapping = aes(x = as.factor(1:nrow(df)),y=-o2_est, colour="Ortega gamma"))+
+  geom_errorbar(aes(ymax = -o2_lower, ymin = -o2_upper, colour="Ortega gamma")) + labs(x="", y="pearson correlation",
                                                                                  colour ="", title = "Case 4: Gini != 0, and exactly one Ortega !=0",
                                                                                  subtitle = "Confidence level: 0.9995 (using a Bonferroni Correction)")+
   scale_color_manual(values=c("#FF9996", "#99CCFF", "#9999FF")) + 
@@ -207,8 +190,8 @@ ggplot(df, aes(x = as.factor(1:nrow(df)), y = gini_est, colour="Gini"))+ geom_hl
   geom_errorbar(aes(ymax = gini_upper, ymin = gini_lower, colour="Gini")) + 
   geom_point(data =df, mapping = aes(x = as.factor(1:nrow(df)),y=o1_est, colour="Ortega alpha"))+
   geom_errorbar(aes(ymax = o1_upper, ymin = o1_lower,colour="Ortega alpha")) + 
-  geom_point(data =df, mapping = aes(x = as.factor(1:nrow(df)),y=o2_est, colour="Ortega beta"))+
-  geom_errorbar(aes(ymax = o2_lower, ymin = o2_upper, colour="Ortega beta")) + labs(x="", y="pearson correlation",
+  geom_point(data =df, mapping = aes(x = as.factor(1:nrow(df)),y=-o2_est, colour="Ortega gamma"))+
+  geom_errorbar(aes(ymax = -o2_lower, ymin = -o2_upper, colour="Ortega gamma")) + labs(x="", y="pearson correlation",
                                                                                  colour ="", title = "Case  5: Gini != 0, and both Ortega are !=0",
                                                                                  subtitle = "Confidence level: 0.9995 (using a Bonferroni Correction)")+
   scale_color_manual(values=c("#FF9996", "#99CCFF", "#9999FF")) + 
@@ -217,6 +200,7 @@ ggplot(df, aes(x = as.factor(1:nrow(df)), y = gini_est, colour="Gini"))+ geom_hl
 
 # Case 6: Gini !=0, but both Ortega are =0
 case_6 <- TRUE_gini_not_sig == FALSE & TRUE_o1_not_sig == TRUE & TRUE_o2_not_sig == TRUE
+
 ###################
 # which aspects are the cases? 
 ###################
@@ -227,23 +211,3 @@ df$rowname[case_3]
 df$rowname[case_4]
 df$rowname[case_5]
 df$rowname[case_6]
-
-####################
-# How does Gini correlate with Ortega parameters?
-####################
-
-# first a plot of Gini and Ortega parameters
-df <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/exploratory_correlational_study/df_exploratory_data_analysis.csv")  %>% 
-  select(-"NAME_E")
-df <- df %>% arrange(desc(acs_gini))
-ggplot(df, aes(x = 1:nrow(df), y = acs_gini, colour="ACS Gini")) + geom_point()+
-  geom_point(data =df, mapping = aes(x = 1:nrow(df),y=ortega_2, colour="Ortega beta"), alpha = 0.4)+
-  geom_point(data =df, mapping = aes(x = 1:nrow(df),y=ortega_1, colour="Ortega alpha"), alpha = 0.4) +
-  scale_color_manual(values=c("black", "lightblue", "darkblue"))+labs(x="County index", y="Value of Coefficient", colour ="", title = "ACS Gini coefficients and Ortega Parameters for US counties")
-
-# calculate partial correlations between each of the Ortega parameters and the Gini, e.g. we correlate Ortega alpha to
-# the Gini index while controlling for Ortega beta
-pcor.test(x = df$ortega_1, y = df$acs_gini, z = df$ortega_2 )
-pcor.test(x = df$ortega_2, y = df$acs_gini, z = df$ortega_1 )
-cor.test(x = df$ortega_1, y = df$ortega_2)
-pcor.test(x = df$ortega_1, y = df$ortega_2, z = df$acs_gini)
