@@ -7,12 +7,13 @@ library('ggplot2')
 
 # Ortega Lorenz curve model
 # Ortega parameter 1: alpha = theta[1]
-# Ortega parameter 2: beta = theta[2]
+# Ortega parameter 2: beta = theta[2] --> for ease of interpretation, 
+# we use the transformation gamma = -beta = -theta[2]
 
 ortega <- function(pop_csum, theta){ 
-  # alpha = theta[1], beta = theta[2]
-  # 0 <= alpha, 0 < beta <= 1
-  pop_csum^theta[1] * (1- (1- pop_csum)^theta[2])
+  # alpha = theta[1], gamma = -theta[2]
+  # 0 <= alpha, -1 <= gamma < 0 
+  pop_csum^theta[1] * (1- (1- pop_csum)^(-theta[2]))
 }
 
 ############################
@@ -25,25 +26,27 @@ ortega <- function(pop_csum, theta){
 # varying Ortega parameter 2
 x_values <- sort(c(0,1,runif(1000, min = 0, max = 1)), decreasing = F)
 ortega_1 <- 0.5
-ortega_2 <- c(seq(0.1,0.99,by=0.05)) # side constraint: 0 < beta <= 1
+ortega_2 <- c(seq(-0.99, -0.01,by=0.05)) # side constraint: -1 <= gamma < 0 
 col <- diverge_hcl(length(ortega_2))
 plot(x = x_values, ortega(x_values, theta = c(ortega_1[1], ortega_2[1])), xlim = c(0,1), ylim = c(0,1), type = "l",
-     col =col[1], main = expression(paste("Ortega Lorenz curve: Variation in ", beta, ", ", alpha, " fixed at 0.5")),
+     col =col[1], main = expression(paste("Ortega Lorenz curve: Variation in ", gamma, ", ", alpha, " fixed at 0.5")),
      xlab = "cumultative share of population", ylab = "cumulative share of income")
 lines(x = x_values, y = x_values)
 lines(x = x_values, y = 1-x_values, lty = 2)
 for (i in 2:length(ortega_2)) {
   lines(x = x_values, ortega(x_values, theta = c(ortega_1[1], ortega_2[i])), col = col[i])
 }
+legend("topleft", col = c(col[1], col[length(ortega_2)]), lty = 1, 
+       legend = c("low gamma", "high gamma"))
 # we can see that there is a disproportionate change on the right side of the distribution (top incomes)
 
 # varying Ortega parameter 1
 ortega_1 <- c(seq(0.1, 3,by=0.2)) # side constraint: 0 <= alpha
-# from our empirical estimates we know alpha values typically are around 0.5 to 1
-ortega_2 <- 0.5
+# sidenote: in our empirical estimates (US county-level) we know alpha values typically are around 0.5 to 1
+ortega_2 <- -0.5
 col <- diverge_hcl(length(ortega_1))
 plot(x = x_values, ortega(x_values, theta = c(ortega_1[1], ortega_2[1])), xlim = c(0,1), ylim = c(0,1), type = "l",
-     col =col[1], main = expression(paste("Ortega Lorenz curve: Variation in ", alpha, ", ", beta, " fixed at 0.5")),
+     col =col[1], main = expression(paste("Ortega Lorenz curve: Variation in ", alpha, ", ", gamma, " fixed at 0.5")),
      xlab = "cumultative share of population", ylab = "cumulative share of income")
 lines(x = x_values, y = x_values)
 lines(x = x_values, y = 1-x_values, lty = 2)
@@ -51,7 +54,7 @@ for (i in 2:length(ortega_1)) {
   lines(x = x_values, ortega(x_values, theta = c(ortega_1[i], ortega_2[1])), col = col[i])
 }
 legend("topleft", col = c(col[1], col[length(ortega_1)]), lty = 1, 
-       legend = c("low beta", "high beta"))
+       legend = c("low alpha", "high alpha"))
 # we can see that there is a disproportionate change on the left side of the distribution (low incomes)
 
 ##########################
@@ -63,10 +66,10 @@ legend("topleft", col = c(col[1], col[length(ortega_1)]), lty = 1,
 # varying Ortega parameter 2
 x_values <- sort(c(0,1,runif(1000, min = 0, max = 1)), decreasing = F)
 ortega_1 <- 0.1 # play around here, e.g 0.1 instead of 0.5
-ortega_2 <- c(seq(0.1,0.99,by=0.05)) # side constraint: 0 < beta <= 1
+ortega_2 <- c(seq(-0.99,-0.01,by=0.05)) # side constraint: -1 <= gamma < 0 
 col <- diverge_hcl(length(ortega_2))
 plot(x = x_values, ortega(x_values, theta = c(ortega_1[1], ortega_2[1])), xlim = c(0,1), ylim = c(0,1), type = "l",
-     col =col[1], main = expression(paste("Ortega Lorenz curve: Variation in ", beta, ", ", alpha, " fixed at 0.5")),
+     col =col[1], main = expression(paste("Ortega Lorenz curve: Variation in ", gamma, ", ", alpha, " fixed at 0.5")),
      xlab = "cumultative share of population", ylab = "cumulative share of income")
 lines(x = x_values, y = x_values)
 lines(x = x_values, y = 1-x_values, lty = 2)
@@ -77,10 +80,10 @@ for (i in 2:length(ortega_2)) {
 # varying Ortega parameter 1
 ortega_1 <- c(seq(0.1, 3,by=0.2)) # side constraint: 0 <= alpha
 # from our empirical estimates we know alpha values typically are around 0.5 to 1
-ortega_2 <- 0.9 # play around here, e.g. 0.9 instead of 0.5
+ortega_2 <- -0.9 # play around here, e.g. -0.9 instead of -0.5
 col <- diverge_hcl(length(ortega_1))
 plot(x = x_values, ortega(x_values, theta = c(ortega_1[1], ortega_2[1])), xlim = c(0,1), ylim = c(0,1), type = "l",
-     col =col[1], main = expression(paste("Ortega Lorenz curve: Variation in ", alpha, ", ", beta, " fixed at 0.5")),
+     col =col[1], main = expression(paste("Ortega Lorenz curve: Variation in ", alpha, ", ", gamma, " fixed at 0.5")),
      xlab = "cumultative share of population", ylab = "cumulative share of income")
 lines(x = x_values, y = x_values)
 lines(x = x_values, y = 1-x_values, lty = 2)
@@ -91,16 +94,17 @@ for (i in 2:length(ortega_1)) {
 
 #################################
 # We suggest that Ortega 1/2 can disentangle bottom from top concentrated inequality
+# Ortega 1 = alpha, Ortega 2 = gamma
 # Hence we want to compare this for same levels of overall inequality
 # Generate Lorenz curves with approx. same Gini coefficient but different Ortega parameters
 #################################
 
 # Exaxt formula for calculating the Gini index for Ortega Lorenz curves, see Ortega et al. (1991)
-gini_ortega <- function(x){(x[1] - 1)/(x[1] +1) + 2*beta(x[1]+ 1, x[2]+ 1) } 
+gini_ortega <- function(x){(x[1] - 1)/(x[1] +1) + 2*beta(x[1]+ 1, -x[2]+ 1) } 
 
 # grid search: Which Ortega parameter combinations yield approx. the same Gini index?
 o1 <- c(seq(0.01,1, by = 0.01))
-o2 <- c(c(seq(0.01,0.99, by = 0.01)))
+o2 <- c(c(seq(-0.99,-0.01, by = 0.01)))
 grid <- gridSearch(gini_ortega, list(o1,o2)) 
 which(grid$values > 0.45 & grid$values< 0.451) # Lorenz curves with approx same Gini coefficient of 0.45
 grid$levels[which(grid$values > 0.45 & grid$values< 0.451)] # parameter combinations exhibiting this Gini index
@@ -108,16 +112,16 @@ grid$levels[which(grid$values > 0.45 & grid$values< 0.451)] # parameter combinat
 # take examplary parameter combination that yields a Gini of approx. 0.45
 gini <- 0.45 
 a <- 0.05
-b <- 0.39
+b <- -0.39
 c <- 0.96
-d <- 0.65
+d <- -0.65
 
 # plot 
 ggplot()+
   geom_line(aes(x=x_values, y=ortega(x_values, theta = c(a,b)), colour = paste0("Gini:  ", round(gini_ortega(c(a,b)), digits = 4), 
-                                                                                "\nOrtega alpha: ", a, " \nOrtega beta: ", b)))+ 
+                                                                                "\nOrtega alpha: ", a, " \nOrtega gamma: ", b)))+ 
   geom_line(aes(x=x_values, y=ortega(x_values, theta = c(c,d)), colour = paste0("Gini:  ", round(gini_ortega(c(c,d)), digits = 4), 
-                                                                                "\nOrtega alpha: ", c, " \nOrtega beta: ", d)))+ 
+                                                                                "\nOrtega alpha: ", c, " \nOrtega gamma: ", d)))+ 
   geom_line(aes(x=x_values, y=x_values), col = "grey")+
   geom_line(aes(x = x_values, y = 1-x_values), lty = 2, col = "grey")+
   theme(legend.position="bottom", legend.title = element_blank() )+
@@ -131,33 +135,33 @@ ggplot()+
 # i.e. from an increase in top or bottom concentrated income inequality
 
 o1 <- c(seq(0.01,1, by = 0.01))
-o2 <- c(c(seq(0.01,0.99, by = 0.01)))
+o2 <- c(c(seq(-0.99,0.01, by = 0.01)))
 grid <- gridSearch(gini_ortega, list(o1,o2) )
 grid$levels[which(grid$values > 0.45 & grid$values< 0.451)] # Lorenz curves with approx same Gini coefficient of 0.45
 grid$levels[which(grid$values > 0.5 & grid$values< 0.51)] # Lorenz curves with approx same Gini coefficient of 0.5
 
 # Parameter combination 1: Gini 0.45
 a <- 0.53
-b <- 0.51
+b <- -0.51
 gini_1 <- round(gini_ortega(c(a,b)), digits = 4) # approx. 0.45
 
 # Parameter combination 2: Gini now 0.5, but Ortega 1 the same as in comb. 1
 c <- 0.53
-d <- 0.44
+d <- -0.44
 gini_2 <- round(gini_ortega(c(c,d)), digits = 4) # approx. 0.5
 
 # Parameter combination 3: Gini now 0.5, but Ortega 2 approx. same as in comb. 1
 e <- 0.78
-f <- 0.5
+f <- -0.5
 gini_3 <- round(gini_ortega(c(e,f)), digits = 4) # approx. 0.5
 
 ggplot()+
   geom_line(aes(x=x_values, y=ortega(x_values, theta = c(a,b)), colour = paste0("Gini:  ", gini_1, 
-                                                                                "\nOrtega 1: ", a, " \nOrtega 2: ", b)))+ 
+                                                                                "\nOrtega alpha: ", a, " \nOrtega gamma: ", b)))+ 
   geom_line(aes(x=x_values, y=ortega(x_values, theta = c(c,d)), colour =  paste0("Gini:  ", gini_2, 
-                                                                                 "\nOrtega 1: ", c, " \nOrtega 2: ", d)))+
+                                                                                 "\nOrtega alpha: ", c, " \nOrtega gamma: ", d)))+
   geom_line(aes(x=x_values, y=ortega(x_values, theta = c(e,f)), colour =  paste0("Gini:  ", gini_2, 
-                                                                                 "\nOrtega 1: ", e, " \nOrtega 2: ", f)))+
+                                                                                 "\nOrtega alpha: ", e, " \nOrtega gamma: ", f)))+
   geom_line(aes(x=x_values, y=x_values), col = "grey")+
   geom_line(aes(x = x_values, y = 1-x_values), lty = 2, col = "grey")+
   theme(legend.position="bottom", legend.title = element_blank() )+
@@ -175,41 +179,4 @@ ggplot()+
 # can clearly see from the plot that the green line exhibits more top concentrated inequality while the blue 
 # line exhibits more bottom concentrated inequality. 
 
-###########################
-# cross check Ortega parameter implications
-# with another measure of top/bottom concentrated inequality (95/50 and 50/10 ratios)
-###########################
-
-# Does Ortega 2 measure top concentrated inequality, or in other words:
-# Does lowering the Ortega 2 parameter really affect the top ratio (95/50) more than the bottom ratio (50/10) ?
-a <- 0.53
-b <- 0.51
-c <- 0.53
-d <- 0.44
-oo <- ortega(c(0.1,0.5,0.95), theta = c(a,b))
-top_1 <- oo[3]/oo[2]
-bottom_1 <- oo[2]/oo[1]
-cc <- ortega(c(0.1,0.5,0.95), theta = c(c,d))
-top_2 <- cc[3]/cc[2]
-bottom_2 <- cc[2]/cc[1]
-(top_2 - top_1)/top_1 # relative change in top concentrated inequality as measured by 95/50: 0.05956378
-(bottom_2-bottom_1)/bottom_1 # relative change in bottom concentrated inequality as measured by 50/10: 0.0194614
-# yes, Ortega 2 affects the top ratio more than the bottom ratio
-
-# Do the same with Ortega 1, but now evaluating whether a change in Ortega 1 
-# affects the bottom concentration ratio (50/10) more than the top concentration ratio (95/50)
-
-a <- 0.53
-b <- 0.5
-c <- 0.78
-d <- 0.5
-oo <- ortega(c(0.1,0.5,0.95), theta = c(a,b))
-top_1 <- oo[3]/oo[2]
-bottom_1 <- oo[2]/oo[1]
-cc <- ortega(c(0.1,0.5,0.95), theta = c(c,d))
-top_2 <- cc[3]/cc[2]
-bottom_2 <- cc[2]/cc[1]
-(top_2 - top_1)/top_1 # relative change in top concentrated inequality as measured by 95/50: 0.1740549
-(bottom_2-bottom_1)/bottom_1 # relative change in bottom concentrated inequality as measured by 50/10: 0.4953488
-# yes, Ortega 1 affects the bottom ratio more than the top ratio
 
