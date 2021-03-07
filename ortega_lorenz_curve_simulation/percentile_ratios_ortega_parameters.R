@@ -42,3 +42,30 @@ pcor(x = unlist(o_50/o_10), y = -th[,2], z = list(th[,1], o_95/o_50))
 # empirical range of Ortega parameters on US county-level: 
 # ortega 1: 0.12-1.23, ortega 2: 0.07-0.7 
 # --> correlational dependency gets distorted when simluated Ortega Lorenz curves are in that range 
+
+# from the visual inspection of Lorenz curves, we can see that Ortega gamma rather
+# affects the *very* top of the distribution
+# we suggest therefore differing 'top' and 'bottom' not at the median, but at a higher percentile
+# below we explore dependency structures for gamma and alpha with different percentile ratios
+
+# --> we find the 90th percentile a suitable border value,
+# --> we find that 99/90 relates to gamma and 90/10 ratios to alpha 
+# (this result is also robust against the parameter range)
+
+# parameter range
+theta_1 <- seq(0.01,1,by = 0.01)
+theta_2 <- seq(0.01,1,by = 0.01)
+th <- expand.grid(theta_1, theta_2)
+# relevant percentiles
+top <- ortega(0.99, theta = th[1:nrow(th),]) # 0.99 = 99th percentile
+border_value <- ortega(0.90, theta = th[1:nrow(th),]) # 0.90 = 90th percentile
+bottom <- ortega(0.10, theta = th[1:nrow(th),]) # 0.10 = 10th percentile
+
+# calculate partial correlations
+
+# top ratio/bottom ratio
+# with transformation of beta for interpretability: theta_2 = beta --> gamma = -1*beta
+pcor(x = unlist(top/border_value), y = th[,1], z = list(-th[,2], border_value/bottom))
+pcor(x = unlist(top/border_value), y = -th[,2], z = list(th[,1], border_value/bottom))
+pcor(x = unlist(border_value/bottom), y = th[,1], z = list(-th[,2], top/border_value))
+pcor(x = unlist(border_value/bottom), y = -th[,2], z = list(th[,1], top/border_value))
