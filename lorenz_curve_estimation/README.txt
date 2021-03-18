@@ -15,6 +15,7 @@ README - Lorenz curve estimation
 2. Code for MLE estimation: MLE_estimation_county.R ; results (estimated parameters): MLE_output_county.csv
 
 - Aggregating estimation results based on estimated parameters by MLE, i.e. voting results: voting.R
+- cross check of voting procedure using the BIC criterion: first calculate the BIC (calculate_BIC.R) and then use the produced data set to rerun the voting procedures (voting_BIC.R)
 
 - Cross-check on U.S. state level
 1. Aggregate data on a state level: aggregate_state_level.R produces income_shares_per_state.csv and population_shares_per_state.csv
