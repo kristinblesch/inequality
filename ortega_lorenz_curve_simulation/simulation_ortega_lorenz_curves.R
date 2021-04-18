@@ -41,7 +41,7 @@ legend("topleft", col = c(col[1], col[length(ortega_2)]), lty = 1,
 # we can see that there is a disproportionate change on the right side of the distribution (top incomes)
 
 # varying Ortega parameter 1
-ortega_1 <- c(seq(0.1, 3,by=0.2)) # side constraint: 0 <= alpha
+ortega_1 <- c(seq(0.01, 1.5,by=0.15)) # side constraint: 0 <= alpha
 # sidenote: in our empirical estimates (US county-level) we know alpha values typically are around 0.5 to 1
 ortega_2 <- -0.5
 col <- diverge_hcl(length(ortega_1))
