@@ -27,5 +27,5 @@ README - Lorenz curve estimation
 3. Code for Wang being the true income share generating model: wang_sim.R ; results: wang_output_sim.csv
 
 - Estimated Ortega parameters such that they can be used as inequality measures:
-1. US county level: ortega_parameters_county.csv
-2. US state level:ortega_parameters_state.csv
+1. US county level: ortega_parameter_alpha_gamma_county.csv
+2. US state level:ortega_parameter_alpha_gamma_state.csv

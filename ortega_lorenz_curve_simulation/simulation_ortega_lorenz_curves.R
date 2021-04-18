@@ -11,9 +11,9 @@ library('ggplot2')
 # we use the transformation gamma = -beta = -theta[2]
 
 ortega <- function(pop_csum, theta){ 
-  # alpha = theta[1], gamma = -theta[2]
-  # 0 <= alpha, -1 <= gamma < 0 
-  pop_csum^theta[1] * (1- (1- pop_csum)^(-theta[2]))
+  # alpha = theta[1], gamma = 1-theta[2]
+  # 0 <= alpha, 0 <= gamma < 1 
+  pop_csum^theta[1] * (1- (1- pop_csum)^(1-theta[2]))
 }
 
 ############################
@@ -26,7 +26,7 @@ ortega <- function(pop_csum, theta){
 # varying Ortega parameter 2
 x_values <- sort(c(0,1,runif(1000, min = 0, max = 1)), decreasing = F)
 ortega_1 <- 0.5
-ortega_2 <- c(seq(-0.99, -0.01,by=0.05)) # side constraint: -1 <= gamma < 0 
+ortega_2 <- c(seq(0.01, 0.99,by=0.05)) # side constraint: -1 <= gamma < 0 
 col <- diverge_hcl(length(ortega_2))
 plot(x = x_values, ortega(x_values, theta = c(ortega_1[1], ortega_2[1])), xlim = c(0,1), ylim = c(0,1), type = "l",
      col =col[1], main = expression(paste("Ortega Lorenz curve: Variation in ", gamma, ", ", alpha, " fixed at 0.5")),
@@ -43,7 +43,7 @@ legend("topleft", col = c(col[1], col[length(ortega_2)]), lty = 1,
 # varying Ortega parameter 1
 ortega_1 <- c(seq(0.01, 1.5,by=0.15)) # side constraint: 0 <= alpha
 # sidenote: in our empirical estimates (US county-level) we know alpha values typically are around 0.5 to 1
-ortega_2 <- -0.5
+ortega_2 <- 0.5
 col <- diverge_hcl(length(ortega_1))
 plot(x = x_values, ortega(x_values, theta = c(ortega_1[1], ortega_2[1])), xlim = c(0,1), ylim = c(0,1), type = "l",
      col =col[1], main = expression(paste("Ortega Lorenz curve: Variation in ", alpha, ", ", gamma, " fixed at 0.5")),
@@ -66,7 +66,7 @@ legend("topleft", col = c(col[1], col[length(ortega_1)]), lty = 1,
 # varying Ortega parameter 2
 x_values <- sort(c(0,1,runif(1000, min = 0, max = 1)), decreasing = F)
 ortega_1 <- 0.1 # play around here, e.g 0.1 instead of 0.5
-ortega_2 <- c(seq(-0.99,-0.01,by=0.05)) # side constraint: -1 <= gamma < 0 
+ortega_2 <- c(seq(0.01,0.99,by=0.05)) # side constraint: 0 <= gamma < 1 
 col <- diverge_hcl(length(ortega_2))
 plot(x = x_values, ortega(x_values, theta = c(ortega_1[1], ortega_2[1])), xlim = c(0,1), ylim = c(0,1), type = "l",
      col =col[1], main = expression(paste("Ortega Lorenz curve: Variation in ", gamma, ", ", alpha, " fixed at 0.5")),
@@ -80,7 +80,7 @@ for (i in 2:length(ortega_2)) {
 # varying Ortega parameter 1
 ortega_1 <- c(seq(0.1, 3,by=0.2)) # side constraint: 0 <= alpha
 # from our empirical estimates we know alpha values typically are around 0.5 to 1
-ortega_2 <- -0.9 # play around here, e.g. -0.9 instead of -0.5
+ortega_2 <- 0.7 # play around here, e.g. 0.7 instead of 0.5
 col <- diverge_hcl(length(ortega_1))
 plot(x = x_values, ortega(x_values, theta = c(ortega_1[1], ortega_2[1])), xlim = c(0,1), ylim = c(0,1), type = "l",
      col =col[1], main = expression(paste("Ortega Lorenz curve: Variation in ", alpha, ", ", gamma, " fixed at 0.5")),
@@ -100,11 +100,11 @@ for (i in 2:length(ortega_1)) {
 #################################
 
 # Exaxt formula for calculating the Gini index for Ortega Lorenz curves, see Ortega et al. (1991)
-gini_ortega <- function(x){(x[1] - 1)/(x[1] +1) + 2*beta(x[1]+ 1, -x[2]+ 1) } 
+gini_ortega <- function(x){(x[1] - 1)/(x[1] +1) + 2*beta(x[1]+ 1, 1-x[2]+ 1) } 
 
 # grid search: Which Ortega parameter combinations yield approx. the same Gini index?
 o1 <- c(seq(0.01,1, by = 0.01))
-o2 <- c(c(seq(-0.99,-0.01, by = 0.01)))
+o2 <- c(c(seq(0.01,0.99, by = 0.01)))
 grid <- gridSearch(gini_ortega, list(o1,o2)) 
 which(grid$values > 0.45 & grid$values< 0.451) # Lorenz curves with approx same Gini coefficient of 0.45
 grid$levels[which(grid$values > 0.45 & grid$values< 0.451)] # parameter combinations exhibiting this Gini index
@@ -112,9 +112,9 @@ grid$levels[which(grid$values > 0.45 & grid$values< 0.451)] # parameter combinat
 # take examplary parameter combination that yields a Gini of approx. 0.45
 gini <- 0.45 
 a <- 0.05
-b <- -0.39
+b <- 0.61
 c <- 0.96
-d <- -0.65
+d <- 0.35
 
 # plot 
 ggplot()+
@@ -135,24 +135,24 @@ ggplot()+
 # i.e. from an increase in top or bottom concentrated income inequality
 
 o1 <- c(seq(0.01,1, by = 0.01))
-o2 <- c(c(seq(-0.99,0.01, by = 0.01)))
+o2 <- c(c(seq(0.01,0.99, by = 0.01)))
 grid <- gridSearch(gini_ortega, list(o1,o2) )
 grid$levels[which(grid$values > 0.45 & grid$values< 0.451)] # Lorenz curves with approx same Gini coefficient of 0.45
 grid$levels[which(grid$values > 0.5 & grid$values< 0.51)] # Lorenz curves with approx same Gini coefficient of 0.5
 
 # Parameter combination 1: Gini 0.45
 a <- 0.53
-b <- -0.51
+b <- 0.49
 gini_1 <- round(gini_ortega(c(a,b)), digits = 4) # approx. 0.45
 
 # Parameter combination 2: Gini now 0.5, but Ortega 1 the same as in comb. 1
 c <- 0.53
-d <- -0.44
+d <- 0.56
 gini_2 <- round(gini_ortega(c(c,d)), digits = 4) # approx. 0.5
 
 # Parameter combination 3: Gini now 0.5, but Ortega 2 approx. same as in comb. 1
 e <- 0.78
-f <- -0.5
+f <- 0.5
 gini_3 <- round(gini_ortega(c(e,f)), digits = 4) # approx. 0.5
 
 ggplot()+

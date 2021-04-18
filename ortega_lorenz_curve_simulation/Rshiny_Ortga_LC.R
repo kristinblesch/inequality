@@ -33,8 +33,8 @@ ui <- fluidPage(
       # Slider for Ortega parameter 2
       sliderInput(inputId = "ortega_2",
                   label = "Ortega Parameter gamma:",
-                  min = -1, max = -0.001,
-                  value = -0.5),
+                  min = 0, max = 0.999,
+                  value = 0.5),
       # Show US averages
       tags$hr(style="border-color: black;"),
       tags$hr(style="border-color: black;"),
@@ -63,19 +63,19 @@ server <- function(input, output, session){
   ortega <- function(pop_csum, theta){ 
     # alpha = theta[1], gamma = -theta[2]
     # 0 <= alpha, 0 < beta <= 1
-    pop_csum^theta[1] * (1- (1- pop_csum)^(-theta[2]))
+    pop_csum^theta[1] * (1- (1- pop_csum)^(1-theta[2]))
   }
   # Calculate associated Gini index:
   # Exaxt formula for calculating the Gini index for Ortega Lorenz curves, see Ortega et al. (1991)
-  gini_ortega <- function(x){(x[1] - 1)/(x[1] +1) + 2*beta(x[1]+ 1, -x[2]+ 1) }
+  gini_ortega <- function(x){(x[1] - 1)/(x[1] +1) + 2*beta(x[1]+ 1, 1-x[2]+ 1) }
   
   
   
   output$gini <- renderText({ 
     paste0("Gini index using the above selected parameters: ",round(gini_ortega(c(input$ortega_1, input$ortega_2)), digits = 4))
   })
-  df <- read.csv("ortega_parameters_gamma_county.csv")
-  df_state <- read.csv("ortega_parameters_gamma_state.csv")
+  df <- read.csv("ortega_parameter_alpha_gamma_gini_county.csv")
+  df_state <- read.csv("ortega_parameter_alpha_gamma_gini_state.csv")
   ##asceding order
   sort_asc <- I("[{field: 'name', direction: 'asc'},{field: '$score'}]")
   opts <- list(create=TRUE,
@@ -93,7 +93,7 @@ server <- function(input, output, session){
   output$data_2 <- renderTable({
     df_state[df_state$STATE %in% input$state, c("STATE", "alpha", "gamma", "Gini")]
   }, rownames = FALSE)
-  output$US_average <- renderText({"The US average (calculated as population weighted county-level average) is \nalpha = 0.6125,\ngamma = -0.4156"})
+  output$US_average <- renderText({"The US average (calculated as population weighted county-level average) is \nalpha = 0.6125,\ngamma = 0.5844"})
   
   output$lcplot <- renderPlot({
     # define relevant values on x and y axis
