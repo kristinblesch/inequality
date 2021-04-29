@@ -1,4 +1,4 @@
-This is the GitHub repository for the paper "Shedding light on the complex effects of economic inequality through a two-parameter Ortega Lorenz model" by Blesch et al. The  paper can be divided into three parts. The respective folders each contain a specific README file that guides through reproducing our results. 
+This is the GitHub repository for the paper "Measuring Inequality Beyond the Gini Coefficient May Clarify Conflicting Findings" by Blesch et al. The  paper can be divided into three parts. The respective folders each contain a specific README file that guides through reproducing our results. 
 
 1. Lorenz curve estimation using MLE and NLS on a US county and state level. Relevant code can be found in the respective folder including .csv files with estimated Ortega parameters on a US county and state level.
 
