@@ -1,0 +1,3064 @@
+"","county","empirical_gini"
+"1","Dillingham, Alaska",0.458233067325628
+"2","Haines, Alaska",0.493104428868369
+"3","Ketchikan, Alaska",0.467922231829613
+"4","Sitka, Alaska",0.454054609698186
+"5","Petersburg, Alaska",0.473206539995875
+"6","Prince, Alaska",0.505171369782255
+"7","Hoonah, Alaska",0.554869567255914
+"8","Nome, Alaska",0.461742997530463
+"9","North, Alaska",0.417359109526066
+"10","Yukon, Alaska",0.470188548186304
+"11","Valdez, Alaska",0.443826886732316
+"12","Matanuska, Alaska",0.425293734250775
+"13","Kodiak, Alaska",0.414149994900458
+"14","Fairbanks, Alaska",0.438280332857197
+"15","Northwest, Alaska",0.42773280048869
+"16","Aleutians, Alaska",0.36595057075834
+"17","Anchorage, Alaska",0.468451028587964
+"18","Wrangell, Alaska",0.472346048669997
+"19","Kenai, Alaska",0.460940329271863
+"20","Bethel, Alaska",0.450279858597182
+"21","Juneau, Alaska",0.399545030341021
+"22","Southeast, Alaska",0.394961118064327
+"23","Tallapoosa County, Alabama",0.528454509105879
+"24","Shelby County, Alabama",0.487694959948405
+"25","Lauderdale County, Alabama",0.517294397384965
+"26","Cherokee County, Alabama",0.515323004058358
+"27","Hale County, Alabama",0.491742147889546
+"28","Pickens County, Alabama",0.521411303156418
+"29","Etowah County, Alabama",0.502756140905998
+"30","Sumter County, Alabama",0.556527519354923
+"31","Escambia County, Alabama",0.517753580347219
+"32","Franklin County, Alabama",0.494598339987356
+"33","Houston County, Alabama",0.540005494200542
+"34","Chilton County, Alabama",0.463071201185189
+"35","Colbert County, Alabama",0.499982872518041
+"36","Randolph County, Alabama",0.500213868430654
+"37","Tuscaloosa County, Alabama",0.523887959370521
+"38","Lamar County, Alabama",0.470617502083549
+"39","Washington County, Alabama",0.474539857112694
+"40","Dale County, Alabama",0.472714355305238
+"41","Coosa County, Alabama",0.489686423360582
+"42","Russell County, Alabama",0.471856903130075
+"43","Macon County, Alabama",0.517776939897969
+"44","Marengo County, Alabama",0.551729719165523
+"45","Lee County, Alabama",0.536135264920531
+"46","Calhoun County, Alabama",0.488681762376785
+"47","Marion County, Alabama",0.520891516899138
+"48","Winston County, Alabama",0.513255743346533
+"49","Mobile County, Alabama",0.530058613549455
+"50","Covington County, Alabama",0.519030396358776
+"51","Geneva County, Alabama",0.502296094346501
+"52","St Clair County, Alabama",0.440989744908094
+"53","Montgomery County, Alabama",0.5472972509736
+"54","Baldwin County, Alabama",0.508339896875738
+"55","Chambers County, Alabama",0.472706055928601
+"56","Talladega County, Alabama",0.498471414834807
+"57","Greene County, Alabama",0.527787078876713
+"58","Choctaw County, Alabama",0.518965714848455
+"59","Elmore County, Alabama",0.434032240553343
+"60","Pike County, Alabama",0.551202415340525
+"61","Lowndes County, Alabama",0.525055885373106
+"62","Blount County, Alabama",0.455645339782555
+"63","Perry County, Alabama",0.507895177543479
+"64","Coffee County, Alabama",0.485900563568354
+"65","Autauga County, Alabama",0.431589762907144
+"66","Clay County, Alabama",0.47935883768881
+"67","Jefferson County, Alabama",0.580280300090376
+"68","Monroe County, Alabama",0.537916237405378
+"69","Dallas County, Alabama",0.566019908500783
+"70","Barbour County, Alabama",0.535360378812793
+"71","Crenshaw County, Alabama",0.498841120869014
+"72","Butler County, Alabama",0.516049676052442
+"73","Lawrence County, Alabama",0.469207154855515
+"74","Madison County, Alabama",0.499077759538639
+"75","Limestone County, Alabama",0.482215655141839
+"76","Wilcox County, Alabama",0.535067449948677
+"77","Bibb County, Alabama",0.474837329537613
+"78","Cleburne County, Alabama",0.471750184746969
+"79","Cullman County, Alabama",0.505369823430924
+"80","Walker County, Alabama",0.542289741853477
+"81","Fayette County, Alabama",0.488590138964666
+"82","Conecuh County, Alabama",0.543324464903947
+"83","Henry County, Alabama",0.501611532633389
+"84","Jackson County, Alabama",0.492169017987614
+"85","Marshall County, Alabama",0.509289269692223
+"86","Morgan County, Alabama",0.485559362433025
+"87","DeKalb County, Alabama",0.483304169353277
+"88","Bullock County, Alabama",0.494521904418498
+"89","Clarke County, Alabama",0.549719006014705
+"90","Desha County, Arkansas",0.539728857572039
+"91","Calhoun County, Arkansas",0.498516186101344
+"92","Greene County, Arkansas",0.488625631332419
+"93","Lonoke County, Arkansas",0.424104659892184
+"94","Van Buren County, Arkansas",0.502785815997085
+"95","Little River County, Arkansas",0.467478914460033
+"96","Arkansas County, Arkansas",0.540631089559936
+"97","Marion County, Arkansas",0.4751795359982
+"98","Randolph County, Arkansas",0.511800957496022
+"99","Fulton County, Arkansas",0.485783401319961
+"100","Cross County, Arkansas",0.499276258708997
+"101","Columbia County, Arkansas",0.556764475095294
+"102","Izard County, Arkansas",0.502256100762785
+"103","Cleburne County, Arkansas",0.510695790572838
+"104","Newton County, Arkansas",0.502702574642117
+"105","Pope County, Arkansas",0.498102807867969
+"106","Woodruff County, Arkansas",0.547802817499457
+"107","Faulkner County, Arkansas",0.475566556666042
+"108","Benton County, Arkansas",0.60763873638088
+"109","Union County, Arkansas",0.561128664553439
+"110","Jefferson County, Arkansas",0.502956520023856
+"111","Yell County, Arkansas",0.487235334393304
+"112","Howard County, Arkansas",0.49786103029569
+"113","Scott County, Arkansas",0.476290948288095
+"114","Logan County, Arkansas",0.492105113318155
+"115","St Francis County, Arkansas",0.509139958788048
+"116","Ouachita County, Arkansas",0.524604070255791
+"117","Clay County, Arkansas",0.511738390266701
+"118","Lawrence County, Arkansas",0.496589108338187
+"119","Searcy County, Arkansas",0.515895328533908
+"120","Hempstead County, Arkansas",0.480682734951267
+"121","Grant County, Arkansas",0.447651151266556
+"122","Sevier County, Arkansas",0.45730366346071
+"123","Independence County, Arkansas",0.526182493702956
+"124","Johnson County, Arkansas",0.491914290250388
+"125","Clark County, Arkansas",0.507394896544902
+"126","Perry County, Arkansas",0.455396711942483
+"127","Ashley County, Arkansas",0.521398055469616
+"128","Crawford County, Arkansas",0.465185943906046
+"129","Lafayette County, Arkansas",0.521159228388565
+"130","Polk County, Arkansas",0.49370574792372
+"131","Monroe County, Arkansas",0.535860416203694
+"132","Lee County, Arkansas",0.608884259245559
+"133","Cleveland County, Arkansas",0.479867220335761
+"134","Poinsett County, Arkansas",0.502740265969587
+"135","White County, Arkansas",0.508590599213011
+"136","Dallas County, Arkansas",0.487228532858915
+"137","Saline County, Arkansas",0.416223781272556
+"138","Sebastian County, Arkansas",0.550420405053129
+"139","Boone County, Arkansas",0.496033048864336
+"140","Lincoln County, Arkansas",0.506252517406298
+"141","Chicot County, Arkansas",0.567045347185446
+"142","Garland County, Arkansas",0.531940747366035
+"143","Pike County, Arkansas",0.485567911122511
+"144","Madison County, Arkansas",0.476500275530935
+"145","Sharp County, Arkansas",0.475459024501381
+"146","Franklin County, Arkansas",0.494568154251959
+"147","Baxter County, Arkansas",0.505332148277486
+"148","Bradley County, Arkansas",0.538819055778678
+"149","Phillips County, Arkansas",0.56216312669539
+"150","Stone County, Arkansas",0.519250387693598
+"151","Hot Spring County, Arkansas",0.467651496433319
+"152","Crittenden County, Arkansas",0.504283605245081
+"153","Mississippi County, Arkansas",0.525199251196538
+"154","Drew County, Arkansas",0.554952898159856
+"155","Prairie County, Arkansas",0.510279334590644
+"156","Nevada County, Arkansas",0.484730194687985
+"157","Miller County, Arkansas",0.509097577189239
+"158","Pulaski County, Arkansas",0.563772324247538
+"159","Craighead County, Arkansas",0.534445476189777
+"160","Jackson County, Arkansas",0.526947908165022
+"161","Washington County, Arkansas",0.547901290979908
+"162","Carroll County, Arkansas",0.474555768422098
+"163","Conway County, Arkansas",0.517653634889163
+"164","Yuma County, Arizona",0.504044914725403
+"165","Pinal County, Arizona",0.466698645480585
+"166","La Paz County, Arizona",0.558985349532173
+"167","Maricopa County, Arizona",0.546066836267713
+"168","Graham County, Arizona",0.481253611199314
+"169","Pima County, Arizona",0.536222076524918
+"170","Coconino County, Arizona",0.527624922652405
+"171","Santa Cruz County, Arizona",0.541478654769444
+"172","Yavapai County, Arizona",0.517350395645846
+"173","Mohave County, Arizona",0.511846594030252
+"174","Gila County, Arizona",0.503408925465476
+"175","Greenlee County, Arizona",0.416564541648241
+"176","Cochise County, Arizona",0.503043415396385
+"177","Navajo County, Arizona",0.511545491283225
+"178","Apache County, Arizona",0.500502535828445
+"179","Marin County, California",0.658878379281553
+"180","Amador County, California",0.487472822481778
+"181","Fresno County, California",0.537947558553954
+"182","Santa Cruz County, California",0.560248681506002
+"183","Sonoma County, California",0.527600413302068
+"184","Lassen County, California",0.472479388123167
+"185","Mono County, California",0.483551731300649
+"186","Alameda County, California",0.537411976365133
+"187","San Joaquin County, California",0.494495139532414
+"188","Solano County, California",0.458878628770982
+"189","Trinity County, California",0.569795337764833
+"190","Siskiyou County, California",0.531762901334068
+"191","Butte County, California",0.540804971564949
+"192","Calaveras County, California",0.511592577191726
+"193","Stanislaus County, California",0.501230637873378
+"194","Del Norte County, California",0.528111285564167
+"195","San Bernardino County, California",0.480710871344588
+"196","Placer County, California",0.500866416513332
+"197","Yuba County, California",0.468065468570491
+"198","Sutter County, California",0.496181374096287
+"199","San Luis Obispo County, California",0.546524656164378
+"200","Plumas County, California",0.518070477816948
+"201","Napa County, California",0.568035136559634
+"202","Inyo County, California",0.482516895448167
+"203","Tuolumne County, California",0.496809553938692
+"204","San Diego County, California",0.548562312184009
+"205","Mariposa County, California",0.490562398131367
+"206","Sacramento County, California",0.501360528240893
+"207","San Benito County, California",0.457616722558532
+"208","Humboldt County, California",0.525786709392533
+"209","Tulare County, California",0.526064135503481
+"210","Modoc County, California",0.53842561158442
+"211","Santa Clara County, California",0.604523755023527
+"212","San Francisco County, California",0.662858618914021
+"213","Nevada County, California",0.520503490286296
+"214","Ventura County, California",0.523682607466385
+"215","Shasta County, California",0.524491647725577
+"216","Sierra County, California",0.526897424408024
+"217","Riverside County, California",0.489636817401816
+"218","Lake County, California",0.537507955637495
+"219","Glenn County, California",0.533028972450473
+"220","Merced County, California",0.506815449186444
+"221","Kern County, California",0.517403491663012
+"222","Imperial County, California",0.508242912137377
+"223","Kings County, California",0.496970437374232
+"224","Colusa County, California",0.496636236292748
+"225","Orange County, California",0.566318423260355
+"226","San Mateo County, California",0.644377929596815
+"227","El Dorado County, California",0.546828624069524
+"228","Yolo County, California",0.54574804359172
+"229","Mendocino County, California",0.533225371313526
+"230","Los Angeles County, California",0.607763199439065
+"231","Monterey County, California",0.526825073885629
+"232","Madera County, California",0.503974301725395
+"233","Tehama County, California",0.520518997175345
+"234","Santa Barbara County, California",0.579971636450439
+"235","Contra Costa County, California",0.558583938493084
+"236","Otero County, Colorado",0.509887047153794
+"237","La Plata County, Colorado",0.511416679285979
+"238","Costilla County, Colorado",0.528720094313846
+"239","Routt County, Colorado",0.575587534694185
+"240","Ouray County, Colorado",0.494794038891884
+"241","Delta County, Colorado",0.484386170051732
+"242","Dolores County, Colorado",0.489229267344203
+"243","Yuma County, Colorado",0.516257947738751
+"244","Cheyenne County, Colorado",0.542030539207025
+"245","Bent County, Colorado",0.532265074884734
+"246","San Miguel County, Colorado",0.645176232785229
+"247","Conejos County, Colorado",0.500153980040457
+"248","Kit Carson County, Colorado",0.539335693949942
+"249","Las Animas County, Colorado",0.478248760908728
+"250","Archuleta County, Colorado",0.535685702366251
+"251","Montrose County, Colorado",0.483696061766819
+"252","Baca County, Colorado",0.540479006326099
+"253","Rio Grande County, Colorado",0.494878536005794
+"254","Alamosa County, Colorado",0.533400785294352
+"255","Chaffee County, Colorado",0.475968741784528
+"256","Grand County, Colorado",0.463014727526533
+"257","El Paso County, Colorado",0.476877285644868
+"258","Custer County, Colorado",0.698802898148761
+"259","Montezuma County, Colorado",0.493233276628302
+"260","Denver County, Colorado",0.596952412576418
+"261","Gilpin County, Colorado",0.4669258155787
+"262","Lincoln County, Colorado",0.482595287030007
+"263","Morgan County, Colorado",0.456944294113681
+"264","Washington County, Colorado",0.493865531758149
+"265","Pueblo County, Colorado",0.490329024381165
+"266","Arapahoe County, Colorado",0.540243390531492
+"267","Gunnison County, Colorado",0.53832883491267
+"268","Jefferson County, Colorado",0.48596441684104
+"269","Larimer County, Colorado",0.49800799268745
+"270","Boulder County, Colorado",0.577893401861256
+"271","Rio Blanco County, Colorado",0.43376764482034
+"272","Eagle County, Colorado",0.561840806313637
+"273","Crowley County, Colorado",0.49075143001336
+"274","Logan County, Colorado",0.561570579176716
+"275","Adams County, Colorado",0.427067580190572
+"276","Summit County, Colorado",0.524483512331513
+"277","Pitkin County, Colorado",0.705113531750473
+"278","Fremont County, Colorado",0.480369143785432
+"279","Huerfano County, Colorado",0.520812271690469
+"280","Elbert County, Colorado",0.44256702318437
+"281","Prowers County, Colorado",0.511568597882165
+"282","Mesa County, Colorado",0.500298651693555
+"283","Saguache County, Colorado",0.581024373146246
+"284","Clear Creek County, Colorado",0.493804675980781
+"285","Douglas County, Colorado",0.462864275232532
+"286","Phillips County, Colorado",0.5192133467493
+"287","Garfield County, Colorado",0.520916775108317
+"288","Park County, Colorado",0.457940878381419
+"289","Broomfield County, Colorado",0.455220751442117
+"290","Teller County, Colorado",0.45335138499279
+"291","Weld County, Colorado",0.464795118710238
+"292","Sedgwick County, Colorado",0.498789155152744
+"293","Lake County, Colorado",0.454728188179403
+"294","Moffat County, Colorado",0.44577308310286
+"295","New London County, Connecticut",0.502328066966136
+"296","Fairfield County, Connecticut",0.743337565605437
+"297","Hartford County, Connecticut",0.548369523621252
+"298","Litchfield County, Connecticut",0.522116267668005
+"299","New Haven County, Connecticut",0.556898885121216
+"300","Tolland County, Connecticut",0.467354302626162
+"301","Middlesex County, Connecticut",0.502110612286922
+"302","Windham County, Connecticut",0.455459139889179
+"303","New Castle County, Delaware",0.50926958820383
+"304","Sussex County, Delaware",0.491185014702524
+"305","Kent County, Delaware",0.440880912758915
+"306","St Johns County, Florida",0.605178636567511
+"307","Hamilton County, Florida",0.51474168626905
+"308","Flagler County, Florida",0.531585237409917
+"309","Martin County, Florida",0.677705869547393
+"310","Lee County, Florida",0.60539524435026
+"311","Osceola County, Florida",0.476804569054974
+"312","Hernando County, Florida",0.497055976295878
+"313","Gilchrist County, Florida",0.496012404378988
+"314","Lake County, Florida",0.500653777626058
+"315","Hardee County, Florida",0.51308112909178
+"316","Wakulla County, Florida",0.449366358713006
+"317","Nassau County, Florida",0.559562622095339
+"318","Citrus County, Florida",0.545479482130584
+"319","Jefferson County, Florida",0.534437004797454
+"320","Lafayette County, Florida",0.543270509991863
+"321","Monroe County, Florida",0.685607967646819
+"322","Brevard County, Florida",0.525090532929401
+"323","Suwannee County, Florida",0.512736952374341
+"324","Okaloosa County, Florida",0.517132385473714
+"325","Dixie County, Florida",0.564398997270882
+"326","Charlotte County, Florida",0.529981258404011
+"327","Seminole County, Florida",0.529290611234391
+"328","Hendry County, Florida",0.561089514843814
+"329","Marion County, Florida",0.5429697296419
+"330","Glades County, Florida",0.561297043863467
+"331","Polk County, Florida",0.519690206679988
+"332","St Lucie County, Florida",0.541440302352235
+"333","Putnam County, Florida",0.529378834544193
+"334","Clay County, Florida",0.459396053774128
+"335","Calhoun County, Florida",0.510366340886215
+"336","Franklin County, Florida",0.7074527286341
+"337","Collier County, Florida",0.730919827200541
+"338","Liberty County, Florida",0.507833572265302
+"339","Duval County, Florida",0.555723340029891
+"340","Washington County, Florida",0.504887162595376
+"341","Miami-Dade County, Florida",0.658274461068548
+"342","Pasco County, Florida",0.514463589926693
+"343","Baker County, Florida",0.462519082804167
+"344","Hillsborough County, Florida",0.577177540358604
+"345","Sumter County, Florida",0.54630031229317
+"346","Palm Beach County, Florida",0.703050195376765
+"347","Columbia County, Florida",0.509493435528822
+"348","Taylor County, Florida",0.50892582153249
+"349","Leon County, Florida",0.572983285119701
+"350","Manatee County, Florida",0.578554911847212
+"351","Alachua County, Florida",0.589640472349823
+"352","DeSoto County, Florida",0.521890452786793
+"353","Orange County, Florida",0.574828029773497
+"354","Madison County, Florida",0.561377570436588
+"355","Holmes County, Florida",0.517886447038493
+"356","Union County, Florida",0.49151574355353
+"357","Volusia County, Florida",0.542413645438623
+"358","Bay County, Florida",0.535002617619263
+"359","Escambia County, Florida",0.515155934496096
+"360","Levy County, Florida",0.510684103575287
+"361","Indian River County, Florida",0.704976301206868
+"362","Walton County, Florida",0.657350184645666
+"363","Sarasota County, Florida",0.634644674429527
+"364","Pinellas County, Florida",0.600993407319273
+"365","Gulf County, Florida",0.568431766710512
+"366","Jackson County, Florida",0.52438493440534
+"367","Highlands County, Florida",0.531344478256216
+"368","Bradford County, Florida",0.521594001425067
+"369","Santa Rosa County, Florida",0.492312437636454
+"370","Gadsden County, Florida",0.512164905497294
+"371","Broward County, Florida",0.591998288101029
+"372","Okeechobee County, Florida",0.555039595911225
+"373","Echols County, Georgia",0.638906008313464
+"374","Meriwether County, Georgia",0.485050260683276
+"375","Walton County, Georgia",0.475631840505104
+"376","Heard County, Georgia",0.483595980847162
+"377","Jenkins County, Georgia",0.548752580328298
+"378","Brooks County, Georgia",0.546935953408717
+"379","Pierce County, Georgia",0.517915111976684
+"380","Columbia County, Georgia",0.453800902160905
+"381","Richmond County, Georgia",0.528219912803533
+"382","Mitchell County, Georgia",0.525533855034309
+"383","Dooly County, Georgia",0.57451708496798
+"384","Bacon County, Georgia",0.507557228596426
+"385","Whitfield County, Georgia",0.548311331103953
+"386","Berrien County, Georgia",0.523259910978006
+"387","Cherokee County, Georgia",0.462926970154208
+"388","Haralson County, Georgia",0.508366720458145
+"389","Fulton County, Georgia",0.660083502282724
+"390","White County, Georgia",0.503453443592478
+"391","Wilkinson County, Georgia",0.452003119584143
+"392","Camden County, Georgia",0.438657998461768
+"393","Troup County, Georgia",0.528417792695813
+"394","Barrow County, Georgia",0.436795417221937
+"395","Hancock County, Georgia",0.523962204460771
+"396","Glascock County, Georgia",0.432374204302702
+"397","Randolph County, Georgia",0.540827881363683
+"398","Screven County, Georgia",0.508330124693908
+"399","Dawson County, Georgia",0.519377915190585
+"400","Gordon County, Georgia",0.489574905772426
+"401","Grady County, Georgia",0.513769933728272
+"402","Madison County, Georgia",0.463639039722871
+"403","Clinch County, Georgia",0.600382108396677
+"404","Bleckley County, Georgia",0.496174371279067
+"405","Tift County, Georgia",0.551736728532287
+"406","Toombs County, Georgia",0.547205180404523
+"407","Ware County, Georgia",0.537800592558483
+"408","Spalding County, Georgia",0.510503663720925
+"409","Warren County, Georgia",0.523724956845101
+"410","Taliaferro County, Georgia",0.47289097229636
+"411","Cobb County, Georgia",0.53183645249824
+"412","Lee County, Georgia",0.470332414385414
+"413","Paulding County, Georgia",0.41552459904718
+"414","Crisp County, Georgia",0.571607450614562
+"415","Dodge County, Georgia",0.544377207946708
+"416","Floyd County, Georgia",0.540190106871674
+"417","McDuffie County, Georgia",0.51931174581783
+"418","Johnson County, Georgia",0.529597514290272
+"419","Pulaski County, Georgia",0.566145829185504
+"420","Rockdale County, Georgia",0.448556035745179
+"421","Jones County, Georgia",0.460761493929974
+"422","Pickens County, Georgia",0.487538247911247
+"423","Gwinnett County, Georgia",0.480531454405441
+"424","Habersham County, Georgia",0.487768122309429
+"425","Polk County, Georgia",0.47268848470366
+"426","Henry County, Georgia",0.432784663676547
+"427","Ben Hill County, Georgia",0.531060908121623
+"428","Oconee County, Georgia",0.53973411883387
+"429","Harris County, Georgia",0.488916700279979
+"430","Schley County, Georgia",0.500087990727671
+"431","Peach County, Georgia",0.493614749438307
+"432","Chatham County, Georgia",0.54893569120805
+"433","Jasper County, Georgia",0.492709962171427
+"434","Brantley County, Georgia",0.469994868852839
+"435","Fannin County, Georgia",0.531463058855436
+"436","Macon County, Georgia",0.540235026741807
+"437","Chattahoochee County, Georgia",0.36367815208188
+"438","McIntosh County, Georgia",0.515118466922536
+"439","Banks County, Georgia",0.471869611337729
+"440","Towns County, Georgia",0.492876862659835
+"441","Coffee County, Georgia",0.575438973090009
+"442","Franklin County, Georgia",0.502001191253385
+"443","Baker County, Georgia",0.563068098157892
+"444","Jeff Davis County, Georgia",0.551262980274062
+"445","Gilmer County, Georgia",0.531832879427554
+"446","Irwin County, Georgia",0.527632860372347
+"447","Lumpkin County, Georgia",0.529697768415643
+"448","Walker County, Georgia",0.500770352464732
+"449","Turner County, Georgia",0.524782339435279
+"450","Treutlen County, Georgia",0.493415977094485
+"451","Decatur County, Georgia",0.570836337118893
+"452","Evans County, Georgia",0.523513270805583
+"453","Fayette County, Georgia",0.488105735308537
+"454","Putnam County, Georgia",0.539535815631153
+"455","Lamar County, Georgia",0.495974103487814
+"456","Miller County, Georgia",0.553100878550967
+"457","Marion County, Georgia",0.518645568369954
+"458","Webster County, Georgia",0.532950167947432
+"459","Charlton County, Georgia",0.486057050543732
+"460","Forsyth County, Georgia",0.462900680092934
+"461","Tattnall County, Georgia",0.538134364993641
+"462","Jackson County, Georgia",0.458759895062488
+"463","Appling County, Georgia",0.511783400938085
+"464","Monroe County, Georgia",0.532178533146661
+"465","Clay County, Georgia",0.538539927304915
+"466","Bulloch County, Georgia",0.563753409284388
+"467","Long County, Georgia",0.432290661783064
+"468","Lanier County, Georgia",0.517674317002717
+"469","Carroll County, Georgia",0.537100929207394
+"470","Burke County, Georgia",0.538900848873251
+"471","Cook County, Georgia",0.518386308969562
+"472","Early County, Georgia",0.54543331975263
+"473","Catoosa County, Georgia",0.463806652532734
+"474","Oglethorpe County, Georgia",0.472492674953797
+"475","Morgan County, Georgia",0.528107668082413
+"476","Hall County, Georgia",0.509735530425847
+"477","Dade County, Georgia",0.506158340030491
+"478","Crawford County, Georgia",0.473600912089972
+"479","Coweta County, Georgia",0.461290795958788
+"480","Union County, Georgia",0.496886001681745
+"481","Glynn County, Georgia",0.560133776271037
+"482","Greene County, Georgia",0.629608828867103
+"483","DeKalb County, Georgia",0.55503756027502
+"484","Wilcox County, Georgia",0.501465901342117
+"485","Wilkes County, Georgia",0.524880728153425
+"486","Pike County, Georgia",0.449363440049518
+"487","Houston County, Georgia",0.443610825879284
+"488","Bibb County, Georgia",0.582195489948263
+"489","Muscogee County, Georgia",0.548022279507
+"490","Seminole County, Georgia",0.537310613225493
+"491","Stephens County, Georgia",0.530060386727526
+"492","Stewart County, Georgia",0.542522849335384
+"493","Lowndes County, Georgia",0.551225771204645
+"494","Effingham County, Georgia",0.401323207037283
+"495","Upson County, Georgia",0.509905729107452
+"496","Chattooga County, Georgia",0.492169030156115
+"497","Montgomery County, Georgia",0.518483313506583
+"498","Wheeler County, Georgia",0.533628667745712
+"499","Lincoln County, Georgia",0.515014024789426
+"500","Baldwin County, Georgia",0.548425501134177
+"501","Washington County, Georgia",0.557257811048813
+"502","Telfair County, Georgia",0.550876375849748
+"503","Elbert County, Georgia",0.511143463498189
+"504","Jefferson County, Georgia",0.537987132513518
+"505","Hart County, Georgia",0.529384292333365
+"506","Butts County, Georgia",0.48526451022698
+"507","Candler County, Georgia",0.524159575838921
+"508","Laurens County, Georgia",0.545630991801369
+"509","Taylor County, Georgia",0.545531608341866
+"510","Liberty County, Georgia",0.442940177667506
+"511","Newton County, Georgia",0.457596584601765
+"512","Talbot County, Georgia",0.533278586718625
+"513","Wayne County, Georgia",0.503617812481468
+"514","Terrell County, Georgia",0.584664391680223
+"515","Emanuel County, Georgia",0.520374792337297
+"516","Dougherty County, Georgia",0.583576841964113
+"517","Colquitt County, Georgia",0.533829694399674
+"518","Worth County, Georgia",0.482990490673674
+"519","Douglas County, Georgia",0.446929955785381
+"520","Twiggs County, Georgia",0.528782559644847
+"521","Sumter County, Georgia",0.554593647439103
+"522","Bryan County, Georgia",0.444502613654359
+"523","Rabun County, Georgia",0.574573487822733
+"524","Clarke County, Georgia",0.597204087346687
+"525","Thomas County, Georgia",0.578568729270112
+"526","Clayton County, Georgia",0.449487936760254
+"527","Atkinson County, Georgia",0.511167987319645
+"528","Bartow County, Georgia",0.476276670829002
+"529","Quitman County, Georgia",0.465874283195391
+"530","Murray County, Georgia",0.474222610042406
+"531","Calhoun County, Georgia",0.534937170041183
+"532","Hawaii County, Hawaii",0.503724550023202
+"533","Maui County, Hawaii",0.479399989548753
+"534","Honolulu County, Hawaii",0.458028745522423
+"535","Kauai County, Hawaii",0.465850115730507
+"536","Madison County, Iowa",0.432891720348859
+"537","Jasper County, Iowa",0.420496602824367
+"538","Marion County, Iowa",0.419460952943921
+"539","Emmet County, Iowa",0.452505504252999
+"540","Ringgold County, Iowa",0.511567701642576
+"541","Franklin County, Iowa",0.478868579586123
+"542","Mahaska County, Iowa",0.463060824499045
+"543","Calhoun County, Iowa",0.471595151206249
+"544","Johnson County, Iowa",0.509483854803689
+"545","Allamakee County, Iowa",0.434287098936205
+"546","Tama County, Iowa",0.429979591009279
+"547","Cherokee County, Iowa",0.450438033788006
+"548","Mitchell County, Iowa",0.450660227460995
+"549","Van Buren County, Iowa",0.446969513839688
+"550","Clayton County, Iowa",0.441235804513682
+"551","Linn County, Iowa",0.463709169060306
+"552","Carroll County, Iowa",0.481549526178194
+"553","Adair County, Iowa",0.439823144097875
+"554","Cedar County, Iowa",0.392893256749149
+"555","Crawford County, Iowa",0.457721752854545
+"556","Harrison County, Iowa",0.445535142594994
+"557","Jones County, Iowa",0.426934531550391
+"558","Davis County, Iowa",0.425626640042876
+"559","Des Moines County, Iowa",0.474562694810029
+"560","Benton County, Iowa",0.410775798517815
+"561","Poweshiek County, Iowa",0.455749803220494
+"562","Bremer County, Iowa",0.439048767396481
+"563","Hardin County, Iowa",0.458231765830473
+"564","Howard County, Iowa",0.444834711703198
+"565","Wapello County, Iowa",0.463615939721824
+"566","Winnebago County, Iowa",0.437904008599882
+"567","Worth County, Iowa",0.44207586580334
+"568","Webster County, Iowa",0.481123936971509
+"569","Floyd County, Iowa",0.462230805199958
+"570","Guthrie County, Iowa",0.464601809814801
+"571","Jackson County, Iowa",0.446750127833895
+"572","Pottawattamie County, Iowa",0.444878295384776
+"573","Palo Alto County, Iowa",0.46895775171105
+"574","Grundy County, Iowa",0.455099821433353
+"575","Warren County, Iowa",0.411339740864576
+"576","Plymouth County, Iowa",0.448988273029645
+"577","Fayette County, Iowa",0.465555504179166
+"578","Buchanan County, Iowa",0.42590042535589
+"579","Hancock County, Iowa",0.425070922500763
+"580","Ida County, Iowa",0.51274391780766
+"581","Jefferson County, Iowa",0.556501291233707
+"582","Wright County, Iowa",0.480638935056307
+"583","Osceola County, Iowa",0.438175817888763
+"584","Adams County, Iowa",0.442692420192638
+"585","Delaware County, Iowa",0.417539411158618
+"586","Louisa County, Iowa",0.410412663517538
+"587","Polk County, Iowa",0.484206528358546
+"588","Black Hawk County, Iowa",0.473267524969652
+"589","Iowa County, Iowa",0.418998020444119
+"590","Scott County, Iowa",0.489558778369747
+"591","Lucas County, Iowa",0.445558232983581
+"592","Greene County, Iowa",0.462257870580012
+"593","Dubuque County, Iowa",0.471563735378789
+"594","Chickasaw County, Iowa",0.462682368009393
+"595","Appanoose County, Iowa",0.456140692019127
+"596","Cerro Gordo County, Iowa",0.495950898842254
+"597","Boone County, Iowa",0.430793387043149
+"598","Marshall County, Iowa",0.422762682618192
+"599","Woodbury County, Iowa",0.458473480107273
+"600","Winneshiek County, Iowa",0.441108603983752
+"601","Buena Vista County, Iowa",0.445363371346091
+"602","Sioux County, Iowa",0.462446219648563
+"603","Lyon County, Iowa",0.43237682843912
+"604","Decatur County, Iowa",0.488536480312215
+"605","Henry County, Iowa",0.418605780716114
+"606","Pocahontas County, Iowa",0.455686787705411
+"607","Wayne County, Iowa",0.454471765585757
+"608","O'Brien County, Iowa",0.464566686916222
+"609","Sac County, Iowa",0.453999090177301
+"610","Dickinson County, Iowa",0.507461435835226
+"611","Kossuth County, Iowa",0.475429919152659
+"612","Monona County, Iowa",0.491113917686484
+"613","Taylor County, Iowa",0.465041187390398
+"614","Union County, Iowa",0.445602867747262
+"615","Lee County, Iowa",0.471009749109829
+"616","Monroe County, Iowa",0.463106254506996
+"617","Shelby County, Iowa",0.472790666550794
+"618","Humboldt County, Iowa",0.503121907077197
+"619","Clinton County, Iowa",0.450551019272787
+"620","Washington County, Iowa",0.420881532661422
+"621","Montgomery County, Iowa",0.468365907618819
+"622","Dallas County, Iowa",0.477405399684588
+"623","Audubon County, Iowa",0.499171195691838
+"624","Butler County, Iowa",0.399232125541272
+"625","Cass County, Iowa",0.470408566484847
+"626","Clarke County, Iowa",0.441921880718252
+"627","Mills County, Iowa",0.422913059012708
+"628","Muscatine County, Iowa",0.425359499400614
+"629","Page County, Iowa",0.47143033938208
+"630","Clay County, Iowa",0.479582258633328
+"631","Hamilton County, Iowa",0.438729983421641
+"632","Story County, Iowa",0.506337203187325
+"633","Keokuk County, Iowa",0.423871283720306
+"634","Fremont County, Iowa",0.467778670503512
+"635","Ada County, Idaho",0.510443228359548
+"636","Bonner County, Idaho",0.507373251282053
+"637","Idaho County, Idaho",0.454528283273285
+"638","Lewis County, Idaho",0.450486456244804
+"639","Canyon County, Idaho",0.439303630618505
+"640","Nez Perce County, Idaho",0.447372056838758
+"641","Teton County, Idaho",0.444910966450856
+"642","Clearwater County, Idaho",0.440534545381031
+"643","Kootenai County, Idaho",0.467582244904306
+"644","Minidoka County, Idaho",0.459558485878819
+"645","Gooding County, Idaho",0.455274157455739
+"646","Caribou County, Idaho",0.436220192556073
+"647","Valley County, Idaho",0.451688309104847
+"648","Butte County, Idaho",0.467710345988437
+"649","Lemhi County, Idaho",0.495940392054971
+"650","Oneida County, Idaho",0.423279714390471
+"651","Twin Falls County, Idaho",0.469194234661271
+"652","Boise County, Idaho",0.492128987721495
+"653","Jerome County, Idaho",0.432125983233894
+"654","Payette County, Idaho",0.504205128828305
+"655","Fremont County, Idaho",0.431844468389139
+"656","Madison County, Idaho",0.521479332537976
+"657","Owyhee County, Idaho",0.506875953326278
+"658","Bonneville County, Idaho",0.500280630426947
+"659","Latah County, Idaho",0.49507979321398
+"660","Washington County, Idaho",0.462173379948895
+"661","Benewah County, Idaho",0.444783917922364
+"662","Elmore County, Idaho",0.426156117536266
+"663","Bingham County, Idaho",0.449677279553664
+"664","Bannock County, Idaho",0.475429210145066
+"665","Boundary County, Idaho",0.483615118684314
+"666","Gem County, Idaho",0.478814367112952
+"667","Shoshone County, Idaho",0.481012372776798
+"668","Custer County, Idaho",0.493427091472162
+"669","Lincoln County, Idaho",0.390404376870728
+"670","Jefferson County, Idaho",0.431646226691944
+"671","Cassia County, Idaho",0.476981532124594
+"672","Bear Lake County, Idaho",0.422452766573896
+"673","Power County, Idaho",0.428362013308699
+"674","Blaine County, Idaho",0.606292971019646
+"675","Franklin County, Idaho",0.405549178509244
+"676","Adams County, Idaho",0.486323271022171
+"677","Fayette County, Illinois",0.47609210441624
+"678","Grundy County, Illinois",0.439903426416284
+"679","Richland County, Illinois",0.482397437396517
+"680","Jasper County, Illinois",0.438052778565659
+"681","Clay County, Illinois",0.447269599874541
+"682","Putnam County, Illinois",0.450119201986121
+"683","Carroll County, Illinois",0.485840303656922
+"684","LaSalle County, Illinois",0.468440380867063
+"685","Knox County, Illinois",0.513869930727233
+"686","Kane County, Illinois",0.491586748135174
+"687","Will County, Illinois",0.456953667720724
+"688","Gallatin County, Illinois",0.53736378914146
+"689","Morgan County, Illinois",0.489417570247781
+"690","DeKalb County, Illinois",0.476873662083428
+"691","Kankakee County, Illinois",0.465148168883836
+"692","Sangamon County, Illinois",0.51269317585984
+"693","Hancock County, Illinois",0.45710614583605
+"694","Johnson County, Illinois",0.46542270297456
+"695","Christian County, Illinois",0.476366446505503
+"696","Hamilton County, Illinois",0.516481663902253
+"697","McLean County, Illinois",0.499708711658124
+"698","Jackson County, Illinois",0.583115604417513
+"699","McHenry County, Illinois",0.46262193630614
+"700","Cass County, Illinois",0.450649643245398
+"701","Monroe County, Illinois",0.443376346366128
+"702","Ogle County, Illinois",0.455395358918047
+"703","Franklin County, Illinois",0.48947486491358
+"704","Wabash County, Illinois",0.49775919953217
+"705","Crawford County, Illinois",0.485825935121144
+"706","Lee County, Illinois",0.468407673521894
+"707","Coles County, Illinois",0.549551859772562
+"708","Champaign County, Illinois",0.556709077839475
+"709","Mason County, Illinois",0.505145340512871
+"710","Calhoun County, Illinois",0.444309067150517
+"711","Bond County, Illinois",0.483852193676462
+"712","Edwards County, Illinois",0.450917905544319
+"713","Woodford County, Illinois",0.469654385238401
+"714","Logan County, Illinois",0.473328029032733
+"715","Whiteside County, Illinois",0.465082762795556
+"716","White County, Illinois",0.516943897244112
+"717","Cook County, Illinois",0.603190477456455
+"718","Perry County, Illinois",0.46517745939486
+"719","Randolph County, Illinois",0.445646386759846
+"720","Iroquois County, Illinois",0.474465095062047
+"721","Kendall County, Illinois",0.389095050840796
+"722","Macon County, Illinois",0.53045805830528
+"723","Stark County, Illinois",0.500939868240078
+"724","St Clair County, Illinois",0.503367133627393
+"725","Greene County, Illinois",0.489218281593698
+"726","Jefferson County, Illinois",0.518880535469232
+"727","Alexander County, Illinois",0.511898711833526
+"728","Vermilion County, Illinois",0.485718892747707
+"729","Warren County, Illinois",0.482570525787576
+"730","Boone County, Illinois",0.466194393219673
+"731","Clark County, Illinois",0.450186365830228
+"732","Moultrie County, Illinois",0.471566602565556
+"733","McDonough County, Illinois",0.545910215232977
+"734","Williamson County, Illinois",0.492986038902811
+"735","Cumberland County, Illinois",0.448125925469025
+"736","Hardin County, Illinois",0.532152842334777
+"737","Menard County, Illinois",0.443956496354901
+"738","Adams County, Illinois",0.503318063842999
+"739","Washington County, Illinois",0.460471277519523
+"740","Massac County, Illinois",0.476463765299939
+"741","Montgomery County, Illinois",0.48446451591392
+"742","Pope County, Illinois",0.482204161268596
+"743","Pike County, Illinois",0.483929853272309
+"744","Rock Island County, Illinois",0.48459635554173
+"745","Pulaski County, Illinois",0.47755444779341
+"746","Mercer County, Illinois",0.446136402297907
+"747","Fulton County, Illinois",0.458950754926283
+"748","Marshall County, Illinois",0.449866494562438
+"749","Peoria County, Illinois",0.549825862899165
+"750","Wayne County, Illinois",0.470784082635547
+"751","Scott County, Illinois",0.470938027688844
+"752","Madison County, Illinois",0.482020390368929
+"753","Winnebago County, Illinois",0.493391761360411
+"754","Lawrence County, Illinois",0.445142385168161
+"755","Jo Daviess County, Illinois",0.489390770578232
+"756","Henry County, Illinois",0.483578326728521
+"757","Stephenson County, Illinois",0.491466626419014
+"758","Ford County, Illinois",0.476158804199016
+"759","DuPage County, Illinois",0.538860529834372
+"760","Lake County, Illinois",0.614367882611629
+"761","Marion County, Illinois",0.483865975119832
+"762","Piatt County, Illinois",0.445079485788955
+"763","Jersey County, Illinois",0.428455750400771
+"764","Livingston County, Illinois",0.463131091166684
+"765","Bureau County, Illinois",0.475372166580245
+"766","Saline County, Illinois",0.526459533925198
+"767","Union County, Illinois",0.472301934420663
+"768","Effingham County, Illinois",0.523199214900793
+"769","Douglas County, Illinois",0.445091388784322
+"770","Schuyler County, Illinois",0.454648639059698
+"771","Macoupin County, Illinois",0.44825346394231
+"772","Tazewell County, Illinois",0.466338315793873
+"773","Henderson County, Illinois",0.463915984389339
+"774","De Witt County, Illinois",0.469513796384471
+"775","Clinton County, Illinois",0.43971346826348
+"776","Edgar County, Illinois",0.509751013213891
+"777","Shelby County, Illinois",0.451951441901658
+"778","Brown County, Illinois",0.465246898575825
+"779","Hancock County, Indiana",0.431592626644444
+"780","Howard County, Indiana",0.464694473251538
+"781","Johnson County, Indiana",0.456431473116455
+"782","LaGrange County, Indiana",0.419384990420169
+"783","St Joseph County, Indiana",0.521334564153897
+"784","Jasper County, Indiana",0.411949160326293
+"785","Grant County, Indiana",0.46918349342694
+"786","Hamilton County, Indiana",0.512277512436135
+"787","Fountain County, Indiana",0.443848878080772
+"788","Benton County, Indiana",0.461464270397717
+"789","Jackson County, Indiana",0.443647976962425
+"790","Steuben County, Indiana",0.469354950778618
+"791","LaPorte County, Indiana",0.469299030213363
+"792","Ohio County, Indiana",0.423156100809854
+"793","Warren County, Indiana",0.448755355222585
+"794","Owen County, Indiana",0.452169149214015
+"795","Cass County, Indiana",0.440609854907996
+"796","Floyd County, Indiana",0.520984103336841
+"797","Franklin County, Indiana",0.44054056102527
+"798","Greene County, Indiana",0.440366629781055
+"799","Jennings County, Indiana",0.42961534413682
+"800","Clay County, Indiana",0.441738189473066
+"801","Crawford County, Indiana",0.43603809265959
+"802","Gibson County, Indiana",0.43281744176497
+"803","Tipton County, Indiana",0.453009867848087
+"804","Posey County, Indiana",0.447679617341376
+"805","Randolph County, Indiana",0.459179972857087
+"806","Dearborn County, Indiana",0.422115175392386
+"807","Marshall County, Indiana",0.470868346263007
+"808","Shelby County, Indiana",0.431684747908463
+"809","Delaware County, Indiana",0.519007903197191
+"810","White County, Indiana",0.452581510728737
+"811","Decatur County, Indiana",0.42814497231003
+"812","Huntington County, Indiana",0.431822912325758
+"813","Tippecanoe County, Indiana",0.528628069013195
+"814","Allen County, Indiana",0.512659836202243
+"815","Perry County, Indiana",0.440490439907682
+"816","Boone County, Indiana",0.555747980054862
+"817","Wabash County, Indiana",0.475827315760651
+"818","Kosciusko County, Indiana",0.472891848825163
+"819","Washington County, Indiana",0.45922243173918
+"820","Hendricks County, Indiana",0.412019879379698
+"821","Jefferson County, Indiana",0.469796337545989
+"822","Warrick County, Indiana",0.49448792620568
+"823","Bartholomew County, Indiana",0.481448777436025
+"824","Starke County, Indiana",0.438834334147406
+"825","Switzerland County, Indiana",0.4263429431974
+"826","Pulaski County, Indiana",0.498943361057908
+"827","Rush County, Indiana",0.455445807932288
+"828","Monroe County, Indiana",0.561048056397439
+"829","Lawrence County, Indiana",0.44818829910889
+"830","Ripley County, Indiana",0.436263823008406
+"831","Fayette County, Indiana",0.472556821721263
+"832","Dubois County, Indiana",0.514147275313571
+"833","Harrison County, Indiana",0.431894310180985
+"834","DeKalb County, Indiana",0.439084970678921
+"835","Spencer County, Indiana",0.406211701461938
+"836","Vermillion County, Indiana",0.43702213323494
+"837","Whitley County, Indiana",0.425303759546191
+"838","Clark County, Indiana",0.428554848123557
+"839","Martin County, Indiana",0.438461954345433
+"840","Elkhart County, Indiana",0.491071949386856
+"841","Brown County, Indiana",0.458100110386906
+"842","Parke County, Indiana",0.465266041964791
+"843","Wayne County, Indiana",0.513278545067222
+"844","Sullivan County, Indiana",0.458947674464457
+"845","Montgomery County, Indiana",0.429581358254259
+"846","Miami County, Indiana",0.440338050368202
+"847","Pike County, Indiana",0.41774766701133
+"848","Knox County, Indiana",0.483487744424371
+"849","Daviess County, Indiana",0.467234894807186
+"850","Carroll County, Indiana",0.435645837785151
+"851","Marion County, Indiana",0.531408685396104
+"852","Clinton County, Indiana",0.428402553501453
+"853","Orange County, Indiana",0.470428805550942
+"854","Madison County, Indiana",0.464479882042827
+"855","Adams County, Indiana",0.472095735568125
+"856","Putnam County, Indiana",0.415970186265842
+"857","Blackford County, Indiana",0.444659595768149
+"858","Jay County, Indiana",0.453479678550165
+"859","Vanderburgh County, Indiana",0.523807447196047
+"860","Henry County, Indiana",0.464927952944638
+"861","Morgan County, Indiana",0.423705241505714
+"862","Newton County, Indiana",0.425297659284713
+"863","Porter County, Indiana",0.464269784499545
+"864","Lake County, Indiana",0.473115083645665
+"865","Union County, Indiana",0.431845574837632
+"866","Fulton County, Indiana",0.467076634962285
+"867","Noble County, Indiana",0.437850410885427
+"868","Scott County, Indiana",0.425942935549274
+"869","Vigo County, Indiana",0.514712791802088
+"870","Wells County, Indiana",0.442206422271039
+"871","Cheyenne County, Kansas",0.48808904692039
+"872","Lyon County, Kansas",0.470473375545994
+"873","Chautauqua County, Kansas",0.493646074884135
+"874","Geary County, Kansas",0.380294927682632
+"875","Sheridan County, Kansas",0.492238857855894
+"876","Kearny County, Kansas",0.454204136003658
+"877","Franklin County, Kansas",0.422636888553452
+"878","Montgomery County, Kansas",0.47584454314013
+"879","Butler County, Kansas",0.46910699152785
+"880","Johnson County, Kansas",0.517503901222917
+"881","Woodson County, Kansas",0.515647321241426
+"882","Saline County, Kansas",0.491307742604721
+"883","Cowley County, Kansas",0.458053886039702
+"884","Haskell County, Kansas",0.464095330807045
+"885","Greenwood County, Kansas",0.47235297861217
+"886","Sedgwick County, Kansas",0.529005247259857
+"887","Morton County, Kansas",0.401772052032688
+"888","Stevens County, Kansas",0.492388457869586
+"889","Ellsworth County, Kansas",0.448049750565032
+"890","Marshall County, Kansas",0.478783019170515
+"891","Coffey County, Kansas",0.443508738592974
+"892","Lane County, Kansas",0.45192989976981
+"893","Barton County, Kansas",0.527653527589924
+"894","Pawnee County, Kansas",0.461192910271273
+"895","Gove County, Kansas",0.486240062615702
+"896","Norton County, Kansas",0.456102676350507
+"897","Rooks County, Kansas",0.479071403248338
+"898","Ness County, Kansas",0.498544590648224
+"899","Russell County, Kansas",0.50874231558305
+"900","Bourbon County, Kansas",0.482864977896336
+"901","Jefferson County, Kansas",0.38303065505528
+"902","Nemaha County, Kansas",0.494301150881648
+"903","Chase County, Kansas",0.489099748359294
+"904","Seward County, Kansas",0.425454659707076
+"905","Cherokee County, Kansas",0.45268033160038
+"906","McPherson County, Kansas",0.440144032030588
+"907","Neosho County, Kansas",0.482103793186549
+"908","Edwards County, Kansas",0.474169693495063
+"909","Mitchell County, Kansas",0.496587802964
+"910","Riley County, Kansas",0.517716957999297
+"911","Shawnee County, Kansas",0.470643317256349
+"912","Rush County, Kansas",0.45123106721666
+"913","Comanche County, Kansas",0.486789351334231
+"914","Leavenworth County, Kansas",0.416316076849112
+"915","Miami County, Kansas",0.461535820834372
+"916","Sherman County, Kansas",0.471790666560248
+"917","Sumner County, Kansas",0.437876973372202
+"918","Logan County, Kansas",0.459151282600263
+"919","Atchison County, Kansas",0.456219802506086
+"920","Meade County, Kansas",0.49332598234948
+"921","Linn County, Kansas",0.466662595819638
+"922","Ottawa County, Kansas",0.409704990814176
+"923","Kingman County, Kansas",0.458298535124732
+"924","Jewell County, Kansas",0.467794629140313
+"925","Phillips County, Kansas",0.445946586715367
+"926","Reno County, Kansas",0.464566375742544
+"927","Pottawatomie County, Kansas",0.422395184108321
+"928","Wilson County, Kansas",0.469199259051373
+"929","Cloud County, Kansas",0.444186413948373
+"930","Grant County, Kansas",0.423911499631966
+"931","Doniphan County, Kansas",0.443693551057396
+"932","Crawford County, Kansas",0.547701616229979
+"933","Wyandotte County, Kansas",0.444203444178929
+"934","Marion County, Kansas",0.428234232302376
+"935","Harvey County, Kansas",0.434273045985331
+"936","Douglas County, Kansas",0.514554394590338
+"937","Ford County, Kansas",0.433206018435598
+"938","Gray County, Kansas",0.436984366942855
+"939","Harper County, Kansas",0.550875227678825
+"940","Elk County, Kansas",0.497929158286372
+"941","Brown County, Kansas",0.476644679646655
+"942","Dickinson County, Kansas",0.430169679844766
+"943","Clark County, Kansas",0.492169814137283
+"944","Rawlins County, Kansas",0.503804507053327
+"945","Washington County, Kansas",0.469031450548315
+"946","Lincoln County, Kansas",0.438907112545448
+"947","Hodgeman County, Kansas",0.429851543787332
+"948","Allen County, Kansas",0.49568917763539
+"949","Pratt County, Kansas",0.497695484310505
+"950","Decatur County, Kansas",0.497865441002987
+"951","Smith County, Kansas",0.48824865239609
+"952","Anderson County, Kansas",0.451006215444869
+"953","Barber County, Kansas",0.526670257981883
+"954","Jackson County, Kansas",0.406940892546848
+"955","Republic County, Kansas",0.474918002986717
+"956","Osborne County, Kansas",0.497733453435464
+"957","Ellis County, Kansas",0.515421826729094
+"958","Scott County, Kansas",0.475861588609607
+"959","Finney County, Kansas",0.491700559276509
+"960","Wichita County, Kansas",0.44675646116782
+"961","Rice County, Kansas",0.499757214110229
+"962","Kiowa County, Kansas",0.485152668853976
+"963","Labette County, Kansas",0.478603696154705
+"964","Trego County, Kansas",0.413942557868923
+"965","Wabaunsee County, Kansas",0.392589650517326
+"966","Osage County, Kansas",0.418246891333037
+"967","Hamilton County, Kansas",0.469314668965838
+"968","Graham County, Kansas",0.495332791551856
+"969","Thomas County, Kansas",0.506415615334295
+"970","Morris County, Kansas",0.424019244455794
+"971","Stanton County, Kansas",0.492447903228249
+"972","Clay County, Kansas",0.453959552199955
+"973","Stafford County, Kansas",0.493447870008992
+"974","Fleming County, Kentucky",0.48687871130641
+"975","Henry County, Kentucky",0.45602152255386
+"976","Scott County, Kentucky",0.433502090322042
+"977","Adair County, Kentucky",0.517352719679562
+"978","Wolfe County, Kentucky",0.555402197139819
+"979","Perry County, Kentucky",0.541715497105797
+"980","Cumberland County, Kentucky",0.498361746446592
+"981","Logan County, Kentucky",0.48435304815294
+"982","Calloway County, Kentucky",0.535195040836908
+"983","Hart County, Kentucky",0.478342868416683
+"984","Hickman County, Kentucky",0.433433675442476
+"985","Menifee County, Kentucky",0.482965169075441
+"986","Jessamine County, Kentucky",0.555094338949442
+"987","Martin County, Kentucky",0.550635825111717
+"988","McCracken County, Kentucky",0.546048767555223
+"989","Christian County, Kentucky",0.497428232163787
+"990","Spencer County, Kentucky",0.393823556043171
+"991","Campbell County, Kentucky",0.505864588264365
+"992","Crittenden County, Kentucky",0.49602062288293
+"993","Garrard County, Kentucky",0.462174587718381
+"994","Warren County, Kentucky",0.522607826015265
+"995","Breckinridge County, Kentucky",0.460787630849402
+"996","Lincoln County, Kentucky",0.495619840477427
+"997","Todd County, Kentucky",0.494135408956125
+"998","Anderson County, Kentucky",0.39301222573469
+"999","Allen County, Kentucky",0.488675525684504
+"1000","Fayette County, Kentucky",0.554431114260807
+"1001","Wayne County, Kentucky",0.51411879783567
+"1002","Caldwell County, Kentucky",0.470389960611374
+"1003","Jackson County, Kentucky",0.507841607977642
+"1004","Lawrence County, Kentucky",0.502764167741091
+"1005","Estill County, Kentucky",0.485291311671304
+"1006","Washington County, Kentucky",0.45570824037931
+"1007","Whitley County, Kentucky",0.536623018698703
+"1008","Marshall County, Kentucky",0.456986579533328
+"1009","Letcher County, Kentucky",0.539003961871977
+"1010","Bell County, Kentucky",0.544916003497475
+"1011","Hancock County, Kentucky",0.43021795296294
+"1012","McCreary County, Kentucky",0.537155772680102
+"1013","Shelby County, Kentucky",0.479779673773099
+"1014","Henderson County, Kentucky",0.500371860241223
+"1015","Carroll County, Kentucky",0.466673522797894
+"1016","Barren County, Kentucky",0.511576499104247
+"1017","Nicholas County, Kentucky",0.483204770807365
+"1018","Trigg County, Kentucky",0.475841666231294
+"1019","Taylor County, Kentucky",0.50201359963613
+"1020","Russell County, Kentucky",0.527097561356028
+"1021","Breathitt County, Kentucky",0.524065389744084
+"1022","Green County, Kentucky",0.486681272623632
+"1023","Leslie County, Kentucky",0.522165657125301
+"1024","Clinton County, Kentucky",0.499043918737688
+"1025","Robertson County, Kentucky",0.469125167645161
+"1026","Hardin County, Kentucky",0.454207538123935
+"1027","Bracken County, Kentucky",0.476757905867091
+"1028","Ballard County, Kentucky",0.483780500268856
+"1029","Jefferson County, Kentucky",0.540930063969125
+"1030","Nelson County, Kentucky",0.468326521806743
+"1031","Clark County, Kentucky",0.478533698133634
+"1032","Bourbon County, Kentucky",0.501504090805263
+"1033","Harlan County, Kentucky",0.529231308788182
+"1034","Boone County, Kentucky",0.440089211930976
+"1035","Mason County, Kentucky",0.516200186245398
+"1036","Boyd County, Kentucky",0.523516681300934
+"1037","Ohio County, Kentucky",0.463308400230341
+"1038","Monroe County, Kentucky",0.513278542695251
+"1039","Hopkins County, Kentucky",0.49731175398346
+"1040","Owsley County, Kentucky",0.564326669700508
+"1041","Greenup County, Kentucky",0.497041157055493
+"1042","Union County, Kentucky",0.51969933787091
+"1043","Clay County, Kentucky",0.541519467058129
+"1044","Elliott County, Kentucky",0.519148041607273
+"1045","Carlisle County, Kentucky",0.494414358425935
+"1046","Harrison County, Kentucky",0.486505015410112
+"1047","Franklin County, Kentucky",0.453787094020444
+"1048","Bullitt County, Kentucky",0.38683962326653
+"1049","Gallatin County, Kentucky",0.432026727514046
+"1050","Madison County, Kentucky",0.494970390112463
+"1051","Laurel County, Kentucky",0.500669283001468
+"1052","Owen County, Kentucky",0.471690356019403
+"1053","Lyon County, Kentucky",0.486217475170279
+"1054","Fulton County, Kentucky",0.561808726238318
+"1055","Meade County, Kentucky",0.441309464192548
+"1056","Kenton County, Kentucky",0.5251179928337
+"1057","Oldham County, Kentucky",0.482555032657515
+"1058","Edmonson County, Kentucky",0.464878042183515
+"1059","Magoffin County, Kentucky",0.526011687072458
+"1060","Webster County, Kentucky",0.476125607182102
+"1061","Pulaski County, Kentucky",0.547376166561911
+"1062","Casey County, Kentucky",0.505529366116228
+"1063","Trimble County, Kentucky",0.434177384052988
+"1064","Muhlenberg County, Kentucky",0.483051660111188
+"1065","Butler County, Kentucky",0.476832145394126
+"1066","Grant County, Kentucky",0.444173930811652
+"1067","Graves County, Kentucky",0.495936327771369
+"1068","Marion County, Kentucky",0.479120696125761
+"1069","Lee County, Kentucky",0.56500578232319
+"1070","Montgomery County, Kentucky",0.499942143849337
+"1071","McLean County, Kentucky",0.462751061683958
+"1072","Lewis County, Kentucky",0.502753185677089
+"1073","Morgan County, Kentucky",0.517294386831531
+"1074","Powell County, Kentucky",0.504235919502832
+"1075","Bath County, Kentucky",0.483697139578543
+"1076","Livingston County, Kentucky",0.456114776814689
+"1077","Woodford County, Kentucky",0.50342562772475
+"1078","Floyd County, Kentucky",0.54925595827643
+"1079","Rowan County, Kentucky",0.517851861467806
+"1080","Larue County, Kentucky",0.447794269507132
+"1081","Rockcastle County, Kentucky",0.492487268110406
+"1082","Grayson County, Kentucky",0.493771740840447
+"1083","Pike County, Kentucky",0.556148566676083
+"1084","Simpson County, Kentucky",0.461863532742676
+"1085","Boyle County, Kentucky",0.51361193273608
+"1086","Daviess County, Kentucky",0.494184423687202
+"1087","Knott County, Kentucky",0.524405946755682
+"1088","Carter County, Kentucky",0.465899462410222
+"1089","Knox County, Kentucky",0.525445252444133
+"1090","Pendleton County, Kentucky",0.441910960983196
+"1091","Johnson County, Kentucky",0.522404324697288
+"1092","Mercer County, Kentucky",0.469799252243994
+"1093","Metcalfe County, Kentucky",0.463874332121951
+"1094","Morehouse Parish, Louisiana",0.535227428783766
+"1095","St Charles Parish, Louisiana",0.465398836269216
+"1096","Lincoln Parish, Louisiana",0.584269767337119
+"1097","LaSalle Parish, Louisiana",0.532336114431274
+"1098","Madison Parish, Louisiana",0.560820468857143
+"1099","Jackson Parish, Louisiana",0.501055558875787
+"1100","Webster Parish, Louisiana",0.53415929207136
+"1101","Iberia Parish, Louisiana",0.521286087937901
+"1102","St Landry Parish, Louisiana",0.540264054154776
+"1103","St Tammany Parish, Louisiana",0.52680745860461
+"1104","Catahoula Parish, Louisiana",0.553592511839488
+"1105","Cameron Parish, Louisiana",0.490331108033359
+"1106","Livingston Parish, Louisiana",0.439745261161864
+"1107","Washington Parish, Louisiana",0.535052532632697
+"1108","Jefferson Davis Parish, Louisiana",0.523074612345863
+"1109","Ascension Parish, Louisiana",0.471793769802543
+"1110","Pointe Coupee Parish, Louisiana",0.516175289747192
+"1111","Bienville Parish, Louisiana",0.518627071869281
+"1112","Tangipahoa Parish, Louisiana",0.526215568225381
+"1113","East Feliciana Parish, Louisiana",0.479680126889433
+"1114","St Mary Parish, Louisiana",0.53864399849754
+"1115","Acadia Parish, Louisiana",0.516280329082128
+"1116","East Carroll Parish, Louisiana",0.634285493613891
+"1117","Concordia Parish, Louisiana",0.551043845064083
+"1118","St Bernard Parish, Louisiana",0.468642829813888
+"1119","Terrebonne Parish, Louisiana",0.526046019331163
+"1120","Vernon Parish, Louisiana",0.444987382501457
+"1121","Allen Parish, Louisiana",0.474267120133549
+"1122","West Feliciana Parish, Louisiana",0.556539522930708
+"1123","Lafayette Parish, Louisiana",0.581261025845946
+"1124","East Baton Rouge Parish, Louisiana",0.570768418527424
+"1125","Rapides Parish, Louisiana",0.527512213613206
+"1126","Plaquemines Parish, Louisiana",0.555511574754121
+"1127","St Helena Parish, Louisiana",0.470599151187848
+"1128","Claiborne Parish, Louisiana",0.553893065230349
+"1129","St John the Baptist Parish, Louisiana",0.446535902476781
+"1130","Lafourche Parish, Louisiana",0.560533014017673
+"1131","Calcasieu Parish, Louisiana",0.51842933067392
+"1132","Tensas Parish, Louisiana",0.597131840749347
+"1133","Iberville Parish, Louisiana",0.506420893089536
+"1134","Natchitoches Parish, Louisiana",0.577043844776563
+"1135","Assumption Parish, Louisiana",0.484885182967667
+"1136","Evangeline Parish, Louisiana",0.526553832941275
+"1137","Beauregard Parish, Louisiana",0.468048103873175
+"1138","Richland Parish, Louisiana",0.515678133079013
+"1139","Avoyelles Parish, Louisiana",0.52371391510433
+"1140","Vermilion Parish, Louisiana",0.508265751605845
+"1141","Ouachita Parish, Louisiana",0.56291207993628
+"1142","Franklin Parish, Louisiana",0.535248499776141
+"1143","West Carroll Parish, Louisiana",0.50361671002514
+"1144","Union Parish, Louisiana",0.525160393334977
+"1145","Grant Parish, Louisiana",0.464138985624705
+"1146","Sabine Parish, Louisiana",0.546382772353287
+"1147","Jefferson Parish, Louisiana",0.532640109277411
+"1148","Caldwell Parish, Louisiana",0.555734878587285
+"1149","Winn Parish, Louisiana",0.57349059511355
+"1150","Bossier Parish, Louisiana",0.479580432925369
+"1151","Caddo Parish, Louisiana",0.577612503459532
+"1152","St James Parish, Louisiana",0.457098326880964
+"1153","St Martin Parish, Louisiana",0.507125231184781
+"1154","De Soto Parish, Louisiana",0.531478651679227
+"1155","Red River Parish, Louisiana",0.612864695037857
+"1156","West Baton Rouge Parish, Louisiana",0.458977674536442
+"1157","Orleans Parish, Louisiana",0.645950583743372
+"1158","Dukes County, Massachusetts",0.524161241821208
+"1159","Hampshire County, Massachusetts",0.508159331300046
+"1160","Barnstable County, Massachusetts",0.519289654343381
+"1161","Franklin County, Massachusetts",0.488118655975234
+"1162","Hampden County, Massachusetts",0.529211877224732
+"1163","Norfolk County, Massachusetts",0.619297143191921
+"1164","Suffolk County, Massachusetts",0.682101246481242
+"1165","Bristol County, Massachusetts",0.509504466991034
+"1166","Plymouth County, Massachusetts",0.531522178853708
+"1167","Middlesex County, Massachusetts",0.598700157345242
+"1168","Berkshire County, Massachusetts",0.546082312288179
+"1169","Nantucket County, Massachusetts",0.535500759859291
+"1170","Worcester County, Massachusetts",0.518302373586331
+"1171","Essex County, Massachusetts",0.572617847631255
+"1172","St Mary's County, Maryland",0.41401808888037
+"1173","Worcester County, Maryland",0.50169384321268
+"1174","Kent County, Maryland",0.536364025992655
+"1175","Somerset County, Maryland",0.502393222843172
+"1176","Talbot County, Maryland",0.589451488703469
+"1177","Garrett County, Maryland",0.484114362118436
+"1178","Cecil County, Maryland",0.434331307255418
+"1179","Calvert County, Maryland",0.40555618794736
+"1180","Baltimore city, Maryland",0.566054792900285
+"1181","Frederick County, Maryland",0.434979219955398
+"1182","Queen Anne's County, Maryland",0.455963579421756
+"1183","Carroll County, Maryland",0.421021076380842
+"1184","Anne Arundel County, Maryland",0.464365194957347
+"1185","Caroline County, Maryland",0.441471192849497
+"1186","Washington County, Maryland",0.466596993187311
+"1187","Montgomery County, Maryland",0.529737508562895
+"1188","Charles County, Maryland",0.39860200527169
+"1189","Harford County, Maryland",0.434599103034941
+"1190","Prince George's County, Maryland",0.406798872479147
+"1191","Howard County, Maryland",0.4548772209717
+"1192","Allegany County, Maryland",0.496788803108036
+"1193","Dorchester County, Maryland",0.510938234173464
+"1194","Wicomico County, Maryland",0.482972803968126
+"1195","Baltimore County, Maryland",0.527141097195503
+"1196","Sagadahoc County, Maine",0.458750627747484
+"1197","Kennebec County, Maine",0.474237798087981
+"1198","Aroostook County, Maine",0.487897988121924
+"1199","Androscoggin County, Maine",0.475167686086253
+"1200","Oxford County, Maine",0.470196597154087
+"1201","Piscataquis County, Maine",0.488903505020587
+"1202","Somerset County, Maine",0.479424334341927
+"1203","Hancock County, Maine",0.500984204706659
+"1204","Franklin County, Maine",0.470545915211806
+"1205","Penobscot County, Maine",0.497596596128411
+"1206","York County, Maine",0.457725524764742
+"1207","Lincoln County, Maine",0.500623940159989
+"1208","Washington County, Maine",0.47934403389292
+"1209","Cumberland County, Maine",0.529107348150775
+"1210","Knox County, Maine",0.497741479412083
+"1211","Waldo County, Maine",0.478583769173378
+"1212","Oakland County, Michigan",0.583887625141233
+"1213","Newaygo County, Michigan",0.490840515492884
+"1214","Lapeer County, Michigan",0.450080993969279
+"1215","Roscommon County, Michigan",0.526300962862514
+"1216","Crawford County, Michigan",0.468299754495633
+"1217","Gladwin County, Michigan",0.487234585326734
+"1218","Houghton County, Michigan",0.534486252419906
+"1219","Mason County, Michigan",0.526096066194399
+"1220","Clinton County, Michigan",0.479658912458052
+"1221","Wexford County, Michigan",0.474832765756095
+"1222","Hillsdale County, Michigan",0.474884068961033
+"1223","Gratiot County, Michigan",0.527263121418184
+"1224","St Clair County, Michigan",0.478174290219214
+"1225","Isabella County, Michigan",0.552523199754268
+"1226","Tuscola County, Michigan",0.457320269235637
+"1227","Cheboygan County, Michigan",0.537350053506549
+"1228","Allegan County, Michigan",0.484838214452462
+"1229","Bay County, Michigan",0.494994911348146
+"1230","Ingham County, Michigan",0.553546791551033
+"1231","Sanilac County, Michigan",0.497400884608477
+"1232","Benzie County, Michigan",0.512306898114048
+"1233","Delta County, Michigan",0.480440426984316
+"1234","Montcalm County, Michigan",0.46334521877856
+"1235","Chippewa County, Michigan",0.487858043768165
+"1236","Emmet County, Michigan",0.547826034438486
+"1237","Grand Traverse County, Michigan",0.526445561638304
+"1238","Mecosta County, Michigan",0.516623510949735
+"1239","Ontonagon County, Michigan",0.482742905203307
+"1240","Keweenaw County, Michigan",0.502832936798077
+"1241","Eaton County, Michigan",0.441180276222772
+"1242","Arenac County, Michigan",0.481269950756321
+"1243","Iosco County, Michigan",0.482265000289341
+"1244","Monroe County, Michigan",0.454178053974456
+"1245","Lake County, Michigan",0.511210263805269
+"1246","Lenawee County, Michigan",0.453381442964361
+"1247","Jackson County, Michigan",0.48972052818138
+"1248","Montmorency County, Michigan",0.459864005036364
+"1249","Huron County, Michigan",0.505044101860993
+"1250","Washtenaw County, Michigan",0.56815852137823
+"1251","Alpena County, Michigan",0.518637644547241
+"1252","Manistee County, Michigan",0.492731769943798
+"1253","Presque Isle County, Michigan",0.477393315903817
+"1254","Osceola County, Michigan",0.473756281452438
+"1255","Barry County, Michigan",0.471067289396479
+"1256","Kent County, Michigan",0.561809169123081
+"1257","Missaukee County, Michigan",0.462489799096147
+"1258","Muskegon County, Michigan",0.509407579016343
+"1259","Iron County, Michigan",0.48596917198813
+"1260","Ogemaw County, Michigan",0.506672402109392
+"1261","Leelanau County, Michigan",0.546341659750704
+"1262","Kalamazoo County, Michigan",0.579059998831355
+"1263","Baraga County, Michigan",0.454544604221923
+"1264","Genesee County, Michigan",0.521677707399375
+"1265","Kalkaska County, Michigan",0.483405680440223
+"1266","Oscoda County, Michigan",0.501616680417797
+"1267","Ionia County, Michigan",0.452154500592432
+"1268","Luce County, Michigan",0.480613594728229
+"1269","Branch County, Michigan",0.478449379762576
+"1270","Alcona County, Michigan",0.479321726076984
+"1271","Livingston County, Michigan",0.459239255324181
+"1272","Shiawassee County, Michigan",0.462633304965303
+"1273","Alger County, Michigan",0.463617895511816
+"1274","Antrim County, Michigan",0.544103985442151
+"1275","Macomb County, Michigan",0.47442447898224
+"1276","Dickinson County, Michigan",0.523251189867981
+"1277","Oceana County, Michigan",0.496598461671554
+"1278","Saginaw County, Michigan",0.525000281473789
+"1279","Midland County, Michigan",0.545928852906119
+"1280","Ottawa County, Michigan",0.511811587258478
+"1281","Menominee County, Michigan",0.495951506892499
+"1282","Calhoun County, Michigan",0.500029721462857
+"1283","Clare County, Michigan",0.50480374807054
+"1284","Wayne County, Michigan",0.567829067564857
+"1285","Cass County, Michigan",0.528766448110193
+"1286","Mackinac County, Michigan",0.51025054286197
+"1287","Charlevoix County, Michigan",0.575545914274597
+"1288","St Joseph County, Michigan",0.472601337139493
+"1289","Van Buren County, Michigan",0.490286394820707
+"1290","Marquette County, Michigan",0.500133392533658
+"1291","Berrien County, Michigan",0.553084962522651
+"1292","Schoolcraft County, Michigan",0.500054596627084
+"1293","Gogebic County, Michigan",0.541754053238392
+"1294","Otsego County, Michigan",0.491667619023202
+"1295","Cass County, Minnesota",0.49764141542836
+"1296","Goodhue County, Minnesota",0.466561243839887
+"1297","Pipestone County, Minnesota",0.470226468049246
+"1298","Washington County, Minnesota",0.477078320538359
+"1299","Waseca County, Minnesota",0.436112617325597
+"1300","Big Stone County, Minnesota",0.50425510049255
+"1301","Nicollet County, Minnesota",0.468915061805289
+"1302","Wadena County, Minnesota",0.481479826765733
+"1303","Becker County, Minnesota",0.4831729408032
+"1304","McLeod County, Minnesota",0.436834255405088
+"1305","Kandiyohi County, Minnesota",0.496800410017364
+"1306","Traverse County, Minnesota",0.505852784347769
+"1307","Freeborn County, Minnesota",0.47796019687855
+"1308","Dodge County, Minnesota",0.407523013656961
+"1309","Koochiching County, Minnesota",0.483766309516598
+"1310","Chippewa County, Minnesota",0.469681733824861
+"1311","Stevens County, Minnesota",0.507132631442203
+"1312","Lake County, Minnesota",0.448616825208768
+"1313","Yellow Medicine County, Minnesota",0.445158072699237
+"1314","Faribault County, Minnesota",0.486639810409319
+"1315","Marshall County, Minnesota",0.452347184062081
+"1316","Watonwan County, Minnesota",0.448034997052584
+"1317","Carlton County, Minnesota",0.428134730911927
+"1318","Lac qui Parle County, Minnesota",0.49742273711501
+"1319","Swift County, Minnesota",0.483220713172772
+"1320","Beltrami County, Minnesota",0.484842930566043
+"1321","Mille Lacs County, Minnesota",0.441326098559526
+"1322","Wright County, Minnesota",0.423787815205501
+"1323","Chisago County, Minnesota",0.421469916763176
+"1324","Rock County, Minnesota",0.484558483946551
+"1325","Lyon County, Minnesota",0.497530525014662
+"1326","Itasca County, Minnesota",0.456731396156182
+"1327","Roseau County, Minnesota",0.532095677290282
+"1328","Rice County, Minnesota",0.468416204068347
+"1329","Crow Wing County, Minnesota",0.497911111608193
+"1330","Clearwater County, Minnesota",0.539685699489099
+"1331","Todd County, Minnesota",0.455364942738896
+"1332","Fillmore County, Minnesota",0.472797246807291
+"1333","Benton County, Minnesota",0.451376112848004
+"1334","Pennington County, Minnesota",0.479244613425
+"1335","Douglas County, Minnesota",0.504838352017739
+"1336","Kanabec County, Minnesota",0.461900671440155
+"1337","Meeker County, Minnesota",0.460047023411162
+"1338","Dakota County, Minnesota",0.462691269312393
+"1339","Hennepin County, Minnesota",0.583466366027583
+"1340","Anoka County, Minnesota",0.434983917022253
+"1341","Sherburne County, Minnesota",0.405406385493524
+"1342","Pope County, Minnesota",0.479480961967353
+"1343","Lincoln County, Minnesota",0.46512504807529
+"1344","Nobles County, Minnesota",0.468422666037108
+"1345","Redwood County, Minnesota",0.476400422729348
+"1346","Murray County, Minnesota",0.469717064649986
+"1347","Jackson County, Minnesota",0.465166464187643
+"1348","St Louis County, Minnesota",0.503888952737359
+"1349","Cook County, Minnesota",0.464683394984163
+"1350","Sibley County, Minnesota",0.426082058899568
+"1351","Renville County, Minnesota",0.495285373331336
+"1352","Wilkin County, Minnesota",0.504645286454971
+"1353","Wabasha County, Minnesota",0.431070528176812
+"1354","Martin County, Minnesota",0.499226726077228
+"1355","Carver County, Minnesota",0.498802367521542
+"1356","Blue Earth County, Minnesota",0.506415817939389
+"1357","Kittson County, Minnesota",0.479342184879707
+"1358","Lake of the Woods County, Minnesota",0.448539851699938
+"1359","Red Lake County, Minnesota",0.427070702941601
+"1360","Steele County, Minnesota",0.442296018548104
+"1361","Winona County, Minnesota",0.509515053906545
+"1362","Cottonwood County, Minnesota",0.494973265399456
+"1363","Ramsey County, Minnesota",0.535665333518262
+"1364","Brown County, Minnesota",0.470293503845678
+"1365","Mahnomen County, Minnesota",0.488338593569715
+"1366","Houston County, Minnesota",0.453435340531829
+"1367","Isanti County, Minnesota",0.408209015927947
+"1368","Aitkin County, Minnesota",0.487760492757524
+"1369","Le Sueur County, Minnesota",0.43270383089344
+"1370","Scott County, Minnesota",0.455997194992009
+"1371","Pine County, Minnesota",0.450680078610246
+"1372","Stearns County, Minnesota",0.507766324725172
+"1373","Clay County, Minnesota",0.45475926558115
+"1374","Olmsted County, Minnesota",0.489376154691169
+"1375","Mower County, Minnesota",0.496908666829497
+"1376","Hubbard County, Minnesota",0.46382344607238
+"1377","Morrison County, Minnesota",0.450210347153161
+"1378","Otter Tail County, Minnesota",0.47429409439352
+"1379","Polk County, Minnesota",0.47703788958131
+"1380","Grant County, Minnesota",0.493182476606324
+"1381","Norman County, Minnesota",0.461563656214809
+"1382","Phelps County, Missouri",0.508308286761996
+"1383","Marion County, Missouri",0.482264920044324
+"1384","Christian County, Missouri",0.454095759204925
+"1385","Andrew County, Missouri",0.453545511207256
+"1386","Mississippi County, Missouri",0.542568113223722
+"1387","Cass County, Missouri",0.434695604857584
+"1388","Bollinger County, Missouri",0.465761385038081
+"1389","Montgomery County, Missouri",0.463335304634797
+"1390","Jasper County, Missouri",0.501803132888904
+"1391","DeKalb County, Missouri",0.44650665193344
+"1392","Hickory County, Missouri",0.483295153464068
+"1393","Dent County, Missouri",0.486124818119932
+"1394","Washington County, Missouri",0.464068745423068
+"1395","Warren County, Missouri",0.433835812713078
+"1396","Bates County, Missouri",0.477786061668461
+"1397","Greene County, Missouri",0.545590037957649
+"1398","Perry County, Missouri",0.429119110429344
+"1399","Butler County, Missouri",0.516587551978781
+"1400","Pettis County, Missouri",0.498107036401401
+"1401","Lafayette County, Missouri",0.434605652665453
+"1402","Pemiscot County, Missouri",0.541021680485305
+"1403","Gentry County, Missouri",0.542823676082242
+"1404","Dade County, Missouri",0.475089372563067
+"1405","Platte County, Missouri",0.494605769140457
+"1406","Jackson County, Missouri",0.508779380469089
+"1407","Texas County, Missouri",0.475989158649661
+"1408","Shannon County, Missouri",0.518195035101312
+"1409","Moniteau County, Missouri",0.431379784549611
+"1410","Laclede County, Missouri",0.497239013799705
+"1411","Ralls County, Missouri",0.433641343246207
+"1412","St Clair County, Missouri",0.517224664653798
+"1413","Dunklin County, Missouri",0.538974660720035
+"1414","Caldwell County, Missouri",0.479536110662449
+"1415","Harrison County, Missouri",0.468291654158366
+"1416","Taney County, Missouri",0.505338562505446
+"1417","Cole County, Missouri",0.478919046667176
+"1418","Barry County, Missouri",0.500512663628718
+"1419","Barton County, Missouri",0.512016648591018
+"1420","Ozark County, Missouri",0.508340204223955
+"1421","Audrain County, Missouri",0.458117844336676
+"1422","Cedar County, Missouri",0.498936920023713
+"1423","Howard County, Missouri",0.478933395194958
+"1424","Franklin County, Missouri",0.468162442371615
+"1425","Morgan County, Missouri",0.489414249841782
+"1426","Cooper County, Missouri",0.447182839870992
+"1427","Wright County, Missouri",0.49384650668807
+"1428","Clark County, Missouri",0.452583141334981
+"1429","Chariton County, Missouri",0.462656997751612
+"1430","Boone County, Missouri",0.544860238874649
+"1431","Pulaski County, Missouri",0.410419244927762
+"1432","Oregon County, Missouri",0.526407244664987
+"1433","Newton County, Missouri",0.516890971274665
+"1434","Livingston County, Missouri",0.499784815051156
+"1435","Putnam County, Missouri",0.511858452781421
+"1436","Clinton County, Missouri",0.427348296028232
+"1437","Osage County, Missouri",0.422523558453237
+"1438","Holt County, Missouri",0.495137843766197
+"1439","Miller County, Missouri",0.491780784320779
+"1440","Lincoln County, Missouri",0.40312924899773
+"1441","St Louis County, Missouri",0.583512395114834
+"1442","Scotland County, Missouri",0.489178230944355
+"1443","Macon County, Missouri",0.451410509986545
+"1444","Crawford County, Missouri",0.503127628906757
+"1445","Reynolds County, Missouri",0.507751900316422
+"1446","St Francois County, Missouri",0.477766624815568
+"1447","Nodaway County, Missouri",0.503326593984409
+"1448","Stoddard County, Missouri",0.50444310724699
+"1449","Clay County, Missouri",0.430868227221999
+"1450","Monroe County, Missouri",0.429589030507543
+"1451","Stone County, Missouri",0.488861124033967
+"1452","Howell County, Missouri",0.533984835145668
+"1453","Douglas County, Missouri",0.476661774100625
+"1454","New Madrid County, Missouri",0.517447426124051
+"1455","Schuyler County, Missouri",0.460087623199767
+"1456","Knox County, Missouri",0.509095932155122
+"1457","Webster County, Missouri",0.456735599949709
+"1458","Polk County, Missouri",0.484670569794418
+"1459","Grundy County, Missouri",0.483704988198669
+"1460","Randolph County, Missouri",0.492291025324024
+"1461","St Charles County, Missouri",0.425561831275889
+"1462","Iron County, Missouri",0.473698121163618
+"1463","Shelby County, Missouri",0.474673667794718
+"1464","Worth County, Missouri",0.433971610845556
+"1465","Wayne County, Missouri",0.494765648421603
+"1466","Cape Girardeau County, Missouri",0.523542365844202
+"1467","Carter County, Missouri",0.511938293271912
+"1468","Ripley County, Missouri",0.477040336188088
+"1469","Daviess County, Missouri",0.451726358062685
+"1470","Maries County, Missouri",0.464666241676886
+"1471","Pike County, Missouri",0.468326857895386
+"1472","Gasconade County, Missouri",0.458614436419789
+"1473","Saline County, Missouri",0.472975851626639
+"1474","Vernon County, Missouri",0.467033175070149
+"1475","Camden County, Missouri",0.503326489703726
+"1476","Adair County, Missouri",0.566286955101713
+"1477","Linn County, Missouri",0.482997081079536
+"1478","Ray County, Missouri",0.437237895186907
+"1479","Scott County, Missouri",0.509567918069981
+"1480","Dallas County, Missouri",0.458939929027831
+"1481","Jefferson County, Missouri",0.404601274448652
+"1482","Lewis County, Missouri",0.445873599616225
+"1483","Lawrence County, Missouri",0.473713205048195
+"1484","Atchison County, Missouri",0.491668096279088
+"1485","Sullivan County, Missouri",0.468332113622612
+"1486","Madison County, Missouri",0.469983800621505
+"1487","McDonald County, Missouri",0.472866703747054
+"1488","Buchanan County, Missouri",0.486405365713709
+"1489","Callaway County, Missouri",0.440769420585758
+"1490","Henry County, Missouri",0.481943440283883
+"1491","Mercer County, Missouri",0.508212142342648
+"1492","St Louis city, Missouri",0.576893271634481
+"1493","Carroll County, Missouri",0.4900768009117
+"1494","Johnson County, Missouri",0.452532100908868
+"1495","Benton County, Missouri",0.48699491866683
+"1496","Claiborne County, Mississippi",0.541906416710526
+"1497","Madison County, Mississippi",0.564780927144959
+"1498","Winston County, Mississippi",0.533552842725731
+"1499","Grenada County, Mississippi",0.523376976351595
+"1500","Jefferson County, Mississippi",0.493126438320236
+"1501","Quitman County, Mississippi",0.556080640842122
+"1502","Lafayette County, Mississippi",0.576893224793123
+"1503","Forrest County, Mississippi",0.577759921860165
+"1504","Adams County, Mississippi",0.579027289912772
+"1505","Lauderdale County, Mississippi",0.558319224808525
+"1506","Marion County, Mississippi",0.551542389613206
+"1507","Coahoma County, Mississippi",0.600015833794872
+"1508","Montgomery County, Mississippi",0.526076006420089
+"1509","DeSoto County, Mississippi",0.425621088375521
+"1510","Tishomingo County, Mississippi",0.471616364796393
+"1511","Leake County, Mississippi",0.512714352104643
+"1512","Yazoo County, Mississippi",0.562217669225761
+"1513","Walthall County, Mississippi",0.53521165587103
+"1514","Attala County, Mississippi",0.527976762127231
+"1515","Simpson County, Mississippi",0.510070197516686
+"1516","Prentiss County, Mississippi",0.482371361052015
+"1517","Holmes County, Mississippi",0.522698677436137
+"1518","Pearl River County, Mississippi",0.486329012847229
+"1519","Jones County, Mississippi",0.530952595288913
+"1520","Jasper County, Mississippi",0.523621859887531
+"1521","Carroll County, Mississippi",0.533218477379535
+"1522","Marshall County, Mississippi",0.476614337415993
+"1523","Pike County, Mississippi",0.542966459447153
+"1524","George County, Mississippi",0.472050437025432
+"1525","Noxubee County, Mississippi",0.521286570284485
+"1526","Harrison County, Mississippi",0.508028062374687
+"1527","Newton County, Mississippi",0.472806857557359
+"1528","Smith County, Mississippi",0.538401518261298
+"1529","Kemper County, Mississippi",0.488823247833561
+"1530","Sharkey County, Mississippi",0.53255807769983
+"1531","Sunflower County, Mississippi",0.548522845881053
+"1532","Webster County, Mississippi",0.501088486919881
+"1533","Copiah County, Mississippi",0.503756983028455
+"1534","Choctaw County, Mississippi",0.504620658869815
+"1535","Covington County, Mississippi",0.508816350532501
+"1536","Clay County, Mississippi",0.562879021130853
+"1537","Tippah County, Mississippi",0.500156755715343
+"1538","Greene County, Mississippi",0.468011731416268
+"1539","Calhoun County, Mississippi",0.503432056818305
+"1540","Leflore County, Mississippi",0.609658375040835
+"1541","Stone County, Mississippi",0.456622181004511
+"1542","Wilkinson County, Mississippi",0.542467311797445
+"1543","Neshoba County, Mississippi",0.51173176551788
+"1544","Scott County, Mississippi",0.482398155995115
+"1545","Itawamba County, Mississippi",0.473875404940577
+"1546","Tate County, Mississippi",0.475568554314974
+"1547","Tallahatchie County, Mississippi",0.534343445145463
+"1548","Pontotoc County, Mississippi",0.44687028920812
+"1549","Alcorn County, Mississippi",0.530359069856815
+"1550","Bolivar County, Mississippi",0.561494281756582
+"1551","Warren County, Mississippi",0.506624907260385
+"1552","Wayne County, Mississippi",0.57448730365557
+"1553","Monroe County, Mississippi",0.492648367449627
+"1554","Lincoln County, Mississippi",0.518141754440699
+"1555","Rankin County, Mississippi",0.459296793989442
+"1556","Lawrence County, Mississippi",0.516599778397489
+"1557","Oktibbeha County, Mississippi",0.585561897082709
+"1558","Lowndes County, Mississippi",0.533433264137086
+"1559","Tunica County, Mississippi",0.5273958818729
+"1560","Franklin County, Mississippi",0.515698261287755
+"1561","Union County, Mississippi",0.482288658883035
+"1562","Jackson County, Mississippi",0.478401797335178
+"1563","Benton County, Mississippi",0.493011639279352
+"1564","Lee County, Mississippi",0.53604670232704
+"1565","Clarke County, Mississippi",0.506786800652544
+"1566","Hancock County, Mississippi",0.506732720310742
+"1567","Panola County, Mississippi",0.496963593953268
+"1568","Perry County, Mississippi",0.481700835842441
+"1569","Chickasaw County, Mississippi",0.510988729616903
+"1570","Amite County, Mississippi",0.526020522454363
+"1571","Hinds County, Mississippi",0.558290468717086
+"1572","Washington County, Mississippi",0.566439885867971
+"1573","Lamar County, Mississippi",0.535172623737892
+"1574","Yalobusha County, Mississippi",0.478750734202705
+"1575","Jefferson Davis County, Mississippi",0.523525716069137
+"1576","Humphreys County, Mississippi",0.576868270918547
+"1577","Ravalli County, Montana",0.50380483568857
+"1578","Missoula County, Montana",0.565171191186385
+"1579","Toole County, Montana",0.46419992356288
+"1580","Teton County, Montana",0.465200821597234
+"1581","Glacier County, Montana",0.513749559464709
+"1582","Phillips County, Montana",0.468667241626106
+"1583","Sanders County, Montana",0.504485996383089
+"1584","Silver Bow County, Montana",0.519427930305996
+"1585","Daniels County, Montana",0.474650325154734
+"1586","Big Horn County, Montana",0.462110598076063
+"1587","Beaverhead County, Montana",0.503092346564216
+"1588","Roosevelt County, Montana",0.503269367733921
+"1589","Flathead County, Montana",0.506347368791408
+"1590","Dawson County, Montana",0.451132451758933
+"1591","Musselshell County, Montana",0.509132758537673
+"1592","Wheatland County, Montana",0.519419501016949
+"1593","Pondera County, Montana",0.469790230898084
+"1594","Park County, Montana",0.490261444786545
+"1595","Blaine County, Montana",0.457042350641644
+"1596","Custer County, Montana",0.512011003616532
+"1597","Fallon County, Montana",0.524984759315315
+"1598","Carbon County, Montana",0.500869241131696
+"1599","Broadwater County, Montana",0.457738213840544
+"1600","Sheridan County, Montana",0.496841078389872
+"1601","Hill County, Montana",0.45888581259176
+"1602","Jefferson County, Montana",0.450997763221552
+"1603","Gallatin County, Montana",0.520272529167006
+"1604","Liberty County, Montana",0.472871555648148
+"1605","Madison County, Montana",0.526736991325913
+"1606","Stillwater County, Montana",0.444197042327899
+"1607","Richland County, Montana",0.50388547632979
+"1608","Cascade County, Montana",0.488583867203084
+"1609","Lincoln County, Montana",0.503152941490226
+"1610","Deer Lodge County, Montana",0.473668989072189
+"1611","Lewis and Clark County, Montana",0.443820579132172
+"1612","Granite County, Montana",0.519611782764954
+"1613","Rosebud County, Montana",0.452498202108953
+"1614","Lake County, Montana",0.514741431853315
+"1615","Fergus County, Montana",0.475320482549703
+"1616","Judith Basin County, Montana",0.493916397913472
+"1617","Sweet Grass County, Montana",0.502038687401418
+"1618","Yellowstone County, Montana",0.512628677672618
+"1619","Valley County, Montana",0.485468004994841
+"1620","Mineral County, Montana",0.452693380425464
+"1621","Chouteau County, Montana",0.509526956783217
+"1622","Powell County, Montana",0.471641333942017
+"1623","New Hanover County, North Carolina",0.542686004743052
+"1624","Swain County, North Carolina",0.457947507921547
+"1625","Chatham County, North Carolina",0.532835192112135
+"1626","Person County, North Carolina",0.467636247632842
+"1627","Hoke County, North Carolina",0.440279582315421
+"1628","Harnett County, North Carolina",0.460035359156684
+"1629","Ashe County, North Carolina",0.50927427454709
+"1630","Bladen County, North Carolina",0.532075480004513
+"1631","Edgecombe County, North Carolina",0.507894507729478
+"1632","Buncombe County, North Carolina",0.533863956006794
+"1633","Caldwell County, North Carolina",0.511210615347957
+"1634","Duplin County, North Carolina",0.500490652222728
+"1635","Scotland County, North Carolina",0.517103347334565
+"1636","Hertford County, North Carolina",0.53004729479644
+"1637","Pender County, North Carolina",0.484014867208743
+"1638","Jones County, North Carolina",0.499233826959865
+"1639","Stokes County, North Carolina",0.457467383065426
+"1640","Durham County, North Carolina",0.511966398109679
+"1641","Robeson County, North Carolina",0.50847744461285
+"1642","Davidson County, North Carolina",0.46880038363015
+"1643","Burke County, North Carolina",0.485075642588648
+"1644","Greene County, North Carolina",0.462742006050955
+"1645","Sampson County, North Carolina",0.491779802098797
+"1646","Martin County, North Carolina",0.464726418064624
+"1647","Catawba County, North Carolina",0.513652100262445
+"1648","Pasquotank County, North Carolina",0.472023105447951
+"1649","Caswell County, North Carolina",0.464897960595666
+"1650","Rutherford County, North Carolina",0.498700116898206
+"1651","Northampton County, North Carolina",0.5096687828146
+"1652","Madison County, North Carolina",0.494191954131598
+"1653","Randolph County, North Carolina",0.470132557926101
+"1654","Wake County, North Carolina",0.498034979636234
+"1655","Transylvania County, North Carolina",0.485847719578766
+"1656","Henderson County, North Carolina",0.482371011248161
+"1657","Yancey County, North Carolina",0.495339736050701
+"1658","Cleveland County, North Carolina",0.490562708639014
+"1659","Mecklenburg County, North Carolina",0.567582211013681
+"1660","Johnston County, North Carolina",0.442804806427151
+"1661","Clay County, North Carolina",0.507411830336784
+"1662","Hyde County, North Carolina",0.497706114206341
+"1663","Brunswick County, North Carolina",0.481664454004208
+"1664","Alamance County, North Carolina",0.494050834842067
+"1665","Pamlico County, North Carolina",0.490095215242887
+"1666","Nash County, North Carolina",0.504769930139277
+"1667","Surry County, North Carolina",0.515876441033143
+"1668","Onslow County, North Carolina",0.427508515915172
+"1669","Davie County, North Carolina",0.524250216129071
+"1670","Stanly County, North Carolina",0.478006913148942
+"1671","Wayne County, North Carolina",0.497994043594214
+"1672","Vance County, North Carolina",0.51672754512454
+"1673","Lincoln County, North Carolina",0.505406498435456
+"1674","Wilkes County, North Carolina",0.527737620382394
+"1675","Richmond County, North Carolina",0.501215820953578
+"1676","Forsyth County, North Carolina",0.554017063832459
+"1677","Rockingham County, North Carolina",0.482410081973179
+"1678","Cabarrus County, North Carolina",0.473262497730484
+"1679","Polk County, North Carolina",0.527682010557177
+"1680","Macon County, North Carolina",0.543137673198571
+"1681","Gates County, North Carolina",0.428743794739664
+"1682","Gaston County, North Carolina",0.502213497647627
+"1683","Halifax County, North Carolina",0.528150887806596
+"1684","Cumberland County, North Carolina",0.478893872210318
+"1685","Wilson County, North Carolina",0.502722232914695
+"1686","Pitt County, North Carolina",0.551803622325531
+"1687","Alexander County, North Carolina",0.489269770642663
+"1688","McDowell County, North Carolina",0.472009953688276
+"1689","Washington County, North Carolina",0.503068054116564
+"1690","Montgomery County, North Carolina",0.536905573360068
+"1691","Avery County, North Carolina",0.514166795472872
+"1692","Dare County, North Carolina",0.473805472811611
+"1693","Lenoir County, North Carolina",0.542565799761517
+"1694","Alleghany County, North Carolina",0.537946536881551
+"1695","Chowan County, North Carolina",0.526286255436903
+"1696","Jackson County, North Carolina",0.520830223544936
+"1697","Graham County, North Carolina",0.494757332723294
+"1698","Tyrrell County, North Carolina",0.470687451727085
+"1699","Orange County, North Carolina",0.594664657263011
+"1700","Perquimans County, North Carolina",0.473960850126182
+"1701","Craven County, North Carolina",0.474752501220503
+"1702","Columbus County, North Carolina",0.51977572549123
+"1703","Guilford County, North Carolina",0.546101022887055
+"1704","Granville County, North Carolina",0.449202696109578
+"1705","Moore County, North Carolina",0.518155344640847
+"1706","Warren County, North Carolina",0.503705763276833
+"1707","Anson County, North Carolina",0.49254770569488
+"1708","Watauga County, North Carolina",0.600602535905881
+"1709","Franklin County, North Carolina",0.465590434827278
+"1710","Iredell County, North Carolina",0.530921204832526
+"1711","Camden County, North Carolina",0.411128016163109
+"1712","Mitchell County, North Carolina",0.509427849374212
+"1713","Carteret County, North Carolina",0.498449551017419
+"1714","Beaufort County, North Carolina",0.500595062479531
+"1715","Currituck County, North Carolina",0.416318594160968
+"1716","Lee County, North Carolina",0.473473391438461
+"1717","Bertie County, North Carolina",0.496891404450864
+"1718","Union County, North Carolina",0.504915122997638
+"1719","Haywood County, North Carolina",0.501355720324116
+"1720","Cherokee County, North Carolina",0.490465811834781
+"1721","Yadkin County, North Carolina",0.46810195545299
+"1722","Rowan County, North Carolina",0.477605136186701
+"1723","Adams County, North Dakota",0.460582782826617
+"1724","Sioux County, North Dakota",0.487745578138433
+"1725","Divide County, North Dakota",0.535671103420907
+"1726","Bowman County, North Dakota",0.476097543578794
+"1727","Dunn County, North Dakota",0.576897350037251
+"1728","Morton County, North Dakota",0.460274550277624
+"1729","Mercer County, North Dakota",0.402904929627008
+"1730","Griggs County, North Dakota",0.48449440215942
+"1731","Benson County, North Dakota",0.524870876995614
+"1732","Cass County, North Dakota",0.548336649658166
+"1733","Logan County, North Dakota",0.46487479947836
+"1734","Williams County, North Dakota",0.539515457155024
+"1735","Sargent County, North Dakota",0.445005924547454
+"1736","Stutsman County, North Dakota",0.487410667075378
+"1737","Burleigh County, North Dakota",0.491628841200804
+"1738","Kidder County, North Dakota",0.471736356326568
+"1739","Pierce County, North Dakota",0.470238309480674
+"1740","McHenry County, North Dakota",0.447785268177147
+"1741","Grant County, North Dakota",0.522909313514085
+"1742","Barnes County, North Dakota",0.478867765325554
+"1743","Mountrail County, North Dakota",0.581970416632252
+"1744","Walsh County, North Dakota",0.482023950891053
+"1745","Hettinger County, North Dakota",0.521499050384051
+"1746","Dickey County, North Dakota",0.485800176876642
+"1747","Renville County, North Dakota",0.463214408850981
+"1748","Emmons County, North Dakota",0.500808058597248
+"1749","Foster County, North Dakota",0.520937774719676
+"1750","Pembina County, North Dakota",0.495096860838356
+"1751","McLean County, North Dakota",0.438506086615022
+"1752","Cavalier County, North Dakota",0.479731950839061
+"1753","McIntosh County, North Dakota",0.493227788232739
+"1754","Traill County, North Dakota",0.470418029018304
+"1755","Burke County, North Dakota",0.459819273042857
+"1756","Bottineau County, North Dakota",0.504409711257002
+"1757","Rolette County, North Dakota",0.523544576422706
+"1758","Wells County, North Dakota",0.483440328073705
+"1759","Eddy County, North Dakota",0.484476888632076
+"1760","Grand Forks County, North Dakota",0.530876598261947
+"1761","Stark County, North Dakota",0.496495170646015
+"1762","LaMoure County, North Dakota",0.504076740203261
+"1763","Nelson County, North Dakota",0.48365163004862
+"1764","Steele County, North Dakota",0.472693813619198
+"1765","Ransom County, North Dakota",0.431052358431973
+"1766","McKenzie County, North Dakota",0.586482637632856
+"1767","Ramsey County, North Dakota",0.486306371448764
+"1768","Towner County, North Dakota",0.466895404641077
+"1769","Ward County, North Dakota",0.464449817199801
+"1770","Richland County, North Dakota",0.469247756406736
+"1771","Jefferson County, Nebraska",0.503626557309318
+"1772","Saunders County, Nebraska",0.431724142431409
+"1773","Garden County, Nebraska",0.471541810186982
+"1774","Dixon County, Nebraska",0.410934232593926
+"1775","Madison County, Nebraska",0.466433237813451
+"1776","Harlan County, Nebraska",0.434835332580064
+"1777","Sarpy County, Nebraska",0.38686599067212
+"1778","Adams County, Nebraska",0.487690413487608
+"1779","Seward County, Nebraska",0.452195168081443
+"1780","Buffalo County, Nebraska",0.473695061210985
+"1781","Otoe County, Nebraska",0.422650677798046
+"1782","Holt County, Nebraska",0.474408812869469
+"1783","Cheyenne County, Nebraska",0.48557034849374
+"1784","Cuming County, Nebraska",0.451295011311976
+"1785","Lancaster County, Nebraska",0.478354071489806
+"1786","Cass County, Nebraska",0.411722545408364
+"1787","Frontier County, Nebraska",0.423774885401292
+"1788","York County, Nebraska",0.462174901351178
+"1789","Deuel County, Nebraska",0.439927415403893
+"1790","Lincoln County, Nebraska",0.45041361994457
+"1791","Webster County, Nebraska",0.463276590794459
+"1792","Perkins County, Nebraska",0.446323049886565
+"1793","Chase County, Nebraska",0.464940715419165
+"1794","Platte County, Nebraska",0.416799420050366
+"1795","Kimball County, Nebraska",0.454502185766201
+"1796","Pawnee County, Nebraska",0.579064623873117
+"1797","Scotts Bluff County, Nebraska",0.455802619839851
+"1798","Nemaha County, Nebraska",0.457052714886688
+"1799","Dawes County, Nebraska",0.468915903247023
+"1800","Dakota County, Nebraska",0.424670432505899
+"1801","Colfax County, Nebraska",0.413307474106219
+"1802","Keith County, Nebraska",0.480467167937004
+"1803","Burt County, Nebraska",0.428322013704391
+"1804","Furnas County, Nebraska",0.510064934110281
+"1805","Hall County, Nebraska",0.47438059396737
+"1806","Butler County, Nebraska",0.413350654225608
+"1807","Garfield County, Nebraska",0.474244778997785
+"1808","Pierce County, Nebraska",0.411372774791156
+"1809","Nuckolls County, Nebraska",0.443412363189555
+"1810","Red Willow County, Nebraska",0.463796540260159
+"1811","Douglas County, Nebraska",0.516841428365477
+"1812","Thurston County, Nebraska",0.482123405896353
+"1813","Dawson County, Nebraska",0.424267727683495
+"1814","Custer County, Nebraska",0.447449339832455
+"1815","Richardson County, Nebraska",0.47874531635682
+"1816","Boone County, Nebraska",0.468691111568478
+"1817","Brown County, Nebraska",0.492476581888154
+"1818","Gage County, Nebraska",0.435609208226191
+"1819","Wayne County, Nebraska",0.447474822268571
+"1820","Boyd County, Nebraska",0.430242632219251
+"1821","Clay County, Nebraska",0.44213048878869
+"1822","Hamilton County, Nebraska",0.445547503751439
+"1823","Thayer County, Nebraska",0.505809499182401
+"1824","Franklin County, Nebraska",0.473721475459901
+"1825","Washington County, Nebraska",0.434673449870799
+"1826","Cherry County, Nebraska",0.461519669889731
+"1827","Stanton County, Nebraska",0.414195253029273
+"1828","Antelope County, Nebraska",0.489955634345268
+"1829","Box Butte County, Nebraska",0.421194061263684
+"1830","Kearney County, Nebraska",0.473745482656668
+"1831","Sheridan County, Nebraska",0.462093186416556
+"1832","Howard County, Nebraska",0.424101339838281
+"1833","Morrill County, Nebraska",0.454109257576476
+"1834","Polk County, Nebraska",0.424651942353373
+"1835","Dodge County, Nebraska",0.443645074529583
+"1836","Valley County, Nebraska",0.476037361461255
+"1837","Dundy County, Nebraska",0.513370906988889
+"1838","Knox County, Nebraska",0.454116400431109
+"1839","Greeley County, Nebraska",0.430595966078392
+"1840","Phelps County, Nebraska",0.476228610032994
+"1841","Johnson County, Nebraska",0.422843567102863
+"1842","Saline County, Nebraska",0.407285485657523
+"1843","Hitchcock County, Nebraska",0.446550994575261
+"1844","Sherman County, Nebraska",0.447339527302106
+"1845","Cedar County, Nebraska",0.458540528598042
+"1846","Nance County, Nebraska",0.436632964586563
+"1847","Fillmore County, Nebraska",0.456514702362013
+"1848","Merrick County, Nebraska",0.436166385865564
+"1849","Strafford County, New Hampshire",0.468582970721606
+"1850","Merrimack County, New Hampshire",0.477440852090133
+"1851","Grafton County, New Hampshire",0.574578302348937
+"1852","Rockingham County, New Hampshire",0.478483897296778
+"1853","Belknap County, New Hampshire",0.511874450944099
+"1854","Coos County, New Hampshire",0.485090086997324
+"1855","Carroll County, New Hampshire",0.587761315106385
+"1856","Cheshire County, New Hampshire",0.495426896750995
+"1857","Hillsborough County, New Hampshire",0.488009540525082
+"1858","Sullivan County, New Hampshire",0.48704561230597
+"1859","Monmouth County, New Jersey",0.565579627737534
+"1860","Salem County, New Jersey",0.473540884060295
+"1861","Camden County, New Jersey",0.520671435790517
+"1862","Middlesex County, New Jersey",0.488442763435677
+"1863","Mercer County, New Jersey",0.597623363848299
+"1864","Passaic County, New Jersey",0.520570474421019
+"1865","Sussex County, New Jersey",0.464681502725072
+"1866","Union County, New Jersey",0.589864854175545
+"1867","Hunterdon County, New Jersey",0.533395523082965
+"1868","Warren County, New Jersey",0.462558160564091
+"1869","Cumberland County, New Jersey",0.476465994346331
+"1870","Burlington County, New Jersey",0.488261067364383
+"1871","Essex County, New Jersey",0.683762237431969
+"1872","Morris County, New Jersey",0.573306996530362
+"1873","Somerset County, New Jersey",0.574088820374812
+"1874","Bergen County, New Jersey",0.599628371454141
+"1875","Hudson County, New Jersey",0.565847200769496
+"1876","Atlantic County, New Jersey",0.50826015518593
+"1877","Ocean County, New Jersey",0.493383665161344
+"1878","Gloucester County, New Jersey",0.454744727650459
+"1879","Cape May County, New Jersey",0.523729073267124
+"1880","Lea County, New Mexico",0.498523427943447
+"1881","Sandoval County, New Mexico",0.463144407377104
+"1882","Guadalupe County, New Mexico",0.461844317479866
+"1883","Lincoln County, New Mexico",0.565793983180564
+"1884","Curry County, New Mexico",0.488388641374959
+"1885","Santa Fe County, New Mexico",0.588461959614753
+"1886","Union County, New Mexico",0.511435082880051
+"1887","Valencia County, New Mexico",0.474838121906339
+"1888","Hidalgo County, New Mexico",0.467970578978118
+"1889","Otero County, New Mexico",0.487142078066757
+"1890","Quay County, New Mexico",0.499770768798924
+"1891","Eddy County, New Mexico",0.521512233175405
+"1892","Roosevelt County, New Mexico",0.485927842456927
+"1893","McKinley County, New Mexico",0.512686744434278
+"1894","Bernalillo County, New Mexico",0.521679278946215
+"1895","San Miguel County, New Mexico",0.55683887881535
+"1896","Sierra County, New Mexico",0.491917479107454
+"1897","Luna County, New Mexico",0.492707127767581
+"1898","Los Alamos County, New Mexico",0.415376335913066
+"1899","Cibola County, New Mexico",0.473004716947381
+"1900","Socorro County, New Mexico",0.499785303295128
+"1901","Rio Arriba County, New Mexico",0.522097339378732
+"1902","Catron County, New Mexico",0.499024100336698
+"1903","San Juan County, New Mexico",0.488646372417144
+"1904","Chaves County, New Mexico",0.539852743748911
+"1905","Taos County, New Mexico",0.55359192501095
+"1906","Torrance County, New Mexico",0.528785062554935
+"1907","Grant County, New Mexico",0.50386390689129
+"1908","Mora County, New Mexico",0.484493747330109
+"1909","Colfax County, New Mexico",0.530091184421205
+"1910","Lincoln County, Nevada",0.475972777468932
+"1911","Carson City, Nevada",0.520333909105677
+"1912","Eureka County, Nevada",0.466581763065189
+"1913","Churchill County, Nevada",0.482495800686755
+"1914","Elko County, Nevada",0.440259553294247
+"1915","Lyon County, Nevada",0.445069367183057
+"1916","Mineral County, Nevada",0.502384359028141
+"1917","Pershing County, Nevada",0.485750037341334
+"1918","Washoe County, Nevada",0.601954196110613
+"1919","Storey County, Nevada",0.423479387427278
+"1920","White Pine County, Nevada",0.457967460925635
+"1921","Clark County, Nevada",0.598758116519423
+"1922","Douglas County, Nevada",0.628363678373325
+"1923","Nye County, Nevada",0.499936853503127
+"1924","Lander County, Nevada",0.427189601154683
+"1925","Humboldt County, Nevada",0.449855306238088
+"1926","Wayne County, New York",0.447329313749397
+"1927","Rockland County, New York",0.536278334613738
+"1928","Onondaga County, New York",0.534676989075953
+"1929","Queens County, New York",0.491908473818585
+"1930","Dutchess County, New York",0.509140150046501
+"1931","Albany County, New York",0.54612481141478
+"1932","Lewis County, New York",0.45836470698776
+"1933","Richmond County, New York",0.494833429178968
+"1934","Montgomery County, New York",0.491329109278059
+"1935","Suffolk County, New York",0.526966365737231
+"1936","Seneca County, New York",0.48053605900059
+"1937","Oswego County, New York",0.469083353846159
+"1938","Allegany County, New York",0.491400178789171
+"1939","Herkimer County, New York",0.496007738492537
+"1940","Greene County, New York",0.475352456407848
+"1941","Columbia County, New York",0.559861198562314
+"1942","Erie County, New York",0.54308332628844
+"1943","St Lawrence County, New York",0.498280843081208
+"1944","New York County, New York",0.81805002504096
+"1945","Oneida County, New York",0.509269077415416
+"1946","Bronx County, New York",0.52753096632131
+"1947","Genesee County, New York",0.465841370167474
+"1948","Orange County, New York",0.495749672375445
+"1949","Washington County, New York",0.453828948971243
+"1950","Chautauqua County, New York",0.506564757209353
+"1951","Hamilton County, New York",0.459235731040698
+"1952","Livingston County, New York",0.461114118309915
+"1953","Chemung County, New York",0.518449698118577
+"1954","Steuben County, New York",0.527971509987676
+"1955","Franklin County, New York",0.508336347366723
+"1956","Chenango County, New York",0.473999078199277
+"1957","Saratoga County, New York",0.563728861774246
+"1958","Schenectady County, New York",0.489949345498238
+"1959","Rensselaer County, New York",0.469693256056598
+"1960","Broome County, New York",0.525799601137998
+"1961","Tioga County, New York",0.468968283967844
+"1962","Niagara County, New York",0.497611477460032
+"1963","Kings County, New York",0.601825795779905
+"1964","Clinton County, New York",0.488466819033043
+"1965","Jefferson County, New York",0.481587005346048
+"1966","Cortland County, New York",0.489784720982381
+"1967","Schuyler County, New York",0.476470798779339
+"1968","Westchester County, New York",0.698401932393169
+"1969","Tompkins County, New York",0.570890516596568
+"1970","Monroe County, New York",0.539628383911824
+"1971","Cayuga County, New York",0.491138597562895
+"1972","Schoharie County, New York",0.47756681864695
+"1973","Madison County, New York",0.505674939419735
+"1974","Orleans County, New York",0.457041496431319
+"1975","Yates County, New York",0.494830142647609
+"1976","Ulster County, New York",0.505116965452687
+"1977","Nassau County, New York",0.57585434309441
+"1978","Essex County, New York",0.510374722804952
+"1979","Ontario County, New York",0.523388341124785
+"1980","Putnam County, New York",0.487867777015767
+"1981","Wyoming County, New York",0.43981847661538
+"1982","Cattaraugus County, New York",0.494406087594974
+"1983","Otsego County, New York",0.508377358963657
+"1984","Fulton County, New York",0.485401777845294
+"1985","Delaware County, New York",0.523464729830755
+"1986","Warren County, New York",0.530478191682843
+"1987","Sullivan County, New York",0.500264406428567
+"1988","Athens County, Ohio",0.549999097251267
+"1989","Darke County, Ohio",0.461637764053055
+"1990","Brown County, Ohio",0.427512456764995
+"1991","Ross County, Ohio",0.467656592626057
+"1992","Scioto County, Ohio",0.52847395276431
+"1993","Paulding County, Ohio",0.45206431400039
+"1994","Tuscarawas County, Ohio",0.47271931064789
+"1995","Logan County, Ohio",0.444560576830472
+"1996","Cuyahoga County, Ohio",0.57486814198787
+"1997","Butler County, Ohio",0.47770630058468
+"1998","Noble County, Ohio",0.500885282461318
+"1999","Crawford County, Ohio",0.449034545426565
+"2000","Gallia County, Ohio",0.508705897422433
+"2001","Wayne County, Ohio",0.469562688911559
+"2002","Morgan County, Ohio",0.466417648166667
+"2003","Muskingum County, Ohio",0.491804692725431
+"2004","Monroe County, Ohio",0.592472877402576
+"2005","Pickaway County, Ohio",0.419369069499024
+"2006","Greene County, Ohio",0.495070150192297
+"2007","Huron County, Ohio",0.439751795526568
+"2008","Meigs County, Ohio",0.477735430445612
+"2009","Portage County, Ohio",0.490932610162968
+"2010","Clermont County, Ohio",0.470337397098527
+"2011","Miami County, Ohio",0.460829841481342
+"2012","Putnam County, Ohio",0.450743255256725
+"2013","Seneca County, Ohio",0.440266033328953
+"2014","Union County, Ohio",0.462926127517606
+"2015","Marion County, Ohio",0.466121538951671
+"2016","Harrison County, Ohio",0.500760002676447
+"2017","Sandusky County, Ohio",0.443323902161686
+"2018","Henry County, Ohio",0.420528100487863
+"2019","Fairfield County, Ohio",0.455192207048954
+"2020","Champaign County, Ohio",0.419311330852267
+"2021","Perry County, Ohio",0.455338855541364
+"2022","Belmont County, Ohio",0.534394604374512
+"2023","Wyandot County, Ohio",0.451028451739466
+"2024","Richland County, Ohio",0.477581434347691
+"2025","Lucas County, Ohio",0.535716030248718
+"2026","Erie County, Ohio",0.479707264992445
+"2027","Medina County, Ohio",0.452260094391715
+"2028","Ashtabula County, Ohio",0.462910394693855
+"2029","Allen County, Ohio",0.500129771880458
+"2030","Stark County, Ohio",0.497251585356957
+"2031","Summit County, Ohio",0.532433332207875
+"2032","Carroll County, Ohio",0.478575559686201
+"2033","Pike County, Ohio",0.481039339459415
+"2034","Trumbull County, Ohio",0.475112727292648
+"2035","Jefferson County, Ohio",0.47814344734001
+"2036","Shelby County, Ohio",0.455257219702811
+"2037","Holmes County, Ohio",0.481935110618526
+"2038","Licking County, Ohio",0.461897454304313
+"2039","Montgomery County, Ohio",0.514975096055643
+"2040","Van Wert County, Ohio",0.442407025128578
+"2041","Defiance County, Ohio",0.430796039905164
+"2042","Preble County, Ohio",0.425317166011784
+"2043","Lake County, Ohio",0.463304008642093
+"2044","Washington County, Ohio",0.50610722543752
+"2045","Morrow County, Ohio",0.433143089796614
+"2046","Mercer County, Ohio",0.460946373005339
+"2047","Franklin County, Ohio",0.526100637823209
+"2048","Lawrence County, Ohio",0.485066547325208
+"2049","Clinton County, Ohio",0.495270705302681
+"2050","Fayette County, Ohio",0.478321878234964
+"2051","Ottawa County, Ohio",0.451291826623168
+"2052","Vinton County, Ohio",0.452748579516026
+"2053","Geauga County, Ohio",0.541204306717893
+"2054","Fulton County, Ohio",0.433756619493438
+"2055","Auglaize County, Ohio",0.442854617029022
+"2056","Highland County, Ohio",0.462563099966638
+"2057","Guernsey County, Ohio",0.508809179794447
+"2058","Lorain County, Ohio",0.482284336488031
+"2059","Delaware County, Ohio",0.496921504309804
+"2060","Clark County, Ohio",0.479500771407926
+"2061","Hamilton County, Ohio",0.589486035931009
+"2062","Coshocton County, Ohio",0.453403548365539
+"2063","Knox County, Ohio",0.480458698656751
+"2064","Ashland County, Ohio",0.445504121456944
+"2065","Madison County, Ohio",0.473535764459412
+"2066","Williams County, Ohio",0.450601058684752
+"2067","Wood County, Ohio",0.485528013694795
+"2068","Columbiana County, Ohio",0.463552253200395
+"2069","Hardin County, Ohio",0.445320430967851
+"2070","Mahoning County, Ohio",0.520837027534717
+"2071","Jackson County, Ohio",0.486455536072028
+"2072","Hancock County, Ohio",0.504443242501786
+"2073","Adams County, Ohio",0.496741235604899
+"2074","Hocking County, Ohio",0.466860583543866
+"2075","Warren County, Ohio",0.472468347262586
+"2076","Murray County, Oklahoma",0.459930172152723
+"2077","Harmon County, Oklahoma",0.541102546214651
+"2078","Muskogee County, Oklahoma",0.504012354006452
+"2079","Pittsburg County, Oklahoma",0.49723343768834
+"2080","Bryan County, Oklahoma",0.514593627892497
+"2081","Beckham County, Oklahoma",0.523818338112143
+"2082","Washita County, Oklahoma",0.460689702567673
+"2083","McClain County, Oklahoma",0.472995810339626
+"2084","Kay County, Oklahoma",0.501076890425117
+"2085","Johnston County, Oklahoma",0.477920801475504
+"2086","Grant County, Oklahoma",0.525295798577744
+"2087","Cherokee County, Oklahoma",0.492747417308503
+"2088","Latimer County, Oklahoma",0.494067406811366
+"2089","Lincoln County, Oklahoma",0.470061445400801
+"2090","Cotton County, Oklahoma",0.467162534169617
+"2091","Comanche County, Oklahoma",0.464509936494565
+"2092","Delaware County, Oklahoma",0.505883687916853
+"2093","Mayes County, Oklahoma",0.481535758590851
+"2094","Wagoner County, Oklahoma",0.434590370089502
+"2095","Pottawatomie County, Oklahoma",0.484269108637867
+"2096","Seminole County, Oklahoma",0.507688752431863
+"2097","Le Flore County, Oklahoma",0.492993617303788
+"2098","Payne County, Oklahoma",0.546396060312293
+"2099","Custer County, Oklahoma",0.507659137516114
+"2100","Cimarron County, Oklahoma",0.47321062786824
+"2101","Tillman County, Oklahoma",0.467107093423291
+"2102","Sequoyah County, Oklahoma",0.504014251946116
+"2103","Woods County, Oklahoma",0.539389264725044
+"2104","Pushmataha County, Oklahoma",0.523925409553169
+"2105","Kiowa County, Oklahoma",0.474005676600152
+"2106","Jefferson County, Oklahoma",0.521577584323351
+"2107","Craig County, Oklahoma",0.471789283279808
+"2108","Roger Mills County, Oklahoma",0.535167200208955
+"2109","Creek County, Oklahoma",0.495833918197756
+"2110","Cleveland County, Oklahoma",0.476716681405375
+"2111","Stephens County, Oklahoma",0.529596531877938
+"2112","Alfalfa County, Oklahoma",0.576253107055019
+"2113","Osage County, Oklahoma",0.492839784645449
+"2114","Ottawa County, Oklahoma",0.494023381341182
+"2115","Garvin County, Oklahoma",0.500968549709619
+"2116","Coal County, Oklahoma",0.507819062013112
+"2117","Texas County, Oklahoma",0.441993187919978
+"2118","McCurtain County, Oklahoma",0.499429054482647
+"2119","Noble County, Oklahoma",0.471578543621413
+"2120","Canadian County, Oklahoma",0.419274761024569
+"2121","Grady County, Oklahoma",0.476873717852009
+"2122","Kingfisher County, Oklahoma",0.471466552085874
+"2123","Adair County, Oklahoma",0.485213414980422
+"2124","Carter County, Oklahoma",0.513243226165613
+"2125","Greer County, Oklahoma",0.469895223067704
+"2126","Love County, Oklahoma",0.436456667330419
+"2127","Marshall County, Oklahoma",0.487488980701425
+"2128","Washington County, Oklahoma",0.500437793156707
+"2129","Pontotoc County, Oklahoma",0.48462904413152
+"2130","Dewey County, Oklahoma",0.503158016899514
+"2131","Rogers County, Oklahoma",0.468889457089724
+"2132","Woodward County, Oklahoma",0.526553966911226
+"2133","Blaine County, Oklahoma",0.485176341137989
+"2134","Nowata County, Oklahoma",0.471966866587741
+"2135","Hughes County, Oklahoma",0.499558480735519
+"2136","Okmulgee County, Oklahoma",0.477517789641459
+"2137","Okfuskee County, Oklahoma",0.480074248632411
+"2138","Garfield County, Oklahoma",0.503884454842796
+"2139","Beaver County, Oklahoma",0.476595733392167
+"2140","Harper County, Oklahoma",0.432671142045706
+"2141","Major County, Oklahoma",0.502593846348083
+"2142","Oklahoma County, Oklahoma",0.556309093024531
+"2143","Atoka County, Oklahoma",0.498591263471282
+"2144","Pawnee County, Oklahoma",0.504072264275884
+"2145","Logan County, Oklahoma",0.485820909604334
+"2146","Ellis County, Oklahoma",0.554721890996491
+"2147","McIntosh County, Oklahoma",0.49036908612803
+"2148","Choctaw County, Oklahoma",0.513783366030047
+"2149","Jackson County, Oklahoma",0.478033755067808
+"2150","Tulsa County, Oklahoma",0.570151185019506
+"2151","Haskell County, Oklahoma",0.47069346203916
+"2152","Caddo County, Oklahoma",0.479974755568516
+"2153","Wallowa County, Oregon",0.49619688235756
+"2154","Josephine County, Oregon",0.532388933801547
+"2155","Clatsop County, Oregon",0.488972659370724
+"2156","Jackson County, Oregon",0.524903258101752
+"2157","Morrow County, Oregon",0.439127664697773
+"2158","Coos County, Oregon",0.512171323247605
+"2159","Sherman County, Oregon",0.543679081331343
+"2160","Hood River County, Oregon",0.475586961289779
+"2161","Clackamas County, Oregon",0.527322489500896
+"2162","Lincoln County, Oregon",0.521468649631674
+"2163","Lake County, Oregon",0.519380972553035
+"2164","Tillamook County, Oregon",0.477682585173569
+"2165","Umatilla County, Oregon",0.472493428581212
+"2166","Crook County, Oregon",0.504924660421522
+"2167","Marion County, Oregon",0.486003757406918
+"2168","Wasco County, Oregon",0.480496780883656
+"2169","Deschutes County, Oregon",0.542742519597043
+"2170","Harney County, Oregon",0.491637446135616
+"2171","Multnomah County, Oregon",0.555480509829513
+"2172","Benton County, Oregon",0.548008680257063
+"2173","Grant County, Oregon",0.519292009353763
+"2174","Malheur County, Oregon",0.513036341669065
+"2175","Gilliam County, Oregon",0.470638420983193
+"2176","Linn County, Oregon",0.465335184415122
+"2177","Washington County, Oregon",0.495644066135787
+"2178","Baker County, Oregon",0.509631973111033
+"2179","Jefferson County, Oregon",0.454382666370255
+"2180","Douglas County, Oregon",0.50543860950637
+"2181","Columbia County, Oregon",0.442060541950812
+"2182","Union County, Oregon",0.490755881486673
+"2183","Yamhill County, Oregon",0.495496848641336
+"2184","Curry County, Oregon",0.530392572152764
+"2185","Klamath County, Oregon",0.508408430911947
+"2186","Polk County, Oregon",0.46981133811603
+"2187","Lane County, Oregon",0.542841885967313
+"2188","Wyoming County, Pennsylvania",0.462785132349183
+"2189","Somerset County, Pennsylvania",0.463781655167798
+"2190","Wayne County, Pennsylvania",0.466187329641562
+"2191","Northampton County, Pennsylvania",0.48786844065591
+"2192","Lehigh County, Pennsylvania",0.503618559297059
+"2193","Lawrence County, Pennsylvania",0.492105186230794
+"2194","Greene County, Pennsylvania",0.507174521979158
+"2195","Tioga County, Pennsylvania",0.463498139417916
+"2196","Armstrong County, Pennsylvania",0.456881358702707
+"2197","Clinton County, Pennsylvania",0.462955425979048
+"2198","Butler County, Pennsylvania",0.508875727896087
+"2199","Potter County, Pennsylvania",0.481623363207228
+"2200","Adams County, Pennsylvania",0.440011940039772
+"2201","Berks County, Pennsylvania",0.48641197148338
+"2202","Luzerne County, Pennsylvania",0.497784107492921
+"2203","Mercer County, Pennsylvania",0.484649543303122
+"2204","Westmoreland County, Pennsylvania",0.497406409420584
+"2205","Lancaster County, Pennsylvania",0.477713006904695
+"2206","Lackawanna County, Pennsylvania",0.511350369546111
+"2207","Juniata County, Pennsylvania",0.436128992281593
+"2208","Warren County, Pennsylvania",0.519865800572956
+"2209","Mifflin County, Pennsylvania",0.451884172077055
+"2210","Monroe County, Pennsylvania",0.45126624819282
+"2211","McKean County, Pennsylvania",0.493690347292816
+"2212","Montgomery County, Pennsylvania",0.571096186782478
+"2213","Perry County, Pennsylvania",0.402690230911584
+"2214","Snyder County, Pennsylvania",0.43828373410234
+"2215","Beaver County, Pennsylvania",0.463284951495955
+"2216","Lycoming County, Pennsylvania",0.475805029953949
+"2217","Chester County, Pennsylvania",0.543998056973229
+"2218","Franklin County, Pennsylvania",0.431989833479819
+"2219","Schuylkill County, Pennsylvania",0.483007531369044
+"2220","Susquehanna County, Pennsylvania",0.501138088633442
+"2221","Montour County, Pennsylvania",0.524549592605555
+"2222","Clarion County, Pennsylvania",0.479635437644472
+"2223","Crawford County, Pennsylvania",0.478116787930586
+"2224","Philadelphia County, Pennsylvania",0.563348733681594
+"2225","Fayette County, Pennsylvania",0.493878513092561
+"2226","Delaware County, Pennsylvania",0.557661935997905
+"2227","Bedford County, Pennsylvania",0.46009962603535
+"2228","Carbon County, Pennsylvania",0.442213617252107
+"2229","Cumberland County, Pennsylvania",0.483670503752955
+"2230","Elk County, Pennsylvania",0.457731325715192
+"2231","Blair County, Pennsylvania",0.510135883546596
+"2232","Venango County, Pennsylvania",0.473007703709657
+"2233","Indiana County, Pennsylvania",0.506252848054402
+"2234","Fulton County, Pennsylvania",0.433196833256712
+"2235","Allegheny County, Pennsylvania",0.562596010204689
+"2236","Union County, Pennsylvania",0.50314157950295
+"2237","Pike County, Pennsylvania",0.446408464069358
+"2238","Columbia County, Pennsylvania",0.487991723814577
+"2239","York County, Pennsylvania",0.454557612743011
+"2240","Bucks County, Pennsylvania",0.518005163389538
+"2241","Cameron County, Pennsylvania",0.467128407198157
+"2242","Sullivan County, Pennsylvania",0.485539059000749
+"2243","Erie County, Pennsylvania",0.511027749412284
+"2244","Northumberland County, Pennsylvania",0.469387998946565
+"2245","Bradford County, Pennsylvania",0.480538093093275
+"2246","Clearfield County, Pennsylvania",0.478303167986862
+"2247","Huntingdon County, Pennsylvania",0.454304341891263
+"2248","Jefferson County, Pennsylvania",0.481936680946751
+"2249","Dauphin County, Pennsylvania",0.489438287316822
+"2250","Washington County, Pennsylvania",0.526915651089134
+"2251","Forest County, Pennsylvania",0.445815611668187
+"2252","Centre County, Pennsylvania",0.534092358834077
+"2253","Lebanon County, Pennsylvania",0.445580654988004
+"2254","Cambria County, Pennsylvania",0.497478628659219
+"2255","Newport County, Rhode Island",0.537954302175677
+"2256","Providence County, Rhode Island",0.526710795452615
+"2257","Bristol County, Rhode Island",0.588505064861068
+"2258","Washington County, Rhode Island",0.502681358553103
+"2259","Kent County, Rhode Island",0.497083721463638
+"2260","Abbeville County, South Carolina",0.493907446768829
+"2261","Union County, South Carolina",0.501056740155323
+"2262","Newberry County, South Carolina",0.486325362025338
+"2263","Darlington County, South Carolina",0.560658290582087
+"2264","Dorchester County, South Carolina",0.441246576933315
+"2265","Greenville County, South Carolina",0.53787010155904
+"2266","Lee County, South Carolina",0.516170684288175
+"2267","Greenwood County, South Carolina",0.536788110267138
+"2268","Aiken County, South Carolina",0.501253349542806
+"2269","Barnwell County, South Carolina",0.520308674075743
+"2270","Pickens County, South Carolina",0.517942788128657
+"2271","Richland County, South Carolina",0.533848867311934
+"2272","Hampton County, South Carolina",0.541116412365206
+"2273","Dillon County, South Carolina",0.518556277147125
+"2274","Marion County, South Carolina",0.521808784097006
+"2275","Chesterfield County, South Carolina",0.513965134783376
+"2276","Lexington County, South Carolina",0.48841863671041
+"2277","Williamsburg County, South Carolina",0.515094112501052
+"2278","Colleton County, South Carolina",0.524506357451334
+"2279","Clarendon County, South Carolina",0.520255551258719
+"2280","York County, South Carolina",0.507420068936605
+"2281","Berkeley County, South Carolina",0.460338251464508
+"2282","Calhoun County, South Carolina",0.534095703087259
+"2283","Spartanburg County, South Carolina",0.516423970673516
+"2284","Allendale County, South Carolina",0.553428113397489
+"2285","Charleston County, South Carolina",0.596554119950925
+"2286","Chester County, South Carolina",0.508262955893823
+"2287","Orangeburg County, South Carolina",0.530001786399581
+"2288","Bamberg County, South Carolina",0.554531466873501
+"2289","Florence County, South Carolina",0.536642735529674
+"2290","Laurens County, South Carolina",0.494119445280405
+"2291","Beaufort County, South Carolina",0.566371706880743
+"2292","Fairfield County, South Carolina",0.545819650388209
+"2293","Lancaster County, South Carolina",0.504529979188127
+"2294","Kershaw County, South Carolina",0.485069823640366
+"2295","Oconee County, South Carolina",0.531036547598671
+"2296","Jasper County, South Carolina",0.475600616005168
+"2297","Marlboro County, South Carolina",0.505843523854271
+"2298","Horry County, South Carolina",0.505366867140107
+"2299","Saluda County, South Carolina",0.484059941010058
+"2300","Georgetown County, South Carolina",0.558938010949758
+"2301","Anderson County, South Carolina",0.522121394064507
+"2302","McCormick County, South Carolina",0.51146894425331
+"2303","Edgefield County, South Carolina",0.495687196812885
+"2304","Cherokee County, South Carolina",0.50353330846538
+"2305","Sumter County, South Carolina",0.494844765021296
+"2306","Beadle County, South Dakota",0.486534357477198
+"2307","Corson County, South Dakota",0.49147177500895
+"2308","Dewey County, South Dakota",0.49485636247561
+"2309","Lincoln County, South Dakota",0.49897656193724
+"2310","Miner County, South Dakota",0.481454805404573
+"2311","Roberts County, South Dakota",0.460522796735214
+"2312","Moody County, South Dakota",0.462279837708318
+"2313","Hughes County, South Dakota",0.434770209136574
+"2314","Clark County, South Dakota",0.466007547200941
+"2315","Lyman County, South Dakota",0.486320844882353
+"2316","Jackson County, South Dakota",0.460346718657946
+"2317","Marshall County, South Dakota",0.513642127835694
+"2318","Hutchinson County, South Dakota",0.450762120437458
+"2319","Hanson County, South Dakota",0.377641768282197
+"2320","Lake County, South Dakota",0.475171180644836
+"2321","Ziebach County, South Dakota",0.561586922432099
+"2322","Douglas County, South Dakota",0.481722684888889
+"2323","Deuel County, South Dakota",0.434143868433684
+"2324","Brown County, South Dakota",0.495130989638785
+"2325","Hand County, South Dakota",0.481502157389404
+"2326","Kingsbury County, South Dakota",0.464579566217696
+"2327","Gregory County, South Dakota",0.529666185335025
+"2328","Faulk County, South Dakota",0.491786845449001
+"2329","Union County, South Dakota",0.62856841270921
+"2330","Tripp County, South Dakota",0.500941941052346
+"2331","Butte County, South Dakota",0.448491798691346
+"2332","Brule County, South Dakota",0.435236865343977
+"2333","Potter County, South Dakota",0.517576504625947
+"2334","Bennett County, South Dakota",0.451243811828571
+"2335","Haakon County, South Dakota",0.459286207042105
+"2336","Todd County, South Dakota",0.484956232255389
+"2337","Turner County, South Dakota",0.430565710769886
+"2338","Aurora County, South Dakota",0.457876035844425
+"2339","Edmunds County, South Dakota",0.5127907319628
+"2340","Yankton County, South Dakota",0.493745399430835
+"2341","Meade County, South Dakota",0.429355796222411
+"2342","Spink County, South Dakota",0.498880506945268
+"2343","Custer County, South Dakota",0.459239253383613
+"2344","Hamlin County, South Dakota",0.425127280146006
+"2345","Perkins County, South Dakota",0.503847950369066
+"2346","Codington County, South Dakota",0.493142929617563
+"2347","Grant County, South Dakota",0.442510773484263
+"2348","Pennington County, South Dakota",0.480889277033693
+"2349","Walworth County, South Dakota",0.482925268641691
+"2350","Clay County, South Dakota",0.528502430190815
+"2351","Sanborn County, South Dakota",0.478944567235075
+"2352","Davison County, South Dakota",0.494652262305361
+"2353","McPherson County, South Dakota",0.493761683639247
+"2354","Brookings County, South Dakota",0.482253911058337
+"2355","Bon Homme County, South Dakota",0.462218067047177
+"2356","Day County, South Dakota",0.503896239457165
+"2357","Minnehaha County, South Dakota",0.488675791532934
+"2358","Charles Mix County, South Dakota",0.504311662497635
+"2359","Jerauld County, South Dakota",0.474816061062572
+"2360","McCook County, South Dakota",0.453357542627608
+"2361","Fall River County, South Dakota",0.455646647619047
+"2362","Stanley County, South Dakota",0.474718748998423
+"2363","Lawrence County, South Dakota",0.513897414850494
+"2364","Rutherford County, Tennessee",0.430514993535232
+"2365","Sumner County, Tennessee",0.474477215456292
+"2366","Unicoi County, Tennessee",0.488167695256866
+"2367","Pickett County, Tennessee",0.529705298978408
+"2368","Marion County, Tennessee",0.493990911618221
+"2369","Haywood County, Tennessee",0.495178866887843
+"2370","Stewart County, Tennessee",0.457775513482167
+"2371","Houston County, Tennessee",0.453038901564521
+"2372","Hardeman County, Tennessee",0.479721920729999
+"2373","Franklin County, Tennessee",0.480242699302724
+"2374","Lincoln County, Tennessee",0.464317554399297
+"2375","Morgan County, Tennessee",0.459163458843012
+"2376","Chester County, Tennessee",0.47177289169134
+"2377","Monroe County, Tennessee",0.48813675996231
+"2378","Fayette County, Tennessee",0.521436315705308
+"2379","Lake County, Tennessee",0.519327073137667
+"2380","Fentress County, Tennessee",0.538328450956189
+"2381","Knox County, Tennessee",0.557974006482673
+"2382","Obion County, Tennessee",0.513965994512278
+"2383","Jefferson County, Tennessee",0.486226335324508
+"2384","Lawrence County, Tennessee",0.467957676233358
+"2385","Madison County, Tennessee",0.525535899477506
+"2386","White County, Tennessee",0.478458609271606
+"2387","Lewis County, Tennessee",0.471228134997454
+"2388","Sullivan County, Tennessee",0.529154690077987
+"2389","Warren County, Tennessee",0.483463627450929
+"2390","Hawkins County, Tennessee",0.481000957265377
+"2391","McNairy County, Tennessee",0.479495648100486
+"2392","Overton County, Tennessee",0.488826272514
+"2393","Trousdale County, Tennessee",0.469089069462611
+"2394","Cocke County, Tennessee",0.50411813560503
+"2395","DeKalb County, Tennessee",0.511618061225434
+"2396","Decatur County, Tennessee",0.507743351037766
+"2397","Maury County, Tennessee",0.449215510192207
+"2398","Cheatham County, Tennessee",0.413407524211946
+"2399","Wilson County, Tennessee",0.443197681642585
+"2400","Macon County, Tennessee",0.460846701543586
+"2401","Carroll County, Tennessee",0.479056089855301
+"2402","Perry County, Tennessee",0.511678181704898
+"2403","Cumberland County, Tennessee",0.480211276684204
+"2404","Weakley County, Tennessee",0.519168542358971
+"2405","Clay County, Tennessee",0.512592473030845
+"2406","Blount County, Tennessee",0.481514191521955
+"2407","Smith County, Tennessee",0.470126836373897
+"2408","Dyer County, Tennessee",0.501925078433193
+"2409","Union County, Tennessee",0.471286634044919
+"2410","Bradley County, Tennessee",0.514274545979228
+"2411","Williamson County, Tennessee",0.531685096444975
+"2412","Loudon County, Tennessee",0.48121990893343
+"2413","Jackson County, Tennessee",0.485155026461929
+"2414","Meigs County, Tennessee",0.492048310219047
+"2415","Sevier County, Tennessee",0.498794909189367
+"2416","Rhea County, Tennessee",0.492777098886409
+"2417","Gibson County, Tennessee",0.470803300972389
+"2418","Roane County, Tennessee",0.503072472253849
+"2419","Crockett County, Tennessee",0.503473759513295
+"2420","Scott County, Tennessee",0.502668623877963
+"2421","Polk County, Tennessee",0.485437616587546
+"2422","Van Buren County, Tennessee",0.440097889692308
+"2423","Putnam County, Tennessee",0.557826024125601
+"2424","Robertson County, Tennessee",0.411746390890223
+"2425","Grainger County, Tennessee",0.480569755291443
+"2426","Shelby County, Tennessee",0.577907774071562
+"2427","Sequatchie County, Tennessee",0.484170301781478
+"2428","Bledsoe County, Tennessee",0.497796048868769
+"2429","Campbell County, Tennessee",0.526139970212879
+"2430","Washington County, Tennessee",0.536295501331376
+"2431","McMinn County, Tennessee",0.482764026386325
+"2432","Anderson County, Tennessee",0.501556679167451
+"2433","Giles County, Tennessee",0.461650837157918
+"2434","Hancock County, Tennessee",0.507206967649237
+"2435","Johnson County, Tennessee",0.551476981398488
+"2436","Cannon County, Tennessee",0.450727715357647
+"2437","Carter County, Tennessee",0.490595703735498
+"2438","Hardin County, Tennessee",0.508917032718063
+"2439","Dickson County, Tennessee",0.468212246778832
+"2440","Montgomery County, Tennessee",0.443895529827369
+"2441","Marshall County, Tennessee",0.45310663557353
+"2442","Henry County, Tennessee",0.528870484241704
+"2443","Hamblen County, Tennessee",0.514066894419902
+"2444","Moore County, Tennessee",0.433856524955583
+"2445","Benton County, Tennessee",0.500470560531094
+"2446","Hickman County, Tennessee",0.479655220276656
+"2447","Hamilton County, Tennessee",0.544300922857599
+"2448","Wayne County, Tennessee",0.512789638068209
+"2449","Greene County, Tennessee",0.487775534157977
+"2450","Davidson County, Tennessee",0.574769126512723
+"2451","Grundy County, Tennessee",0.489992924453361
+"2452","Coffee County, Tennessee",0.478277947252008
+"2453","Henderson County, Tennessee",0.466034426408456
+"2454","Claiborne County, Tennessee",0.506114926528138
+"2455","Bedford County, Tennessee",0.464475394333473
+"2456","Tipton County, Tennessee",0.428373692873742
+"2457","Lauderdale County, Tennessee",0.502322916277551
+"2458","Humphreys County, Tennessee",0.467316124095171
+"2459","Live Oak County, Texas",0.597157461665855
+"2460","Tom Green County, Texas",0.5920128241331
+"2461","El Paso County, Texas",0.506308126939005
+"2462","Burnet County, Texas",0.546116213564581
+"2463","Bailey County, Texas",0.495403692682274
+"2464","Fort Bend County, Texas",0.494881038449604
+"2465","Willacy County, Texas",0.534403356807131
+"2466","Clay County, Texas",0.470603259698746
+"2467","Calhoun County, Texas",0.477221372760821
+"2468","Karnes County, Texas",0.714581550589232
+"2469","Garza County, Texas",0.572851381593342
+"2470","Panola County, Texas",0.502029778504987
+"2471","Zapata County, Texas",0.573504399669692
+"2472","Chambers County, Texas",0.452883077491627
+"2473","Starr County, Texas",0.486182205504181
+"2474","Houston County, Texas",0.54481883258787
+"2475","Burleson County, Texas",0.499764072740509
+"2476","Erath County, Texas",0.54437750567115
+"2477","Jackson County, Texas",0.476500920591114
+"2478","Marion County, Texas",0.537293098248263
+"2479","Hansford County, Texas",0.513364016321501
+"2480","Austin County, Texas",0.565861774046748
+"2481","Crosby County, Texas",0.496066645014619
+"2482","Wise County, Texas",0.468534224213642
+"2483","Palo Pinto County, Texas",0.559974740707915
+"2484","Washington County, Texas",0.526420612048193
+"2485","Liberty County, Texas",0.470486906768514
+"2486","Hudspeth County, Texas",0.518304270041322
+"2487","Angelina County, Texas",0.55584756895782
+"2488","Andrews County, Texas",0.481651481711651
+"2489","Orange County, Texas",0.465949010782991
+"2490","Ward County, Texas",0.533189269188514
+"2491","Shelby County, Texas",0.545038305853448
+"2492","Martin County, Texas",0.55665516675092
+"2493","Waller County, Texas",0.538379644573653
+"2494","Edwards County, Texas",0.57043230705087
+"2495","Harrison County, Texas",0.505331424236643
+"2496","Montague County, Texas",0.527943488522682
+"2497","Duval County, Texas",0.541198986958852
+"2498","Bosque County, Texas",0.517436681753251
+"2499","Hardeman County, Texas",0.549666365390698
+"2500","Lipscomb County, Texas",0.558150048737062
+"2501","Gonzales County, Texas",0.619285349789872
+"2502","Gaines County, Texas",0.455617582409439
+"2503","Coke County, Texas",0.491013780597127
+"2504","Frio County, Texas",0.574653700921151
+"2505","Donley County, Texas",0.489278095752098
+"2506","Callahan County, Texas",0.507617471385739
+"2507","Grayson County, Texas",0.506617861695753
+"2508","Franklin County, Texas",0.550301053851139
+"2509","Hill County, Texas",0.514907889338785
+"2510","Coleman County, Texas",0.572515078347137
+"2511","Dawson County, Texas",0.551289613875945
+"2512","Zavala County, Texas",0.569146746495451
+"2513","Anderson County, Texas",0.503105745074565
+"2514","Throckmorton County, Texas",0.660469963890157
+"2515","Hartley County, Texas",0.558879622382193
+"2516","Goliad County, Texas",0.551299853982992
+"2517","Gregg County, Texas",0.558707078914617
+"2518","Denton County, Texas",0.490600902303298
+"2519","Hall County, Texas",0.5284767014329
+"2520","Jones County, Texas",0.493781536510293
+"2521","McLennan County, Texas",0.535334262593069
+"2522","Trinity County, Texas",0.496041724426291
+"2523","Brooks County, Texas",0.526149455798077
+"2524","Rockwall County, Texas",0.472636973878975
+"2525","Shackelford County, Texas",0.758083497732752
+"2526","Hamilton County, Texas",0.578130300725837
+"2527","Crane County, Texas",0.397033405642672
+"2528","Gillespie County, Texas",0.585968846561029
+"2529","Nolan County, Texas",0.514512662820325
+"2530","Young County, Texas",0.57209087686156
+"2531","Comanche County, Texas",0.508451674410432
+"2532","Randall County, Texas",0.489385313786098
+"2533","Fayette County, Texas",0.557219022474786
+"2534","Kinney County, Texas",0.473885552079703
+"2535","Brazoria County, Texas",0.470462370996596
+"2536","Atascosa County, Texas",0.529951947508299
+"2537","Eastland County, Texas",0.563745400368575
+"2538","Brazos County, Texas",0.589496618159495
+"2539","Sherman County, Texas",0.51344183390568
+"2540","Cass County, Texas",0.497976571847917
+"2541","Jim Wells County, Texas",0.566515617004267
+"2542","Jasper County, Texas",0.505582904957758
+"2543","San Augustine County, Texas",0.528927809240111
+"2544","Matagorda County, Texas",0.528203250606486
+"2545","Jim Hogg County, Texas",0.541993446013033
+"2546","San Patricio County, Texas",0.476057470032834
+"2547","Collingsworth County, Texas",0.484632190722272
+"2548","Baylor County, Texas",0.578367217842716
+"2549","Nueces County, Texas",0.535406398903845
+"2550","Kendall County, Texas",0.58579987975856
+"2551","Reagan County, Texas",0.527452814479869
+"2552","Floyd County, Texas",0.537169904543307
+"2553","Cherokee County, Texas",0.52381611884923
+"2554","Hemphill County, Texas",0.604485460185539
+"2555","Reeves County, Texas",0.533612944798816
+"2556","Howard County, Texas",0.522420697295645
+"2557","Wilbarger County, Texas",0.491269246435533
+"2558","Hardin County, Texas",0.481700995086735
+"2559","Camp County, Texas",0.477935666003611
+"2560","Parmer County, Texas",0.443210306402916
+"2561","Archer County, Texas",0.505501206010746
+"2562","Hutchinson County, Texas",0.481430970371942
+"2563","Kimble County, Texas",0.56165688719397
+"2564","Mason County, Texas",0.579747234452742
+"2565","Dallam County, Texas",0.492199216500887
+"2566","Hockley County, Texas",0.489794809256521
+"2567","Wheeler County, Texas",0.63337749173659
+"2568","Winkler County, Texas",0.471960767162861
+"2569","Hopkins County, Texas",0.50566839471491
+"2570","Llano County, Texas",0.615430303940837
+"2571","Uvalde County, Texas",0.540164057064256
+"2572","Jefferson County, Texas",0.551017869241938
+"2573","Caldwell County, Texas",0.465366675271303
+"2574","Mills County, Texas",0.554255792049784
+"2575","Dallas County, Texas",0.615645379552149
+"2576","San Jacinto County, Texas",0.572760672171064
+"2577","Oldham County, Texas",0.513167540195313
+"2578","Maverick County, Texas",0.482107206628197
+"2579","Cochran County, Texas",0.513709934398058
+"2580","Wood County, Texas",0.498386634350099
+"2581","Gray County, Texas",0.524695532426666
+"2582","Kaufman County, Texas",0.444509443576176
+"2583","Swisher County, Texas",0.513887895677332
+"2584","Colorado County, Texas",0.55042006647486
+"2585","San Saba County, Texas",0.502825629107244
+"2586","Lavaca County, Texas",0.548214913219582
+"2587","Kleberg County, Texas",0.543354749386209
+"2588","Morris County, Texas",0.524693624796528
+"2589","Real County, Texas",0.466126418515523
+"2590","Taylor County, Texas",0.528939809276659
+"2591","Moore County, Texas",0.426146606538807
+"2592","Lynn County, Texas",0.527549500429616
+"2593","Mitchell County, Texas",0.458426403499455
+"2594","Carson County, Texas",0.429113544539032
+"2595","Freestone County, Texas",0.502866137179044
+"2596","Collin County, Texas",0.514864437475985
+"2597","Falls County, Texas",0.521001553455888
+"2598","Bowie County, Texas",0.542234305647578
+"2599","Lampasas County, Texas",0.480372446750166
+"2600","Kerr County, Texas",0.568957813482083
+"2601","Nacogdoches County, Texas",0.550849159089668
+"2602","Bandera County, Texas",0.525147113986975
+"2603","Wilson County, Texas",0.459782410778187
+"2604","Potter County, Texas",0.568644076227312
+"2605","Deaf Smith County, Texas",0.471172539140781
+"2606","Bee County, Texas",0.502660118758617
+"2607","Schleicher County, Texas",0.522088570823091
+"2608","Rains County, Texas",0.491058080548679
+"2609","Upshur County, Texas",0.470102418396851
+"2610","Milam County, Texas",0.511914652592981
+"2611","Upton County, Texas",0.572714463259655
+"2612","Cooke County, Texas",0.531671397332854
+"2613","Medina County, Texas",0.491239233322871
+"2614","Crockett County, Texas",0.457281939565248
+"2615","Castro County, Texas",0.594483185971212
+"2616","Blanco County, Texas",0.554788464936119
+"2617","Jeff Davis County, Texas",0.510146520667644
+"2618","Hood County, Texas",0.518375393077919
+"2619","Delta County, Texas",0.488394122178423
+"2620","Coryell County, Texas",0.425939003408539
+"2621","Guadalupe County, Texas",0.438455742318799
+"2622","Somervell County, Texas",0.506694354111046
+"2623","Cottle County, Texas",0.501410467286614
+"2624","Madison County, Texas",0.508508673370541
+"2625","Rusk County, Texas",0.486983310552132
+"2626","Hidalgo County, Texas",0.542715269258967
+"2627","Brewster County, Texas",0.544650995943106
+"2628","Comal County, Texas",0.518191461152738
+"2629","Haskell County, Texas",0.530814709229759
+"2630","Fannin County, Texas",0.504914393723317
+"2631","Parker County, Texas",0.527273482430331
+"2632","Hays County, Texas",0.51055180651206
+"2633","DeWitt County, Texas",0.716997226711514
+"2634","Scurry County, Texas",0.497952947178155
+"2635","Victoria County, Texas",0.571713539908613
+"2636","Dickens County, Texas",0.534094694562642
+"2637","Bexar County, Texas",0.534548277541313
+"2638","Limestone County, Texas",0.498195919428253
+"2639","Henderson County, Texas",0.517901603008126
+"2640","Aransas County, Texas",0.58230114396509
+"2641","Walker County, Texas",0.556757741149142
+"2642","Williamson County, Texas",0.433006044773006
+"2643","Smith County, Texas",0.555385900176737
+"2644","Montgomery County, Texas",0.574871736111234
+"2645","Sutton County, Texas",0.493370094929054
+"2646","Brown County, Texas",0.48269182048695
+"2647","Dimmit County, Texas",0.597865604455942
+"2648","Bell County, Texas",0.464110507762427
+"2649","La Salle County, Texas",0.787709305467275
+"2650","Tyler County, Texas",0.508970584356928
+"2651","Polk County, Texas",0.490505473174599
+"2652","Harris County, Texas",0.614891444850146
+"2653","Navarro County, Texas",0.533105972140985
+"2654","Cameron County, Texas",0.529084533529584
+"2655","Presidio County, Texas",0.562341146161731
+"2656","Robertson County, Texas",0.496084549537016
+"2657","Lamb County, Texas",0.500605126293936
+"2658","Fisher County, Texas",0.494169473463107
+"2659","Lamar County, Texas",0.52665739195627
+"2660","Tarrant County, Texas",0.542641205947696
+"2661","Runnels County, Texas",0.503529303562517
+"2662","Newton County, Texas",0.467573352120622
+"2663","Lee County, Texas",0.518774142697799
+"2664","Ochiltree County, Texas",0.578849034407468
+"2665","Van Zandt County, Texas",0.488197706187826
+"2666","Wichita County, Texas",0.55606184849976
+"2667","Jack County, Texas",0.514861651443748
+"2668","Travis County, Texas",0.583622576269417
+"2669","Val Verde County, Texas",0.467011727946586
+"2670","Hunt County, Texas",0.486290731568371
+"2671","Bastrop County, Texas",0.463067202195254
+"2672","Wharton County, Texas",0.504186148733329
+"2673","Concho County, Texas",0.480612100586716
+"2674","Stephens County, Texas",0.549928483984334
+"2675","McCulloch County, Texas",0.485860897850239
+"2676","Childress County, Texas",0.516296554635717
+"2677","Galveston County, Texas",0.528472947153856
+"2678","Ellis County, Texas",0.449150953811312
+"2679","Johnson County, Texas",0.44832814798575
+"2680","Midland County, Texas",0.629078754326991
+"2681","Pecos County, Texas",0.479134046568795
+"2682","Sabine County, Texas",0.514967805537549
+"2683","Ector County, Texas",0.505669175654616
+"2684","Knox County, Texas",0.508147415717467
+"2685","Lubbock County, Texas",0.557611884790478
+"2686","Terry County, Texas",0.484573244088482
+"2687","Refugio County, Texas",0.52193986360988
+"2688","Titus County, Texas",0.497371029095402
+"2689","Culberson County, Texas",0.520345060637056
+"2690","Red River County, Texas",0.529702627944188
+"2691","Yoakum County, Texas",0.479479320796113
+"2692","Grimes County, Texas",0.52849926379256
+"2693","Leon County, Texas",0.50920494650635
+"2694","Menard County, Texas",0.558774142580441
+"2695","Webb County, Texas",0.532576764013378
+"2696","Hale County, Texas",0.491617151942326
+"2697","Uintah County, Utah",0.451643273650578
+"2698","Tooele County, Utah",0.374699086422414
+"2699","Weber County, Utah",0.437407264974219
+"2700","Emery County, Utah",0.39861097997791
+"2701","Cache County, Utah",0.467337437028247
+"2702","Duchesne County, Utah",0.465564761186346
+"2703","Salt Lake County, Utah",0.500708244429666
+"2704","Carbon County, Utah",0.468049319012824
+"2705","Garfield County, Utah",0.460354324302113
+"2706","Sanpete County, Utah",0.439094200951278
+"2707","Beaver County, Utah",0.435543802952868
+"2708","Iron County, Utah",0.478039501445512
+"2709","Morgan County, Utah",0.445781407149339
+"2710","Utah County, Utah",0.494111090478284
+"2711","Davis County, Utah",0.437232897731937
+"2712","Summit County, Utah",0.621796515770159
+"2713","Washington County, Utah",0.49109634442175
+"2714","Kane County, Utah",0.477789100406956
+"2715","Box Elder County, Utah",0.395965826939588
+"2716","Juab County, Utah",0.396414679943979
+"2717","Wasatch County, Utah",0.504671311380235
+"2718","Millard County, Utah",0.422714788825962
+"2719","Grand County, Utah",0.500462011645289
+"2720","Wayne County, Utah",0.510667884036626
+"2721","Sevier County, Utah",0.472967855391489
+"2722","San Juan County, Utah",0.495032487346674
+"2723","Gloucester County, Virginia",0.414942718231442
+"2724","Waynesboro city, Virginia",0.455285919661721
+"2725","Hanover County, Virginia",0.439933756427755
+"2726","Hopewell city, Virginia",0.448429216690329
+"2727","Scott County, Virginia",0.515431997471052
+"2728","Prince William County, Virginia",0.401083862395194
+"2729","Westmoreland County, Virginia",0.466162872125288
+"2730","Greensville County, Virginia",0.461124305044177
+"2731","Pittsylvania County, Virginia",0.470976746252709
+"2732","Staunton city, Virginia",0.493650417393954
+"2733","Lunenburg County, Virginia",0.476257321803366
+"2734","Rockbridge County, Virginia",0.4836067431718
+"2735","Franklin County, Virginia",0.494523570271508
+"2736","Alleghany County, Virginia",0.468343470553016
+"2737","Portsmouth city, Virginia",0.449362682073754
+"2738","Stafford County, Virginia",0.392921177510241
+"2739","Accomack County, Virginia",0.505801113814053
+"2740","Bath County, Virginia",0.522355999231594
+"2741","Charlotte County, Virginia",0.482610364849248
+"2742","Clarke County, Virginia",0.516974468178972
+"2743","Henry County, Virginia",0.485231941118447
+"2744","Galax city, Virginia",0.546282198892266
+"2745","Prince Edward County, Virginia",0.502650604701174
+"2746","Newport News city, Virginia",0.461575188969887
+"2747","Chesterfield County, Virginia",0.447190376420987
+"2748","Suffolk city, Virginia",0.459587742021007
+"2749","Richmond County, Virginia",0.448125775567652
+"2750","Powhatan County, Virginia",0.440693648197431
+"2751","Lee County, Virginia",0.516554630094759
+"2752","King William County, Virginia",0.380654306973161
+"2753","Alexandria city, Virginia",0.512975672652985
+"2754","Bristol city, Virginia",0.57771665058668
+"2755","Augusta County, Virginia",0.430323339798508
+"2756","Covington city, Virginia",0.456143098088853
+"2757","Orange County, Virginia",0.440643019152303
+"2758","Page County, Virginia",0.454389884926376
+"2759","Lancaster County, Virginia",0.52102062241402
+"2760","Caroline County, Virginia",0.412357707969189
+"2761","Carroll County, Virginia",0.478482839271119
+"2762","Frederick County, Virginia",0.435811908566899
+"2763","Amherst County, Virginia",0.449179893266837
+"2764","Wise County, Virginia",0.512906657614265
+"2765","Southampton County, Virginia",0.459439800229722
+"2766","Norton city, Virginia",0.52643749554571
+"2767","Appomattox County, Virginia",0.453782882950936
+"2768","Montgomery County, Virginia",0.543036114879996
+"2769","Falls Church city, Virginia",0.509819733349516
+"2770","Charlottesville city, Virginia",0.641377476538024
+"2771","Salem city, Virginia",0.497476598439522
+"2772","Buena Vista city, Virginia",0.4511684954673
+"2773","Arlington County, Virginia",0.504019386623064
+"2774","Winchester city, Virginia",0.548566963812406
+"2775","Dinwiddie County, Virginia",0.413929755996982
+"2776","Wythe County, Virginia",0.486822472778134
+"2777","Manassas Park city, Virginia",0.381171052914038
+"2778","Culpeper County, Virginia",0.431886707212292
+"2779","Mecklenburg County, Virginia",0.523678443967233
+"2780","Botetourt County, Virginia",0.440306775490049
+"2781","Dickenson County, Virginia",0.507034837242546
+"2782","Smyth County, Virginia",0.486058876106448
+"2783","Bland County, Virginia",0.450603922132364
+"2784","Loudoun County, Virginia",0.40832087975917
+"2785","Madison County, Virginia",0.475773664913052
+"2786","Amelia County, Virginia",0.419534451960884
+"2787","Hampton city, Virginia",0.445000450127824
+"2788","Harrisonburg city, Virginia",0.523387005270278
+"2789","King George County, Virginia",0.391657523003616
+"2790","Craig County, Virginia",0.462820718471996
+"2791","Northumberland County, Virginia",0.494782925408633
+"2792","Giles County, Virginia",0.447061540947165
+"2793","Williamsburg city, Virginia",0.546820893144337
+"2794","Highland County, Virginia",0.496235460029879
+"2795","Goochland County, Virginia",0.618826857502553
+"2796","New Kent County, Virginia",0.442506032623373
+"2797","Warren County, Virginia",0.434470440062378
+"2798","Sussex County, Virginia",0.461774142737059
+"2799","Isle of Wight County, Virginia",0.458247685416879
+"2800","Poquoson city, Virginia",0.44411237461676
+"2801","Roanoke city, Virginia",0.547119555302635
+"2802","Northampton County, Virginia",0.565764786478277
+"2803","Brunswick County, Virginia",0.488368226544625
+"2804","Rockingham County, Virginia",0.460062159665451
+"2805","Fluvanna County, Virginia",0.406368986610757
+"2806","Virginia Beach city, Virginia",0.479302830722772
+"2807","Surry County, Virginia",0.39657307167991
+"2808","Shenandoah County, Virginia",0.457535886986663
+"2809","Emporia city, Virginia",0.564296043810085
+"2810","Norfolk city, Virginia",0.528981253637257
+"2811","Martinsville city, Virginia",0.593312709786922
+"2812","Bedford County, Virginia",0.462916913087575
+"2813","Middlesex County, Virginia",0.49968309993275
+"2814","Fauquier County, Virginia",0.474119446331299
+"2815","Floyd County, Virginia",0.47111666354457
+"2816","Roanoke County, Virginia",0.47545671711524
+"2817","King and Queen County, Virginia",0.422222510217346
+"2818","Manassas city, Virginia",0.398356018432076
+"2819","Fredericksburg city, Virginia",0.526866467955357
+"2820","Buckingham County, Virginia",0.46838205048599
+"2821","Buchanan County, Virginia",0.540650982158865
+"2822","Grayson County, Virginia",0.489713541125828
+"2823","York County, Virginia",0.424875147103221
+"2824","Louisa County, Virginia",0.441638170538935
+"2825","Prince George County, Virginia",0.390608795885966
+"2826","Lynchburg city, Virginia",0.561352852844539
+"2827","Fairfax County, Virginia",0.498591967081647
+"2828","Cumberland County, Virginia",0.478076733195663
+"2829","Greene County, Virginia",0.402111281421741
+"2830","Spotsylvania County, Virginia",0.417116631585083
+"2831","Colonial Heights city, Virginia",0.410069182327047
+"2832","Washington County, Virginia",0.527714360179024
+"2833","Chesapeake city, Virginia",0.428862294307159
+"2834","Essex County, Virginia",0.485336296518929
+"2835","Patrick County, Virginia",0.497813946631836
+"2836","Mathews County, Virginia",0.474925785797688
+"2837","Nottoway County, Virginia",0.488215321014135
+"2838","Petersburg city, Virginia",0.46656512608334
+"2839","Pulaski County, Virginia",0.473455463466721
+"2840","Campbell County, Virginia",0.450791170074113
+"2841","Nelson County, Virginia",0.524311419554346
+"2842","Russell County, Virginia",0.503411722148031
+"2843","Tazewell County, Virginia",0.534833770912741
+"2844","Richmond city, Virginia",0.650855137968623
+"2845","Franklin city, Virginia",0.506748680674196
+"2846","Halifax County, Virginia",0.505896240794406
+"2847","Danville city, Virginia",0.563386979323401
+"2848","Lexington city, Virginia",0.542241585152625
+"2849","Rappahannock County, Virginia",0.597628656524595
+"2850","Albemarle County, Virginia",0.579088643433557
+"2851","Fairfax city, Virginia",0.448302350900626
+"2852","Henrico County, Virginia",0.514245332296744
+"2853","Addison County, Vermont",0.454368539608817
+"2854","Windham County, Vermont",0.490055401191531
+"2855","Rutland County, Vermont",0.469965285087474
+"2856","Orange County, Vermont",0.447970806531939
+"2857","Lamoille County, Vermont",0.537997225452634
+"2858","Washington County, Vermont",0.481206352253549
+"2859","Grand Isle County, Vermont",0.485666190159191
+"2860","Orleans County, Vermont",0.477503581065179
+"2861","Franklin County, Vermont",0.427662680196414
+"2862","Chittenden County, Vermont",0.510466532181471
+"2863","Bennington County, Vermont",0.534132281136992
+"2864","Caledonia County, Vermont",0.475633961170099
+"2865","Essex County, Vermont",0.455177520313587
+"2866","Windsor County, Vermont",0.509710540870649
+"2867","Whatcom County, Washington",0.515871911527123
+"2868","Douglas County, Washington",0.452320567156698
+"2869","Kitsap County, Washington",0.485172076868967
+"2870","Wahkiakum County, Washington",0.472167173378788
+"2871","Chelan County, Washington",0.539125888108384
+"2872","Pend Oreille County, Washington",0.499355245671608
+"2873","Clallam County, Washington",0.480152353348584
+"2874","Jefferson County, Washington",0.513217245853375
+"2875","Thurston County, Washington",0.446171798223909
+"2876","Grays Harbor County, Washington",0.481630817316617
+"2877","Walla Walla County, Washington",0.530666569997696
+"2878","Lincoln County, Washington",0.467536102782151
+"2879","Klickitat County, Washington",0.487023959773496
+"2880","Franklin County, Washington",0.458022820592881
+"2881","Island County, Washington",0.490245008316166
+"2882","Asotin County, Washington",0.511537973082646
+"2883","Kittitas County, Washington",0.527150277373208
+"2884","Mason County, Washington",0.459634835052549
+"2885","Ferry County, Washington",0.516854905455688
+"2886","Pacific County, Washington",0.508526093365385
+"2887","Snohomish County, Washington",0.451293799630697
+"2888","King County, Washington",0.571027996895061
+"2889","Pierce County, Washington",0.471675296545453
+"2890","Okanogan County, Washington",0.505150106681268
+"2891","Spokane County, Washington",0.51247037921807
+"2892","San Juan County, Washington",0.702870134641801
+"2893","Grant County, Washington",0.463461114182687
+"2894","Stevens County, Washington",0.481815085167147
+"2895","Cowlitz County, Washington",0.473787614772804
+"2896","Benton County, Washington",0.478854721287379
+"2897","Skamania County, Washington",0.525382032552169
+"2898","Columbia County, Washington",0.481065027826809
+"2899","Clark County, Washington",0.497236188825284
+"2900","Garfield County, Washington",0.448816382767051
+"2901","Lewis County, Washington",0.478730574460308
+"2902","Skagit County, Washington",0.497622820174102
+"2903","Whitman County, Washington",0.563399619091959
+"2904","Yakima County, Washington",0.532457880047729
+"2905","Adams County, Washington",0.453071234526715
+"2906","Dunn County, Wisconsin",0.452847570095554
+"2907","Waukesha County, Wisconsin",0.502011083592609
+"2908","Kewaunee County, Wisconsin",0.421413035225117
+"2909","Grant County, Wisconsin",0.437472152764848
+"2910","Walworth County, Wisconsin",0.543335085898557
+"2911","Sawyer County, Wisconsin",0.490055512955565
+"2912","Rock County, Wisconsin",0.468801104476826
+"2913","St Croix County, Wisconsin",0.43556203243461
+"2914","Washburn County, Wisconsin",0.472657761804089
+"2915","Jefferson County, Wisconsin",0.417489996124888
+"2916","Buffalo County, Wisconsin",0.440253709527638
+"2917","Jackson County, Wisconsin",0.477658465532663
+"2918","Crawford County, Wisconsin",0.473936750060395
+"2919","Clark County, Wisconsin",0.47201568067297
+"2920","Eau Claire County, Wisconsin",0.526161164298749
+"2921","Racine County, Wisconsin",0.470453280963316
+"2922","Forest County, Wisconsin",0.454698843292913
+"2923","Marathon County, Wisconsin",0.482201664675902
+"2924","Oconto County, Wisconsin",0.423085569089113
+"2925","Chippewa County, Wisconsin",0.440970600324167
+"2926","Manitowoc County, Wisconsin",0.46102909073947
+"2927","Brown County, Wisconsin",0.514239437278815
+"2928","Price County, Wisconsin",0.447228365808358
+"2929","Outagamie County, Wisconsin",0.465297086996483
+"2930","Sheboygan County, Wisconsin",0.460582072825464
+"2931","Calumet County, Wisconsin",0.42084280915229
+"2932","Sauk County, Wisconsin",0.447011685228376
+"2933","Pierce County, Wisconsin",0.44320897590143
+"2934","Lincoln County, Wisconsin",0.444546592605685
+"2935","Menominee County, Wisconsin",0.479010975571882
+"2936","Marquette County, Wisconsin",0.441662204884397
+"2937","Wood County, Wisconsin",0.469593163997068
+"2938","Vilas County, Wisconsin",0.502832680061619
+"2939","Shawano County, Wisconsin",0.440920059176741
+"2940","Trempealeau County, Wisconsin",0.434404098457443
+"2941","Polk County, Wisconsin",0.440135451077359
+"2942","Barron County, Wisconsin",0.46767022443227
+"2943","Green County, Wisconsin",0.448325553162832
+"2944","Lafayette County, Wisconsin",0.433013289912128
+"2945","Monroe County, Wisconsin",0.43709868716646
+"2946","Waupaca County, Wisconsin",0.436226292976315
+"2947","Columbia County, Wisconsin",0.432466675288658
+"2948","Fond du Lac County, Wisconsin",0.457422545242811
+"2949","Iron County, Wisconsin",0.464877640044673
+"2950","Oneida County, Wisconsin",0.483155551345254
+"2951","Florence County, Wisconsin",0.449061532727941
+"2952","La Crosse County, Wisconsin",0.499270072083741
+"2953","Milwaukee County, Wisconsin",0.528830201151404
+"2954","Dane County, Wisconsin",0.510865243204079
+"2955","Winnebago County, Wisconsin",0.488278817437314
+"2956","Dodge County, Wisconsin",0.429982688874407
+"2957","Kenosha County, Wisconsin",0.46187613414258
+"2958","Douglas County, Wisconsin",0.461022968879016
+"2959","Marinette County, Wisconsin",0.462824958018123
+"2960","Langlade County, Wisconsin",0.471413626060484
+"2961","Waushara County, Wisconsin",0.463069105686552
+"2962","Taylor County, Wisconsin",0.472592037966195
+"2963","Pepin County, Wisconsin",0.486324266651997
+"2964","Juneau County, Wisconsin",0.45058466263762
+"2965","Ozaukee County, Wisconsin",0.585858540591958
+"2966","Washington County, Wisconsin",0.442888101760988
+"2967","Iowa County, Wisconsin",0.457503839698215
+"2968","Rusk County, Wisconsin",0.458397450277769
+"2969","Adams County, Wisconsin",0.440299168228359
+"2970","Richland County, Wisconsin",0.457078344748377
+"2971","Ashland County, Wisconsin",0.462754987013397
+"2972","Burnett County, Wisconsin",0.461183451373632
+"2973","Door County, Wisconsin",0.497275594291641
+"2974","Green Lake County, Wisconsin",0.46429690051606
+"2975","Portage County, Wisconsin",0.466264647681144
+"2976","Bayfield County, Wisconsin",0.470784380408152
+"2977","Vernon County, Wisconsin",0.450061749514033
+"2978","Monongalia County, West Virginia",0.562500697831079
+"2979","Hardy County, West Virginia",0.438212390739721
+"2980","Tyler County, West Virginia",0.508197948427544
+"2981","Monroe County, West Virginia",0.446645820143937
+"2982","Summers County, West Virginia",0.504759069047457
+"2983","Hampshire County, West Virginia",0.503927380168138
+"2984","Calhoun County, West Virginia",0.507560076294498
+"2985","Brooke County, West Virginia",0.464638406765902
+"2986","Gilmer County, West Virginia",0.509369424857872
+"2987","Doddridge County, West Virginia",0.471810698227375
+"2988","Marion County, West Virginia",0.467015896913527
+"2989","Wirt County, West Virginia",0.427585170153086
+"2990","Lewis County, West Virginia",0.469320193656145
+"2991","Wood County, West Virginia",0.507951527544872
+"2992","Raleigh County, West Virginia",0.52125643953674
+"2993","Webster County, West Virginia",0.522536246071263
+"2994","Lincoln County, West Virginia",0.490979783843883
+"2995","Clay County, West Virginia",0.481625281216763
+"2996","Wetzel County, West Virginia",0.494578384013793
+"2997","Fayette County, West Virginia",0.47796354213702
+"2998","Preston County, West Virginia",0.453818321390795
+"2999","Ritchie County, West Virginia",0.486109377147133
+"3000","Tucker County, West Virginia",0.465104807298671
+"3001","Logan County, West Virginia",0.524669567596881
+"3002","Harrison County, West Virginia",0.520035953539088
+"3003","Cabell County, West Virginia",0.562142043677257
+"3004","Putnam County, West Virginia",0.472838679093703
+"3005","Barbour County, West Virginia",0.481066546000497
+"3006","Pleasants County, West Virginia",0.457385252309713
+"3007","Upshur County, West Virginia",0.475941191811613
+"3008","Grant County, West Virginia",0.43927161991018
+"3009","Jefferson County, West Virginia",0.446069027073287
+"3010","Berkeley County, West Virginia",0.420171755392745
+"3011","McDowell County, West Virginia",0.535737214002445
+"3012","Pendleton County, West Virginia",0.49274758076252
+"3013","Wayne County, West Virginia",0.493234271788449
+"3014","Greenbrier County, West Virginia",0.504017925367821
+"3015","Morgan County, West Virginia",0.476293385950463
+"3016","Pocahontas County, West Virginia",0.458470643084827
+"3017","Kanawha County, West Virginia",0.53400155835679
+"3018","Randolph County, West Virginia",0.494328094424371
+"3019","Mason County, West Virginia",0.485094082956081
+"3020","Boone County, West Virginia",0.497239348184246
+"3021","Roane County, West Virginia",0.51653019038079
+"3022","Nicholas County, West Virginia",0.517077466179475
+"3023","Braxton County, West Virginia",0.541363033136793
+"3024","Mingo County, West Virginia",0.540590578298229
+"3025","Mercer County, West Virginia",0.51664341972064
+"3026","Wyoming County, West Virginia",0.507080772036852
+"3027","Mineral County, West Virginia",0.487078660411895
+"3028","Ohio County, West Virginia",0.563034183863972
+"3029","Hancock County, West Virginia",0.462555282595471
+"3030","Jackson County, West Virginia",0.495594268508095
+"3031","Taylor County, West Virginia",0.47324718079798
+"3032","Marshall County, West Virginia",0.481577583646031
+"3033","Niobrara County, Wyoming",0.511216695532058
+"3034","Sheridan County, Wyoming",0.534389337849738
+"3035","Teton County, Wyoming",0.846143389317919
+"3036","Carbon County, Wyoming",0.45640006838687
+"3037","Washakie County, Wyoming",0.563274708903474
+"3038","Goshen County, Wyoming",0.480495514444279
+"3039","Johnson County, Wyoming",0.489212679451082
+"3040","Laramie County, Wyoming",0.462012613105969
+"3041","Albany County, Wyoming",0.542684904108977
+"3042","Platte County, Wyoming",0.469877972497073
+"3043","Big Horn County, Wyoming",0.459618591920953
+"3044","Weston County, Wyoming",0.466478642375753
+"3045","Crook County, Wyoming",0.49372196507336
+"3046","Sweetwater County, Wyoming",0.427881009953354
+"3047","Fremont County, Wyoming",0.482402448527593
+"3048","Sublette County, Wyoming",0.516820673698868
+"3049","Park County, Wyoming",0.555525343887752
+"3050","Converse County, Wyoming",0.471339761277788
+"3051","Natrona County, Wyoming",0.548812075203977
+"3052","Uinta County, Wyoming",0.47775628582418
+"3053","Lincoln County, Wyoming",0.469512872549654
+"3054","Campbell County, Wyoming",0.462123707344603
+"3055","Hot Springs County, Wyoming",0.463895713323557
+"3056","Kusilvak, Alaska",0.420547017691028
+"3057","Montgomery County, Arkansas",0.506135238386434
+"3058","Ste. Genevieve County, Missouri",0.44103836621956
+"3059","Do�a Ana County, New Mexico",0.52178930437404
+"3060","Oglala Lakota County, South Dakota",0.457613190088987
+"3061","James City County, Virginia",0.480996334514643
+"3062","Charles City County, Virginia",0.470666544246965
+"3063","Radford city, Virginia",0.578038259729231

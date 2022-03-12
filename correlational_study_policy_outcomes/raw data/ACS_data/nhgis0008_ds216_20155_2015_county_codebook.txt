@@ -1,0 +1,288 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0008_ds216_20155_2015_county'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2011-2015
+Geographic level: County (by State)
+Dataset:          2015 American Community Survey: 5-Year Data [2011-2015, Tracts & Larger Areas]
+   NHGIS code:    2011_2015_ACS5b
+   NHGIS ID:      ds216
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Poverty Status in the Past 12 Months by Sex by Age
+   Universe:    Population for whom poverty status is determined
+   Source code: B17001
+   NHGIS code:  AD1G
+ 
+2. Gini Index of Income Inequality
+   Universe:    Households
+   Source code: B19083
+   NHGIS code:  AD4B
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2013-2017, 113th-114th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PUMA5A:      Public Use Microdata Sample Area (PUMA) Code
+        BTTRA:       Tribal Census Tract Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Poverty Status in the Past 12 Months by Sex by Age
+    Universe:    Population for whom poverty status is determined
+    Source code: B17001
+    NHGIS code:  AD1G
+        AD1GE001:    Total
+        AD1GE002:    Income in the past 12 months below poverty level
+        AD1GE003:    Income in the past 12 months below poverty level: Male
+        AD1GE004:    Income in the past 12 months below poverty level: Male: Under 5 years
+        AD1GE005:    Income in the past 12 months below poverty level: Male: 5 years
+        AD1GE006:    Income in the past 12 months below poverty level: Male: 6 to 11 years
+        AD1GE007:    Income in the past 12 months below poverty level: Male: 12 to 14 years
+        AD1GE008:    Income in the past 12 months below poverty level: Male: 15 years
+        AD1GE009:    Income in the past 12 months below poverty level: Male: 16 and 17 years
+        AD1GE010:    Income in the past 12 months below poverty level: Male: 18 to 24 years
+        AD1GE011:    Income in the past 12 months below poverty level: Male: 25 to 34 years
+        AD1GE012:    Income in the past 12 months below poverty level: Male: 35 to 44 years
+        AD1GE013:    Income in the past 12 months below poverty level: Male: 45 to 54 years
+        AD1GE014:    Income in the past 12 months below poverty level: Male: 55 to 64 years
+        AD1GE015:    Income in the past 12 months below poverty level: Male: 65 to 74 years
+        AD1GE016:    Income in the past 12 months below poverty level: Male: 75 years and over
+        AD1GE017:    Income in the past 12 months below poverty level: Female
+        AD1GE018:    Income in the past 12 months below poverty level: Female: Under 5 years
+        AD1GE019:    Income in the past 12 months below poverty level: Female: 5 years
+        AD1GE020:    Income in the past 12 months below poverty level: Female: 6 to 11 years
+        AD1GE021:    Income in the past 12 months below poverty level: Female: 12 to 14 years
+        AD1GE022:    Income in the past 12 months below poverty level: Female: 15 years
+        AD1GE023:    Income in the past 12 months below poverty level: Female: 16 and 17 years
+        AD1GE024:    Income in the past 12 months below poverty level: Female: 18 to 24 years
+        AD1GE025:    Income in the past 12 months below poverty level: Female: 25 to 34 years
+        AD1GE026:    Income in the past 12 months below poverty level: Female: 35 to 44 years
+        AD1GE027:    Income in the past 12 months below poverty level: Female: 45 to 54 years
+        AD1GE028:    Income in the past 12 months below poverty level: Female: 55 to 64 years
+        AD1GE029:    Income in the past 12 months below poverty level: Female: 65 to 74 years
+        AD1GE030:    Income in the past 12 months below poverty level: Female: 75 years and over
+        AD1GE031:    Income in the past 12 months at or above poverty level
+        AD1GE032:    Income in the past 12 months at or above poverty level: Male
+        AD1GE033:    Income in the past 12 months at or above poverty level: Male: Under 5 years
+        AD1GE034:    Income in the past 12 months at or above poverty level: Male: 5 years
+        AD1GE035:    Income in the past 12 months at or above poverty level: Male: 6 to 11 years
+        AD1GE036:    Income in the past 12 months at or above poverty level: Male: 12 to 14 years
+        AD1GE037:    Income in the past 12 months at or above poverty level: Male: 15 years
+        AD1GE038:    Income in the past 12 months at or above poverty level: Male: 16 and 17 years
+        AD1GE039:    Income in the past 12 months at or above poverty level: Male: 18 to 24 years
+        AD1GE040:    Income in the past 12 months at or above poverty level: Male: 25 to 34 years
+        AD1GE041:    Income in the past 12 months at or above poverty level: Male: 35 to 44 years
+        AD1GE042:    Income in the past 12 months at or above poverty level: Male: 45 to 54 years
+        AD1GE043:    Income in the past 12 months at or above poverty level: Male: 55 to 64 years
+        AD1GE044:    Income in the past 12 months at or above poverty level: Male: 65 to 74 years
+        AD1GE045:    Income in the past 12 months at or above poverty level: Male: 75 years and over
+        AD1GE046:    Income in the past 12 months at or above poverty level: Female
+        AD1GE047:    Income in the past 12 months at or above poverty level: Female: Under 5 years
+        AD1GE048:    Income in the past 12 months at or above poverty level: Female: 5 years
+        AD1GE049:    Income in the past 12 months at or above poverty level: Female: 6 to 11 years
+        AD1GE050:    Income in the past 12 months at or above poverty level: Female: 12 to 14 years
+        AD1GE051:    Income in the past 12 months at or above poverty level: Female: 15 years
+        AD1GE052:    Income in the past 12 months at or above poverty level: Female: 16 and 17 years
+        AD1GE053:    Income in the past 12 months at or above poverty level: Female: 18 to 24 years
+        AD1GE054:    Income in the past 12 months at or above poverty level: Female: 25 to 34 years
+        AD1GE055:    Income in the past 12 months at or above poverty level: Female: 35 to 44 years
+        AD1GE056:    Income in the past 12 months at or above poverty level: Female: 45 to 54 years
+        AD1GE057:    Income in the past 12 months at or above poverty level: Female: 55 to 64 years
+        AD1GE058:    Income in the past 12 months at or above poverty level: Female: 65 to 74 years
+        AD1GE059:    Income in the past 12 months at or above poverty level: Female: 75 years and over
+ 
+    Table 2:     Gini Index of Income Inequality
+    Universe:    Households
+    Source code: B19083
+    NHGIS code:  AD4B
+         :    Gini Index
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Poverty Status in the Past 12 Months by Sex by Age
+    Universe:    Population for whom poverty status is determined
+    Source code: B17001
+    NHGIS code:  AD1G
+        AD1GM001:    Total
+        AD1GM002:    Income in the past 12 months below poverty level
+        AD1GM003:    Income in the past 12 months below poverty level: Male
+        AD1GM004:    Income in the past 12 months below poverty level: Male: Under 5 years
+        AD1GM005:    Income in the past 12 months below poverty level: Male: 5 years
+        AD1GM006:    Income in the past 12 months below poverty level: Male: 6 to 11 years
+        AD1GM007:    Income in the past 12 months below poverty level: Male: 12 to 14 years
+        AD1GM008:    Income in the past 12 months below poverty level: Male: 15 years
+        AD1GM009:    Income in the past 12 months below poverty level: Male: 16 and 17 years
+        AD1GM010:    Income in the past 12 months below poverty level: Male: 18 to 24 years
+        AD1GM011:    Income in the past 12 months below poverty level: Male: 25 to 34 years
+        AD1GM012:    Income in the past 12 months below poverty level: Male: 35 to 44 years
+        AD1GM013:    Income in the past 12 months below poverty level: Male: 45 to 54 years
+        AD1GM014:    Income in the past 12 months below poverty level: Male: 55 to 64 years
+        AD1GM015:    Income in the past 12 months below poverty level: Male: 65 to 74 years
+        AD1GM016:    Income in the past 12 months below poverty level: Male: 75 years and over
+        AD1GM017:    Income in the past 12 months below poverty level: Female
+        AD1GM018:    Income in the past 12 months below poverty level: Female: Under 5 years
+        AD1GM019:    Income in the past 12 months below poverty level: Female: 5 years
+        AD1GM020:    Income in the past 12 months below poverty level: Female: 6 to 11 years
+        AD1GM021:    Income in the past 12 months below poverty level: Female: 12 to 14 years
+        AD1GM022:    Income in the past 12 months below poverty level: Female: 15 years
+        AD1GM023:    Income in the past 12 months below poverty level: Female: 16 and 17 years
+        AD1GM024:    Income in the past 12 months below poverty level: Female: 18 to 24 years
+        AD1GM025:    Income in the past 12 months below poverty level: Female: 25 to 34 years
+        AD1GM026:    Income in the past 12 months below poverty level: Female: 35 to 44 years
+        AD1GM027:    Income in the past 12 months below poverty level: Female: 45 to 54 years
+        AD1GM028:    Income in the past 12 months below poverty level: Female: 55 to 64 years
+        AD1GM029:    Income in the past 12 months below poverty level: Female: 65 to 74 years
+        AD1GM030:    Income in the past 12 months below poverty level: Female: 75 years and over
+        AD1GM031:    Income in the past 12 months at or above poverty level
+        AD1GM032:    Income in the past 12 months at or above poverty level: Male
+        AD1GM033:    Income in the past 12 months at or above poverty level: Male: Under 5 years
+        AD1GM034:    Income in the past 12 months at or above poverty level: Male: 5 years
+        AD1GM035:    Income in the past 12 months at or above poverty level: Male: 6 to 11 years
+        AD1GM036:    Income in the past 12 months at or above poverty level: Male: 12 to 14 years
+        AD1GM037:    Income in the past 12 months at or above poverty level: Male: 15 years
+        AD1GM038:    Income in the past 12 months at or above poverty level: Male: 16 and 17 years
+        AD1GM039:    Income in the past 12 months at or above poverty level: Male: 18 to 24 years
+        AD1GM040:    Income in the past 12 months at or above poverty level: Male: 25 to 34 years
+        AD1GM041:    Income in the past 12 months at or above poverty level: Male: 35 to 44 years
+        AD1GM042:    Income in the past 12 months at or above poverty level: Male: 45 to 54 years
+        AD1GM043:    Income in the past 12 months at or above poverty level: Male: 55 to 64 years
+        AD1GM044:    Income in the past 12 months at or above poverty level: Male: 65 to 74 years
+        AD1GM045:    Income in the past 12 months at or above poverty level: Male: 75 years and over
+        AD1GM046:    Income in the past 12 months at or above poverty level: Female
+        AD1GM047:    Income in the past 12 months at or above poverty level: Female: Under 5 years
+        AD1GM048:    Income in the past 12 months at or above poverty level: Female: 5 years
+        AD1GM049:    Income in the past 12 months at or above poverty level: Female: 6 to 11 years
+        AD1GM050:    Income in the past 12 months at or above poverty level: Female: 12 to 14 years
+        AD1GM051:    Income in the past 12 months at or above poverty level: Female: 15 years
+        AD1GM052:    Income in the past 12 months at or above poverty level: Female: 16 and 17 years
+        AD1GM053:    Income in the past 12 months at or above poverty level: Female: 18 to 24 years
+        AD1GM054:    Income in the past 12 months at or above poverty level: Female: 25 to 34 years
+        AD1GM055:    Income in the past 12 months at or above poverty level: Female: 35 to 44 years
+        AD1GM056:    Income in the past 12 months at or above poverty level: Female: 45 to 54 years
+        AD1GM057:    Income in the past 12 months at or above poverty level: Female: 55 to 64 years
+        AD1GM058:    Income in the past 12 months at or above poverty level: Female: 65 to 74 years
+        AD1GM059:    Income in the past 12 months at or above poverty level: Female: 75 years and over
+ 
+    Table 2:     Gini Index of Income Inequality
+    Universe:    Households
+    Source code: B19083
+    NHGIS code:  AD4B
+        AD4BM001:    Gini Index
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 15.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2020. 
+        http://doi.org/10.18128/D050.V15.0
+
+    * Publications and research reports employing school attendance areas data 
+      (either tabular or GIS) must cite it appropriately. The citation should 
+      include the following:
+
+        The College of William and Mary and the Minnesota Population Center.
+        School Attendance Boundary Information System (SABINS): Version 1.0.
+        Minneapolis, MN: University of Minnesota 2011.
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+    * If possible, citations involving school attendance areas should also include
+      the URL for the SABINS site:
+
+        http://www.sabinsdata.org/.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
