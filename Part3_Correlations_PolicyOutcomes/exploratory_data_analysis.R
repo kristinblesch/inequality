@@ -9,11 +9,21 @@ df <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDoc
 # calculate bonferroni corrected significance level
 bonf <- 1- 0.05/length(10:ncol(df))
 
-# correlate aspects and Gini, correlate aspects and ortega parameters while controlling for the other (partial correlation)
-# extract information on estimated correlation and confidence interval 
 # o1 = ortega 1 = ortega alpha
 # o2 = ortega 2 = ortega beta --> need to transform it to gamma = 1-beta first 
 df$ortega_2 <- 1-df$ortega_2
+
+#################
+# intermezzo: an exemplary additional analysis -- evaluate aggregated obesity across income quartiles
+################
+bmi_agg = (df$bmi_obese_q1+ df$bmi_obese_q2+ df$bmi_obese_q3+ df$bmi_obese_q4)/4
+cor.test(x = df$acs_gini, y=bmi_agg, conf.level = bonf, method = "pearson")
+cor.test(x = df$ortega_1, y=bmi_agg, conf.level = bonf, method = "pearson")
+cor.test(x = df$ortega_2, y=bmi_agg, conf.level = bonf, method = "pearson")
+
+# correlate aspects and Gini, correlate aspects and ortega parameters while controlling for the other (partial correlation)
+# extract information on estimated correlation and confidence interval 
+
 gin <- apply(df[,10:ncol(df)], 2, function(a){unlist(cor.test(x = df$acs_gini, y=a, conf.level = bonf, method = "pearson")[c(4,9)])})
 o1 <- apply(df[,10:ncol(df)], 2, function(a){unlist(pcor.test(x = df$ortega_1, y=a, z=df$ortega_2, conf.level = bonf, method = "pearson")[c(4,8)])})
 o2 <- apply(df[,10:ncol(df)], 2, function(a){unlist(pcor.test(x = df$ortega_2, y=a, z=df$ortega_1, conf.level = bonf, method = "pearson")[c(4,8)])})
