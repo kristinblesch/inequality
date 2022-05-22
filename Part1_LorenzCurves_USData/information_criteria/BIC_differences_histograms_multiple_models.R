@@ -2,7 +2,7 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 
-BIC_raw <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/Data/information_criteria_county.csv")
+BIC_raw <- read.csv("information_criteria_county.csv")
 BIC_diff <- BIC_raw %>% select(county_index,COUNTY, form, BIC) %>% spread(key = form, value = BIC) %>%
   transmute(county_index = county_index,
             COUNTY = COUNTY,

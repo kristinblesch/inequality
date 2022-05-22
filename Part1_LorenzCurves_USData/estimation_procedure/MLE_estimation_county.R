@@ -1,8 +1,6 @@
-# MLE estimation on US state level
-
 set.seed(1)
 ###########################################################
-# implement functional forms of various Lorenz curve models 
+# implement functional forms of various Lorenz curve models
 ###########################################################
 
 # ad-hoc Lorenz curve models
@@ -245,7 +243,7 @@ optim_MLE_LC <- function(county_ind, model, inc_csum, pop_csum){
   n <- length(pop_csum[!is.na(pop_csum)]) # number of observations
   p <- length(mod$par) # number of parameters
   # create data frame for output of interest:
-  df <- data.frame(state_index = county_ind,form = names(model), 
+  df <- data.frame(county_index = county_ind,form = names(model), 
                    RSS = sum((inc_csum - model[[1]](pop_csum , theta = mod$par[-1]))^2, na.rm = T),
                    AIC = -2* mod$value + 2 * p, 
                    AIC_c =  -2* mod$value + 2 * p + 2*p*(p+1)/(n-p+1))
@@ -266,22 +264,22 @@ optim_MLE_LC <- function(county_ind, model, inc_csum, pop_csum){
 
 # list models we want to estimate parameters for
 models <- list(c(KAKWANI_PODDER = kakwani_podder),
-               c(RASCHE = rasche),
-               c(ORTEGA = ortega),
-               c(CHOTIKAPANICH = chotikapanich),
-               c(ABDALLA_HASSAN = abdalla_hassan),
-               c(RHODE = rhode),
-               c(PARETO = pareto),
-               c(LOGNORMAL = lognormal),
-               c(GAMMA = gamma_fun),
-               c(WEIBULL = weibull),
-               c(GENERALIZED_GAMMA = generalized_gamma),
-               c(DAGUM = dagum),
-               c(SINGH_MADDALA = singh_maddala),
-               c(GB1 = gb1),
-               c(GB2 = gb2),
-               c(SARABIA = sarabia),
-               c(WANG = wang)
+  c(RASCHE = rasche),
+  c(ORTEGA = ortega),
+  c(CHOTIKAPANICH = chotikapanich),
+  c(ABDALLA_HASSAN = abdalla_hassan),
+  c(RHODE = rhode),
+  c(PARETO = pareto),
+  c(LOGNORMAL = lognormal),
+  c(GAMMA = gamma_fun),
+  c(WEIBULL = weibull),
+  c(GENERALIZED_GAMMA = generalized_gamma),
+  c(DAGUM = dagum),
+  c(SINGH_MADDALA = singh_maddala),
+  c(GB1 = gb1),
+  c(GB2 = gb2),
+  c(SARABIA = sarabia),
+  c(WANG = wang)
 )
 
 ###########################################################
@@ -293,30 +291,35 @@ library(dplyr)
 library(foreach)
 library(doParallel)
 
-pop_df <- read.csv("population_shares_per_state.csv")
-inc_df <- read.csv("income_shares_per_state.csv")
-#remove rows with duplicated values: 
-rm_duplicats <- pop_df %>% select(-c("X", "STATE")) %>%apply(., 1, function(x) !any(duplicated(na.omit(c(x)))==TRUE)) 
+pop_df <- read.csv("../raw_data_and_data_cleaning/population_shares_per_county.csv") 
+inc_df <- read.csv("../raw_data_and_data_cleaning/income_shares_per_county.csv")
+
+# remove rows with duplicated values: 
+rm_duplicats <- pop_df %>% select(-c("X", "COUNTY")) %>%apply(., 1, function(x) !any(duplicated(na.omit(c(x)))==TRUE)) 
 pop_df <- pop_df %>% filter(rm_duplicats)
 inc_df <- inc_df %>% filter(rm_duplicats)
 
-pop <- matrix(unlist(pop_df[,!names(pop_df) %in% c("X", "STATE")]), nrow = nrow(pop_df)) 
-inc <- matrix(unlist(inc_df[,!names(inc_df) %in% c("X", "STATE")]), nrow = nrow(inc_df)) 
+# put empirical data in adequate format for out optimization function optim_MLE_LC():
+pop <- matrix(unlist(pop_df[,!names(pop_df) %in% c("X", "COUNTY")]), nrow = nrow(pop_df)) 
+inc <- matrix(unlist(inc_df[,!names(inc_df) %in% c("X", "COUNTY")]), nrow = nrow(inc_df)) 
 
-##############################################################################################################
-cl <- makeCluster(2)
-registerDoParallel(cl) # I have 2 #  ada-10 to ada-15 have 24 cores
-result <- vector("list", nrow(pop)*length(models))
-system.time(result <- foreach (i=1:nrow(pop), .combine = 'rbind', .packages = "dplyr")
-            %dopar% { lapply(models, function(x){optim_MLE_LC(county_ind = i,
-                                                              model = x, 
-                                                              inc_csum = inc[i,],
-                                                              pop_csum = pop[i,])}) %>% Reduce(bind_rows, .)
-              
-            })
+###########################################################
+# set up parallel computing environment and loop over counties in parallel
+###########################################################
+
+cl <- makeCluster(24)
+registerDoParallel(cl)
+result <- foreach (i=1:nrow(pop), .combine = 'rbind', .packages = "dplyr") %dopar% 
+  {lapply(models, function(x){optim_MLE_LC(county_ind = i,
+                                            model = x,
+                                            inc_csum = inc[i,],
+                                            pop_csum = pop[i,])}) %>% Reduce(bind_rows, .)}
 stopCluster(cl)
-# match county names
-result <- result %>% mutate(STATE = pop_df$STATE[state_index])
 
-# write results in csv file
-# write.csv(result, file = "MLE_output_state.csv")
+# match county names
+result <- result %>% mutate(COUNTY = pop_df$COUNTY[county_index])
+
+#result <- data.frame(matrix(nrow = 17*4002, ncol = 10)) # for storage
+save(result, file = 'MLE_output.RData') # save results
+
+

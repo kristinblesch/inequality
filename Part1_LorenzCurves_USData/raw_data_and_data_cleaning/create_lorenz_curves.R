@@ -18,8 +18,8 @@
 library(dplyr)
 
 # load data
-# setwd("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/USA/Master_Thesis/Data")
-dat <- read.csv("merged_b4_b6_nhgis.csv")
+# 
+dat <- read.csv("../raw_data_and_data_cleaning/merged_b4_b6_nhgis.csv")
 
 ## relevant variables for calculating income shares per bucket
 ##  ADNJE001:    number of people per county (total)
@@ -166,10 +166,8 @@ for (i in 211:219) {
 lorenz_income_shares <- lorenz_income_shares %>% as.data.frame() %>% cbind(COUNTY = dat$NAME_E,.)
 lorenz_people_shares <- lorenz_people_shares %>% as.data.frame() %>% cbind(COUNTY = dat$NAME_E,.)
 
-#write.csv(lorenz_income_shares, 
- #         file.path("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/USA/Master_Thesis/Data",
-  #                  "income_shares_per_county.csv"))
+#write.csv(lorenz_income_shares,
+  #                  "income_shares_per_county.csv")
 #write.csv(lorenz_people_shares, 
- #         file.path("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/USA/Master_Thesis/Data", 
-  #                  "population_shares_per_county.csv"))
+ #                          "population_shares_per_county.csv")
 

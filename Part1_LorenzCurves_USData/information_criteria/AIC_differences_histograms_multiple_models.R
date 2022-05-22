@@ -2,7 +2,7 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 
-AIC_raw <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/GitHub_upload/lorenz_curve_estimation/MLE_output_county.csv")
+AIC_raw <- read.csv("../estimation_procedure/MLE_output_county.csv")
 AIC_diff <- AIC_raw %>% select(county_index,COUNTY, form, AIC_c) %>% spread(key = form, value = AIC_c) %>%
   transmute(county_index = county_index,
             COUNTY = COUNTY,

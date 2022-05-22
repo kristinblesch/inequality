@@ -1,4 +1,4 @@
-#setwd("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/USA/Master_Thesis/Data")
+
 library(dplyr)
 library(tidyr)
 require(xtable)
@@ -8,7 +8,7 @@ require(votesys)
 # decide whether to run voting on a county or state level: 
 
 # on a county level: 
-dat <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/Data/information_criteria_county.csv") %>% select(-1) %>% select(-1)
+dat <- read.csv("../information_criteria/information_criteria_county.csv") %>% select(-1) %>% select(-1)
 colnames(dat)[1] <- "X"
 
 num_models <- length(unique(dat$form))

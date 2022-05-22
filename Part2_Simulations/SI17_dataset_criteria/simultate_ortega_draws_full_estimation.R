@@ -24,7 +24,7 @@ noise_level = 0.002 # add observational noise when sampling data points from the
 
 # import US Ortega parameters to get "realistic" Lorenz curve parameters 
 # we use all estimated US county Lorenz curves in this analysis -> N = 3056
-ortega_parameters <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/USA/Master_Thesis/MA_KB_with_data_files/ortega_parameters_county.csv") %>%
+ortega_parameters <- read.csv("ortega_parameters_county_alpha_beta.csv") %>%
   select(par_1, par_2)
 
 # income share generation with fixed granularity, but varying number of top income shares available (above 90th percentile)

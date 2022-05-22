@@ -1,8 +1,7 @@
 # load relevant files
-setwd("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/USA/Master_Thesis/Data")
-dat <- read.csv("merged_b4_b6_nhgis.csv")
-pop <- read.csv("population_shares_per_county.csv")
-inc <- read.csv("income_shares_per_county.csv")
+dat <- read.csv("../raw_data_and_data_cleaning/merged_b4_b6_nhgis.csv")
+pop <- read.csv("../raw_data_and_data_cleaning/population_shares_per_county.csv")
+inc <- read.csv("../raw_data_and_data_cleaning/income_shares_per_county.csv")
 
 # ADNJE001 is total count per county - 
 # add that information to population shares/income shares in order to calculate weights for state aggregate
@@ -32,5 +31,5 @@ state_pop <- cbind(state_inc$STATE, state_pop)
 colnames(state_pop) = colnames(state_inc)
 
 # write csv files for created Lorenz curve data on a state level
-write.csv(state_inc, file = "income_shares_per_state.csv")
-write.csv(state_pop, file = "population_shares_per_state.csv")
+#write.csv(state_inc, file = "income_shares_per_state.csv")
+#write.csv(state_pop, file = "population_shares_per_state.csv")

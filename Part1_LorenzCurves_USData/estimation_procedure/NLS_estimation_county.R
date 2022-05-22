@@ -294,8 +294,8 @@ library(dplyr)
 library(foreach)
 library(doParallel)
 
-pop_df <- read.csv("population_shares_per_county.csv") 
-inc_df <- read.csv("income_shares_per_county.csv")
+pop_df <- read.csv("../raw_data_and_data_cleaning/population_shares_per_county.csv") 
+inc_df <- read.csv("../raw_data_and_data_cleaning/income_shares_per_county.csv")
 
 # remove rows with duplicated values: 
 rm_duplicats <- pop_df %>% select(-c("X", "COUNTY")) %>%apply(., 1, function(x) !any(duplicated(na.omit(c(x)))==TRUE)) 

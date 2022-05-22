@@ -100,7 +100,7 @@ gb2 <- function(pop_csum, theta){
 }
 
 #####
-MLE <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/USA/Master_Thesis/MA_KB_with_data_files/MLE_output_county.csv")
+MLE <- read.csv("../estimation_procedure/MLE_output_county.csv")
 MLE_ex <-  MLE[2:5,]
 model_gini <- function(MLE_data){
   if (MLE_data$form == "KAKWANI_PODDER"){ 
@@ -178,7 +178,7 @@ which(model_ginis$model_gini < 0)
 
 # add empirical Gini
 ############
-empirical_ginis <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/Data/empirical_gini.csv")
+empirical_ginis <- read.csv("../approximating_empirical_Gini/empirical_gini.csv")
 
 # merge two data sets
 merged_ginis <- merge(x = model_ginis, y = empirical_ginis, by.x = "COUNTY", by.y = "county")
@@ -186,7 +186,7 @@ merged_ginis <- merge(x = model_ginis, y = empirical_ginis, by.x = "COUNTY", by.
 # calculate average divergence 
 
 merged_ginis_means <- merged_ginis %>% mutate(difference = abs(model_gini - empirical_gini)) %>% group_by(model) %>% summarise(avrg_deviation = mean(difference))
-num_parameters <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/submission_NHB/R&R/models_parameters.csv", sep = ";")
+num_parameters <- read.csv("../raw_data_and_data_cleaning/models_parameters.csv", sep = ";")
 
 tab <- merge(num_parameters, merged_ginis_means, by.x = "model", by.y = "model" )
 

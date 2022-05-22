@@ -20,17 +20,17 @@ library(stringi)
 library(fuzzyjoin)
 
 # load data, exclude Puerto Rico and DC
-# setwd("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/USA/Master_Thesis/Data")
+# 
 
-nhgis_A <- read.csv("ACS_Data/nhgis0007_ds215_20155_2015_county.csv", encoding = "ISO-8859-1") %>% 
+nhgis_A <- read.csv("../raw_data_and_data_cleaning/raw_data/ACS_data/nhgis0007_ds215_20155_2015_county.csv", encoding = "ISO-8859-1") %>% 
   select("STATE", "COUNTY", "NAME_E", 37:56) %>% 
   filter(!STATE %in% c("Puerto Rico","District of Columbia"))
-nhgis_B <- read.csv("ACS_Data/nhgis0007_ds216_20155_2015_county.csv", encoding = "ISO-8859-1")%>% 
+nhgis_B <- read.csv("../raw_data_and_data_cleaning/raw_data/ACS_data/nhgis0007_ds216_20155_2015_county.csv", encoding = "ISO-8859-1")%>% 
   select("STATE", "COUNTY", "NAME_E", "AD4AE001", 47:52, 66:71) %>% 
   filter(!STATE %in% c("Puerto Rico","District of Columbia"))
-b6 <- read.csv("Table_B6.csv", sep = ";") %>% 
+b6 <- read.csv("../raw_data_and_data_cleaning/raw_data/Table_B6.csv", sep = ";") %>% 
   filter(!County %in% c("United States","District of Columbia, DC"))
-b4 <- read.csv("Table_B4.csv")%>% 
+b4 <- read.csv("../raw_data_and_data_cleaning/raw_data/Table_B4.csv")%>% 
   filter(!County.state %in% c("District of Columbia, DC")) 
 
 # merge nhgis_A to nhgis_B
@@ -44,7 +44,7 @@ county <- strsplit(b6$County, ", ")
 df <- data.frame(matrix(unlist(county), nrow = nrow(b6), ncol = 2, byrow = T))
 colnames(df) <- c("county", "state_code")
 b6 <- bind_cols(b6,df)
-code <-  read.csv("states_code.csv")[,-2] # import state codes - states names table
+code <-  read.csv("../raw_data_and_data_cleaning/raw_data/states_code.csv")[,-2] # import state codes - states names table
 colnames(code) <- c("state_name", "state_code")
 b6 <- merge(b6, code, by.x = "state_code", by.y = "state_code")
 b6$county <-  as.character(b6$county)
@@ -122,7 +122,6 @@ combined_tables <- bind_rows(combined_tables, new_kusilvak, new_mtg, new_stgenev
                              new_radford) %>% select(-c("state_code", "state_name", "county", "countystate", "0",
                                                         "countystate.x", "countystate.y", "distance"))
 # write csv file to save merged data set
-#write.csv(combined_tables, 
- #         file.path("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/USA/Master_Thesis/Data", 
-  #                  "merged_b4_b6_nhgis.csv"))
+#write.csv(combined_tables,
+  #                  "merged_b4_b6_nhgis.csv")
 

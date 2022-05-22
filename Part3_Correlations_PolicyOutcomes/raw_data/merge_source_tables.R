@@ -12,8 +12,8 @@ library('RVAideMemoire')
 # county fips matching tool from https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OSLU4G
 #############################
 
-load("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/Data/countyfipstool20190120.RData")
-dat <- read.dta13("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/Data/opportunity_insights/data_set_3_county_level_causal_place_effects_and_covariates.dta")
+load("countyfipstool20190120.RData")
+dat <- read.dta13("./opportunity_insights_data/data_set_3_county_level_causal_place_effects_and_covariates.dta")
 # add fips codes such that it can be merged to other data sets later on
 # dat state name = sname = "statename"
 # dat county name = cname = "county_name"
@@ -45,7 +45,7 @@ data_set_3 <- new_frame
 # codebook https://opportunityinsights.org/wp-content/uploads/2018/04/health_ineq_online_table_11_readme.pdf
 ########################
 
-df_17 <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/Data/opportunity_insights/health_ineq_online_table_11.csv")
+df_17 <- read.csv("./opportunity_insights_data/health_ineq_online_table_11.csv")
 df_17$cty <- formatC(df_17$cty, width = 5, format = "d", flag = "0")
 # relevant variables only -- life expectancy at age 40 by gender and income quartile
 df_17 <- df_17 %>% select(cty, county_name, statename, le_raceadj_q1_F, le_raceadj_q2_F, le_raceadj_q3_F ,le_raceadj_q4_F,
@@ -60,7 +60,7 @@ data_set_17 <- df_17
 # codebook from https://opportunityinsights.org/wp-content/uploads/2018/04/health_ineq_online_table_12_readme.pdf
 ########################
 
-df_18 <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/Data/opportunity_insights/health_ineq_online_table_12.csv")
+df_18 <- read.csv("./opportunity_insights_data/health_ineq_online_table_12.csv")
 df_18$cty <- formatC(df_18$cty, width = 5, format = "d", flag = "0")
 
 df_18 <- df_18 %>% select(cty, county_name, statename, intersects_msa, cur_smoke_q1, cur_smoke_q2, cur_smoke_q3,cur_smoke_q4,
@@ -78,7 +78,7 @@ data_set_18 <- df_18
 # codebook: see .csv file
 
 
-df <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/Data/nhgis0010_csv/nhgis0010_ds215_20155_2015_county.csv")
+df <- read.csv("./ACS_data/nhgis0010_ds215_20155_2015_county.csv")
 df$STATEA <-  formatC(df$STATEA, width = 2, format = "d", flag = "0")
 df$COUNTYA <-  formatC(df$COUNTYA, width = 3, format = "d", flag = "0")
 df <- df %>% unite("FIPS",c(STATEA, COUNTYA), sep = "",remove = F)
@@ -171,10 +171,10 @@ aspects <- merge(x = data_set_3, y = data_set_17, by.x = "fips", by.y = "cty", a
 # AIC, Ortega parameters, lognormal parameter (for comparison) and Gini from ACS 2011-2015
 ##########################
 
-AIC_raw <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/Data/AIC_par_county.csv")
-county_names <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/Data/county_name_equivalences.csv")
+AIC_raw <- read.csv("AIC_par_county.csv")
+county_names <- read.csv("county_name_equivalences.csv")
 # equivalent spellings of county names and fips
-empirical_gini <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/Data/empirical_gini.csv")
+empirical_gini <- read.csv("empirical_gini.csv")
 # empirical Gini = Gini index calculated from empirical Lorenz curves we have used to estimate the Ortega parameters (added for comparison)
 AIC_diff <- spread(AIC_raw, key = form, value = par_1 ) %>% rename(ortega_1 = ORTEGA) %>% rename(ortega_2 = par_2) %>% 
   rename(lognormal_1 = LOGNORMAL) %>% select(COUNTY, AIC_c_diff, ortega_1, ortega_2,lognormal_1 ) %>% fill(ortega_1, ortega_2) %>% drop_na()
@@ -186,13 +186,13 @@ df_AIC_aspects <- AIC_diff %>% select(-c("cname", "sname")) %>% merge(x = ., y =
 
 # add ACS Gini 2011-2015
 # NHGIS code 2011_2015_ACS5b, Source Table: B19083  
-acs_gini <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/Data/Archiv/nhgis0008_csv/nhgis0008_ds216_20155_2015_county.csv")
+acs_gini <- read.csv("./ACS_data/nhgis0008_ds216_20155_2015_county.csv")
 acs_gini$COUNTYA <-  formatC(acs_gini$COUNTYA, width = 3, format = "d", flag = "0")
 acs_gini <- acs_gini %>% unite("FIPS",c(STATEA, COUNTYA), sep = "",remove = F) %>% select("FIPS", "AD4BE001")
 acs_gini$FIPS <- formatC(as.integer(acs_gini$FIPS), width = 5, format = "d", flag = "0")
 df_final <- merge(acs_gini, df_AIC_aspects, by.y = "fips", by.x = "FIPS") %>% rename(acs_gini = AD4BE001)
 
-write.csv(df_final, "/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/Data/df_exploratory_data_analysis.csv",
+write.csv(df_final, "../df_exploratory_data_analysis.csv",
                   row.names = F)
 # COMMENT: We have estimated 3056 Lorenz curves but for the exploratory data analysis, however, we can only use 
 # 3049 because the merged data sets were not from the exact same year so for counties in Alaska, substantial changes in fips code assignments

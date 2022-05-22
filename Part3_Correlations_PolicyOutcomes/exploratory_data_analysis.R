@@ -2,7 +2,7 @@ library(dplyr)
 library(tidyr)
 library(tidyverse)
 library('RVAideMemoire')
-df <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/GitHub_upload/exploratory_correlational_study/df_exploratory_data_analysis.csv")  %>% 
+df <- read.csv("df_exploratory_data_analysis.csv")  %>% 
   select(-"NAME_E")
 
 # covariates: all columns except for first 10
@@ -70,7 +70,7 @@ df <- cbind(t(gin),t(o1),t(o2), c(1:ncol(gin))) %>% data.frame() %>% rownames_to
 names(df) <- c("aspect_name", "gini_est", "gini_lower", "gini_upper", "o1_lower", "o1_upper", "o1_est", "o2_lower", "o2_upper","o2_est", "index")
 df <- df %>% arrange(desc(gini_est)) 
 ## add column with variables full description of what they mean from codebook
-codebook <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/exploratory_correlational_study/codebook_df_exploratory_data_analysis.csv",
+codebook <- read.csv("codebook_df_exploratory_data_analysis.csv",
                      sep = ";")
 df_with_codebook <- merge(df, codebook, by.x = "aspect_name", by.y = "variable")
 

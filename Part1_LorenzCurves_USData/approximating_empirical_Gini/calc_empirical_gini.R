@@ -1,7 +1,7 @@
 # calculate empirical gini per county
 
-pop <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/Data/population_shares_per_county.csv")
-inc <- read.csv("/Users/kristinblesch/Library/Mobile Documents/com~apple~CloudDocs/Paper_inequality/Data/income_shares_per_county.csv")
+pop <- read.csv("../raw_data_and_data_cleaning/population_shares_per_county.csv")
+inc <- read.csv("../raw_data_and_data_cleaning/income_shares_per_county.csv")
 
 area <- c()
 empirical_gini <- c()
