@@ -3,7 +3,7 @@ README
 ### folders: 
 
 
-### raw_data and data cleaning: 
+### raw_data_and_data_cleaning: 
 
 - Description of data sources: SI Section 3
 
@@ -18,7 +18,7 @@ README
 - Cross-check on U.S. state level
 Aggregate data on a state level: aggregate_state_level.R produces income_shares_per_state.csv and population_shares_per_state.csv 
 
-### estimation procedure: 
+### estimation_procedure: 
 
 - Estimation procedure for county level Lorenz curves using population_shares_per_county.csv and income_shares_per_county.csv 
 1. Code for NLS estimation: NLS_estimation_county.R ; results (estimated parameters): NLS_output_county.csv
@@ -32,18 +32,18 @@ Aggregate data on a state level: aggregate_state_level.R produces income_shares_
 - cross check of voting procedure using the BIC criterion: first calculate the BIC (calculate_BIC.R) and then use the produced data set to rerun the voting procedures (voting_BIC.R)
 
 
-### ortega parameters
+### ortega_parameters
 
 - Estimated Ortega parameters such that they can be used as inequality measures:
 1. US county level: ortega_parameter_alpha_gamma_county.csv
 2. US state level:ortega_parameter_alpha_gamma_state.csv
 
-### information criteria
+### information_criteria
 
 - calculated information criteria AIC and BIC for the Lorenz curves estimated on a US county level: information_criteria_county.csv
 - analyses on the AIC and BIC differences: AIC_differences_histograms_multiple_models.R, BIC_differences_histograms_multiple_models.R
 
 
-### approximating empirical Gini
+### approximating_empirical_gini
 - calculate the empirical Gini coefficient per county (empirical_gini.csv) in a non-parametric way: calc_empirical_gini.R
 - calculate the Gini coefficient implied by the Lorenz curve models using integrals and evaluate how they compare to the non-parametric Gini coefficients : calc_model_gini_and_compare.R
