@@ -1,6 +1,6 @@
 README - exploratory correlational study
 
-### raw data folder: 
+### folder: raw_data 
 
 - Source data sets from the American Community Survey and Opportunity Insights: contained in folders ACS_data and opportunity_insights_data. Additional data sets used for the correlational study: countyfipstool20190120.RData (also available and further explained on https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OSLU4G) , empirical_gini.csv (empirical Gini index calculated from the Lorenz curves used for county-level MLE/NLS estimation, i.e. population_shares_per_county.csv and income_shares_county.csv), county_name_equivalences.csv, and AIC_par_county.csv (a .csv file summarizing the estimation results on a county level for the Ortega model, lognormal model and AIC values)
 
